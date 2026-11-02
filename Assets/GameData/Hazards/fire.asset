@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68950100d57a3154884bc81a26efb958, type: 3}
+  m_Name: fire
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Hazard
+  id: fire
+  displayName: Fire
+  description: 
+  image: {fileID: 0}
+  color: {r: 0.35686275, g: 0.41960785, b: 0.8784314, a: 1}
+  requiredEquipment:
+  - {fileID: 11400000, guid: 36da2aaae0895454d93f2d853c1b8020, type: 2}
+  - {fileID: 11400000, guid: 9300cff81de53244981ddc22ace1ff89, type: 2}

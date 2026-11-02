@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68950100d57a3154884bc81a26efb958, type: 3}
+  m_Name: gas_poisoning
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Hazard
+  id: gas_poisoning
+  displayName: Gas poisoning, suffocation
+  description: 
+  image: {fileID: 0}
+  color: {r: 0.9411765, g: 0.41960785, b: 0.65882355, a: 1}
+  requiredEquipment:
+  - {fileID: 11400000, guid: 73276eb8b445be04aa96e3e29511da23, type: 2}
+  - {fileID: 11400000, guid: 0a6af5e4d8cc0db43b8daa67cc34e3cc, type: 2}
+  - {fileID: 11400000, guid: a6f384a2c1aa0e34d9d914cc6c4fd569, type: 2}

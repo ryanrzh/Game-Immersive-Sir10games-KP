@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da50a5d459516bc4eb0a052641e3e0ee, type: 3}
+  m_Name: Plant_Sinter
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Plant
+  id: Sinter
+  displayName: Sinter
+  description: Raw Material Handling Plant
+  image: {fileID: 2103509258842657786, guid: 7c1817d9adeeace4ca8f19e05084c8b3, type: 3}
+  facilities:
+  - {fileID: 11400000, guid: 1b06a5ce90c26df48be8762654b1c55f, type: 2}
+  - {fileID: 11400000, guid: 2ad1c6af831eacd4aa11335715e80b97, type: 2}
+  - {fileID: 11400000, guid: e397d2cebe3be4a40bf1387195c4f3a6, type: 2}
+  - {fileID: 11400000, guid: d3e99a76ce7539248ae7c928c273dfdd, type: 2}
+  - {fileID: 11400000, guid: a2643bb375bb16f42bfb49612619975a, type: 2}
+  - {fileID: 11400000, guid: 3c9ba7df5b7e3f3429b538fef7ce7196, type: 2}
+  - {fileID: 11400000, guid: 88648e80bebac3243892592f11dd0167, type: 2}
+  - {fileID: 11400000, guid: 2bfd9fb96ed5ce949afcccf0f619d092, type: 2}
+  - {fileID: 11400000, guid: caa7db02eb44e1e46b7b2386a5399461, type: 2}
+  - {fileID: 11400000, guid: e2336910046aca747b77979f2efa795b, type: 2}

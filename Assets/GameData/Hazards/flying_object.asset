@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68950100d57a3154884bc81a26efb958, type: 3}
+  m_Name: flying_object
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Hazard
+  id: flying_object
+  displayName: Flying object
+  description: 
+  image: {fileID: 0}
+  color: {r: 0.9490196, g: 0.54901963, b: 0, a: 1}
+  requiredEquipment:
+  - {fileID: 11400000, guid: 7d7db69a6ad64f14ba36b18fff3eec8d, type: 2}
+  - {fileID: 11400000, guid: 2434980c694534a418a266b73e0f407a, type: 2}
+  - {fileID: 11400000, guid: 0fafeaa03d8501341b57a4eb143de026, type: 2}
+  - {fileID: 11400000, guid: c192de7891ead1f4b836e8e532457c19, type: 2}

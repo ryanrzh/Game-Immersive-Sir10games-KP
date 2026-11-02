@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab5bea93997df0438f6425a0f24d281, type: 3}
+  m_Name: f3
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Facility
+  id: f3
+  displayName: Stockpile batubara
+  description: Batubara mudah terbakar dan bisa mengeluarkan gas CO.
+  image: {fileID: 0}
+  positionPoint: {x: 0.1375, y: 0.156}
+  hazards:
+  - {fileID: 11400000, guid: f09b762ab8e8cc143ada164c19a44f97, type: 2}
+  - {fileID: 11400000, guid: 5bb60abfd8fd083428fc9b2201c3dad5, type: 2}
+  decoyEquipment:
+  - {fileID: 11400000, guid: 10b8172d42528f540afb02b94534a46f, type: 2}
+  - {fileID: 11400000, guid: 394bc9bf33027a04297048a40ed5f939, type: 2}
+  - {fileID: 11400000, guid: d184aefb9a23b164bbaa43c72b3583fc, type: 2}
+  inspectionScenario: Pekerja memeriksa titik panas di stockpile batubara.
+  wornEquipment:
+  - {fileID: 11400000, guid: 36da2aaae0895454d93f2d853c1b8020, type: 2}
+  - {fileID: 11400000, guid: 9300cff81de53244981ddc22ace1ff89, type: 2}
+  - {fileID: 11400000, guid: 29daf0ee3281ac749b10680a8339fc26, type: 2}
+  - {fileID: 11400000, guid: 669dd36c45e304244a1b170343d97c9b, type: 2}
+  - {fileID: 11400000, guid: 7d64ab6ce36f9bb409c0a346f29582d7, type: 2}
+  careCases:
+  - equipment: {fileID: 11400000, guid: 36da2aaae0895454d93f2d853c1b8020, type: 2}
+    condition: Kanister filter melewati tanggal kedaluwarsa.
+    correctDecision: 3
+    explanation: Filter yang kedaluwarsa tidak lagi andal.

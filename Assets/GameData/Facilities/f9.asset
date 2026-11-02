@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab5bea93997df0438f6425a0f24d281, type: 3}
+  m_Name: f9
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Facility
+  id: f9
+  displayName: Lantai licin dekat hopper
+  description: Permukaan licin dan area tidak rapi.
+  image: {fileID: 0}
+  positionPoint: {x: 0.5375, y: 0.07}
+  hazards:
+  - {fileID: 11400000, guid: 2a9b6d792fe259f4a8224dc71d19c740, type: 2}
+  decoyEquipment:
+  - {fileID: 11400000, guid: c192de7891ead1f4b836e8e532457c19, type: 2}
+  - {fileID: 11400000, guid: 7d64ab6ce36f9bb409c0a346f29582d7, type: 2}
+  - {fileID: 11400000, guid: 4265f54d1a4c9b54bb2f9f554a8733c7, type: 2}
+  inspectionScenario: Pekerja membersihkan lantai licin dekat hopper.
+  wornEquipment:
+  - {fileID: 11400000, guid: 7d7db69a6ad64f14ba36b18fff3eec8d, type: 2}
+  - {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
+  careCases:
+  - equipment: {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
+    condition: Sol terkelupas sebagian dan lapisan baja terlihat.
+    correctDecision: 3
+    explanation: Sol rusak tidak lagi anti-slip dan melindungi.

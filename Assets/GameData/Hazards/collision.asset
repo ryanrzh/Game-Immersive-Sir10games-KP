@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68950100d57a3154884bc81a26efb958, type: 3}
+  m_Name: collision
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Hazard
+  id: collision
+  displayName: Collision/crash
+  description: 
+  image: {fileID: 0}
+  color: {r: 0.105882354, g: 0.6627451, b: 0.7882353, a: 1}
+  requiredEquipment:
+  - {fileID: 11400000, guid: 2fcb820ae1ed23c4eb0e99d057e3f966, type: 2}
+  - {fileID: 11400000, guid: 10b8172d42528f540afb02b94534a46f, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab5bea93997df0438f6425a0f24d281, type: 3}
+  m_Name: f7
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Facility
+  id: f7
+  displayName: Jalan akses alat berat
+  description: Pekerja bisa tertabrak alat yang bergerak.
+  image: {fileID: 0}
+  positionPoint: {x: 0.3, y: 0.07}
+  hazards:
+  - {fileID: 11400000, guid: 442e3b6fde19c014aa9e327e60662804, type: 2}
+  decoyEquipment:
+  - {fileID: 11400000, guid: 669dd36c45e304244a1b170343d97c9b, type: 2}
+  - {fileID: 11400000, guid: 29daf0ee3281ac749b10680a8339fc26, type: 2}
+  - {fileID: 11400000, guid: fdf4a04854f76d44595528aab3cbf0bc, type: 2}
+  inspectionScenario: Pekerja menyeberang jalan akses saat loader beroperasi.
+  wornEquipment:
+  - {fileID: 11400000, guid: 10b8172d42528f540afb02b94534a46f, type: 2}
+  careCases:
+  - equipment: {fileID: 11400000, guid: 10b8172d42528f540afb02b94534a46f, type: 2}
+    condition: Kotor oleh oli, garis reflektif masih utuh.
+    correctDecision: 1
+    explanation: Garis reflektif utuh, cukup dibersihkan.

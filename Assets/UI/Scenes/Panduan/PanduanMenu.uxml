@@ -1,0 +1,24 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+        <!-- Container Utama -->
+    <ui:VisualElement class="flex-col h-full w-full bg-white border-4 border-slate-700 overflow-hidden">
+        
+        <!-- Header -->
+        <ui:VisualElement class="navbar bg-gray-800 w-full p-4 px-10 min-h-20">
+                <ui:Label name="title" text="Panduan" class="navbar-title text-white text-2xl" />
+                <ui:VisualElement class="flex flex-row gap-x-5">
+                    <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                        <ui:VisualElement class="w-6 h-6 icon-back" /> 
+                        <ui:Label text="Back" class="text-xl text-white font-bold" />
+                    </ui:Button>
+                </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Container Card Item -->
+        <ui:VisualElement name="CardContainer" class="flex-row h-full w-full flex-wrap p-4 justify-center items-center flex-grow">
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

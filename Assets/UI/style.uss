@@ -1,0 +1,39 @@
+/* File USS ini digenerate secara otomatis */
+
+.icon-leaderboard {
+    background-image: url('Icons/leaderboard_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.icon-menu-book {
+    background-image: url('Icons/menu_book_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.icon-back {
+    background-image: url('Icons/arrow_back_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.icon-star {
+    background-image: url('Icons/star_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+
+.font-plus-jakarta-sans {
+    -unity-font: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
+    -unity-font-definition: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+
+* {
+    -unity-font: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
+    -unity-font-definition: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+
+bg-image{
+    background-image: url('../Images/Plant/Picture1.png');
+    -unity-background-scale-mode: scale-to-fit;
+}

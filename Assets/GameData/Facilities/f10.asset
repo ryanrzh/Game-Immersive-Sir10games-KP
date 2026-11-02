@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab5bea93997df0438f6425a0f24d281, type: 3}
+  m_Name: f10
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.Facility
+  id: f10
+  displayName: Area gerinda
+  description: Percikan dan serpihan, serta risiko luka sayat.
+  image: {fileID: 0}
+  positionPoint: {x: 0.7875, y: 0.156}
+  hazards:
+  - {fileID: 11400000, guid: bcb1aed0e4d81614d8eccf7e5f84c77e, type: 2}
+  - {fileID: 11400000, guid: 2a101f012ec98054ea3aa8472a0b314d, type: 2}
+  decoyEquipment:
+  - {fileID: 11400000, guid: d184aefb9a23b164bbaa43c72b3583fc, type: 2}
+  - {fileID: 11400000, guid: 394bc9bf33027a04297048a40ed5f939, type: 2}
+  - {fileID: 11400000, guid: 10b8172d42528f540afb02b94534a46f, type: 2}
+  inspectionScenario: Pekerja menggerinda bracket di area perawatan.
+  wornEquipment:
+  - {fileID: 11400000, guid: 74aa333cdeaeac047aa9bb05eb9bf1ae, type: 2}
+  - {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
+  - {fileID: 11400000, guid: 7d7db69a6ad64f14ba36b18fff3eec8d, type: 2}
+  - {fileID: 11400000, guid: 2434980c694534a418a266b73e0f407a, type: 2}
+  - {fileID: 11400000, guid: 0fafeaa03d8501341b57a4eb143de026, type: 2}
+  careCases:
+  - equipment: {fileID: 11400000, guid: 74aa333cdeaeac047aa9bb05eb9bf1ae, type: 2}
+    condition: Tali pengikat longgar, bahan masih utuh.
+    correctDecision: 2
+    explanation: Cukup kencangkan tali pengikat.

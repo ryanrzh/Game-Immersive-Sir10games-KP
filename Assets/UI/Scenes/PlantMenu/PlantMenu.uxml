@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+   xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False"
+>
+
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+    <!-- Panel Utama Menu Plant -->
+    <ui:VisualElement class="flex-col h-full w-full bg-white border-4 border-slate-700 overflow-hidden">
+        
+        <!-- Header Panel -->
+        <ui:VisualElement class="navbar bg-gray-800 p-4 px-10 min-h-20">
+            <ui:Label text="Plant Menu" class="navbar-title text-white text-2xl" />
+            <ui:VisualElement class="flex flex-row gap-x-5">
+                <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                    <ui:VisualElement class="w-6 h-6 icon-back" /> 
+                    <ui:Label text="Back" class="text-xl text-white font-bold" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        
+        <!-- Konten Bodi Panel (Tambahkan flex-grow) -->
+        <ui:VisualElement class="flex-col justify-around p-8 w-full flex-grow h-full">
+            
+            <!-- Bagian Atas: Area Gambar & Tombol Aksi -->
+            <ui:VisualElement class="flex-row w-full items-top mb-4 flex-shrink-0">
+                <ui:VisualElement name="plant-image" class="flex-1 bg-gray-300 h-full mr-6 rounded-xl justify-end">
+                    <ui:VisualElement name="plant-image-placeholder" class="w-full h-24 flex items-center justify-center" style="background-color: rgba(255, 255, 255, 0.3)">
+                        <ui:Label name="plant-name" text="RMH" class="text-gray-600 text-2xl font-extrabold" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                
+                <ui:VisualElement class="flex-1 justify-center ml-6 gap-y-10">
+                    <ui:Button name="btn-info" text="Info Bahaya" class="btn btn-block rounded-full h-32 flex btn-primary text-white font-bold text-2xl py-5 cursor-pointer" />
+                    <ui:Button name="btn-start" text="Mulai Level 1" class="btn btn-block rounded-full h-32 btn-warning text-white font-bold text-2xl py-5 cursor-pointer" />
+                    <ui:Button name="btn-leaderboard" text="Leaderboard" class="btn btn-block rounded-full h-32 btn-success text-white font-bold text-2xl py-5 cursor-pointer" />
+                    
+                    <ui:Label text="Rekomendasi: buka Info Bahaya dulu" class="text-lg text-gray-500 italic text-center mt-3" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Bagian Bawah: Deretan Kartu Level (Tambahkan flex-grow & items-center) -->
+            <ui:VisualElement class="flex-row w-full justify-between flex-grow items-center">
+                
+                <ui:VisualElement class="flex-1 flex-col justify-around h-56 bg-white border-2 border-orange-400 rounded-xl p-6 mr-3">
+                    <ui:Label text="L1" class="text-3xl font-extrabold text-black mb-4" />
+                    <ui:VisualElement class="flex-row items-center">
+                        <ui:Label text="0" class="text-black text-5xl" />
+                        <ui:Label class="size-16 icon-star tint-yellow-300" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="flex-1 flex-col justify-around h-56 bg-gray-200 border-2 border-gray-300 rounded-xl p-6 mx-3 opacity-70">
+                    <ui:Label text="L2" class="text-3xl font-extrabold text-black mb-4" />
+                    <ui:Label text="Terkunci" class="text-gray-500 text-xl" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="flex-1 flex-col justify-around h-56 bg-gray-200 border-2 border-gray-300 rounded-xl p-6 mx-3 opacity-70">
+                    <ui:Label text="L3" class="text-3xl font-extrabold text-black mb-4" />
+                    <ui:Label text="Terkunci" class="text-gray-500 text-xl" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="flex-1 flex-col justify-around h-56 bg-gray-200 border-2 border-gray-300 rounded-xl p-6 ml-3 opacity-70">
+                    <ui:Label text="L4" class="text-3xl font-extrabold text-black mb-4" />
+                    <ui:Label text="Terkunci" class="text-gray-500 text-xl" />
+                </ui:VisualElement>
+                
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

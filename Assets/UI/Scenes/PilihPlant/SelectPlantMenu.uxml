@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+    <!-- Container Utama -->
+    <ui:VisualElement class="flex-col h-full w-full bg-white border-4 border-slate-700 overflow-hidden">
+        
+        <!-- Header -->
+        <ui:VisualElement class="navbar bg-gray-800 flex-row justify-between items-center w-full p-4 px-10 min-h-20">
+                <ui:Label name="title" text="Pilih Plant" class="navbar-title text-white text-2xl" />
+            
+                 <ui:VisualElement class="flex flex-row gap-x-5">
+                    <ui:Button name="btn-panduan" class="btn btn-primary flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                        <ui:VisualElement class="w-6 h-6 icon-menu-book" /> 
+                        <ui:Label text="Panduan" class="text-white font-bold text-xl" />
+                    </ui:Button>
+
+                    <ui:Button name="btn-leaderboard" class="btn btn-info flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                        <ui:VisualElement class="w-6 h-6 icon-leaderboard" /> 
+                        <ui:Label text="Leaderboard" class="text-white font-bold text-xl" />
+                    </ui:Button>
+                 </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Container Card Item -->
+        <ui:VisualElement name="CardContainer" class="flex-row h-full w-full flex-wrap p-4 justify-center items-center flex-grow">
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

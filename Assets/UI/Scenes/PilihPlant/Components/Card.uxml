@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <!-- Card Terkunci (Opasitas diturunkan) -->
+    <ui:VisualElement name="card" class="card flex-col w-52 rounded-xl m-2 border-4 border-gray-400" style="opacity: 1;">  
+        <!-- Gambar Card -->
+        <ui:VisualElement name="image" class="w-full h-40 bg-gray-300 flex-shrink-0" /> 
+        
+        <!-- Konten Teks -->
+        <ui:VisualElement class="p-4 flex-col">
+            <ui:Label name="item-name" text="Nama Item" class="text-xl font-bold mb-2 text-black" />
+            <ui:Label name="description" text="Deskripsi detail mengenai item ini. Selesaikan tahap sebelumnya untuk membuka." class="text-sm text-gray-600 mb-4 whitespace-normal" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

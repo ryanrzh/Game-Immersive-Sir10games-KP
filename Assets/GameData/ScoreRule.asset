@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4547b08b40a36f44b8ace3622733cff2, type: 3}
+  m_Name: ScoreRule
+  m_EditorClassIdentifier: Assembly-CSharp::Game.ScoreRule
+  identifyFacilityFound: 10
+  identifyHazardCorrect: 10
+  identifyWrongTap: -5
+  identifyHazardWrong: -5
+  roundFirstTry: 20
+  roundSecondTry: 10
+  roundFail: 0
+  maxAttempts: 2
+  passPercent: 70
+  star3Percent: 90
+  star2Percent: 70
+  star1Percent: 40
