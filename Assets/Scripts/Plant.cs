@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Game.APD
 {
@@ -12,6 +13,7 @@ namespace Game.APD
         [SerializeField, TextArea] private string description;
         [Tooltip("Gambar peta plant. Posisi titik mengacu ke gambar ini.")]
         [SerializeField] private Sprite image;
+        [SerializeField] private VectorImage vectorImage; // Untuk layar besar, pakai ini. Kalau null, pakai image biasa.
 
         [SerializeField] private Facility[] facilities = new Facility[0];
 
@@ -23,6 +25,8 @@ namespace Game.APD
         public string Name => displayName;
         public string Description => description;
         public Sprite Image => image;
+        public VectorImage VectorImage => vectorImage;
+
         public Facility[] Facilities => facilities;
 
         // Jumlah semua kategori bahaya di plant ini (dipakai untuk skor maksimal Level 1).

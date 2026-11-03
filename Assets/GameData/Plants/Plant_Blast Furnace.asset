@@ -15,7 +15,8 @@ MonoBehaviour:
   id: Blast Furnace
   displayName: Blast Furnace
   description: Raw Material Handling Plant
-  image: {fileID: -1967145716185427822, guid: cbe4726f0f7da014cabb5a3450eb772f, type: 3}
+  image: {fileID: 21300000, guid: 109e08bf3bf2b5a4ba6dab3d4dacf566, type: 3}
+  vectorImage: {fileID: 7388822144124034973, guid: 96ffdbf221102ad45be727eaeb0ec0f0, type: 3}
   facilities:
   - {fileID: 11400000, guid: 1b06a5ce90c26df48be8762654b1c55f, type: 2}
   - {fileID: 11400000, guid: 2ad1c6af831eacd4aa11335715e80b97, type: 2}
@@ -27,3 +28,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2bfd9fb96ed5ce949afcccf0f619d092, type: 2}
   - {fileID: 11400000, guid: caa7db02eb44e1e46b7b2386a5399461, type: 2}
   - {fileID: 11400000, guid: e2336910046aca747b77979f2efa795b, type: 2}
+  isLocked: 0

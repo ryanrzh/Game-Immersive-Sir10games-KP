@@ -15,7 +15,8 @@ MonoBehaviour:
   id: Sinter
   displayName: Sinter
   description: Raw Material Handling Plant
-  image: {fileID: 2103509258842657786, guid: 7c1817d9adeeace4ca8f19e05084c8b3, type: 3}
+  image: {fileID: 21300000, guid: c58fc5b19f6a64f4180803e15e5cc258, type: 3}
+  vectorImage: {fileID: 7388822144124034973, guid: d595983df395876478a2227bc674a370, type: 3}
   facilities:
   - {fileID: 11400000, guid: 1b06a5ce90c26df48be8762654b1c55f, type: 2}
   - {fileID: 11400000, guid: 2ad1c6af831eacd4aa11335715e80b97, type: 2}
@@ -27,3 +28,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2bfd9fb96ed5ce949afcccf0f619d092, type: 2}
   - {fileID: 11400000, guid: caa7db02eb44e1e46b7b2386a5399461, type: 2}
   - {fileID: 11400000, guid: e2336910046aca747b77979f2efa795b, type: 2}
+  isLocked: 0

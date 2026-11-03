@@ -9,7 +9,7 @@
     <Style src="../../../style.uss" />
 
     <!-- Card Terkunci (Opasitas diturunkan) -->
-    <ui:VisualElement name="card" class="card flex-col w-52 rounded-xl m-2 border-4 border-gray-400" style="opacity: 1;">  
+    <ui:VisualElement name="card" class="btn p-0 card flex-col w-52 rounded-xl m-2 border-4 border-gray-400" style="opacity: 1;">  
         <!-- Gambar Card -->
         <ui:VisualElement name="image" class="w-full h-40 bg-gray-300 flex-shrink-0" /> 
         

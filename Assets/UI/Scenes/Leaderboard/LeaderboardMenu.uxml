@@ -1,0 +1,93 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+    <!-- Container Utama -->
+    <ui:VisualElement class="flex-col h-full w-full bg-slate-100">
+        
+        <!-- Header -->
+        <ui:VisualElement class="navbar bg-gray-800 p-4 px-10 min-h-20">
+            <ui:Label text="Leaderboard" class="navbar-title text-white text-2xl" />
+            <ui:VisualElement class="flex flex-row gap-x-5">
+                <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                    <ui:VisualElement class="w-6 h-6 icon-back" /> 
+                    <ui:Label text="Back" class="text-xl text-white font-bold" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="h-full">
+            <!-- Filter Container (2 Dropdown) -->
+            <ui:VisualElement class="flex-row p-6 gap-x-4 items-center">
+                <ui:DropdownField name="dropdown-plant" choices="RMH,Plant B,Plant C" value="RMH" class="custom-dropdown" />
+                <ui:DropdownField name="dropdown-level" choices="Total,Level 1,Level 2,Level 3,Level 4" value="Total" class="custom-dropdown" />
+            </ui:VisualElement>
+
+            <!-- STATIC TABLE (Mockup menggunakan ScrollView) -->
+            <ui:VisualElement class="mx-6 bg-white border border-gray-200 shadow-sm flex-grow flex-col">
+            
+                <!-- Table Header -->
+                <ui:VisualElement class="flex-row bg-slate-900 items-center">
+                    <ui:Label text="#" class="text-white font-bold w-20 p-3 text-center" />
+                    <ui:Label text="Nama" class="text-white font-bold flex-1 p-3" />
+                    <ui:Label text="Skor" class="text-white font-bold w-48 p-3 text-center" />
+                    <ui:Label text="Bintang" class="text-white font-bold w-48 p-3 text-center" />
+                </ui:VisualElement>
+
+                <!-- Scrollable Content -->
+                <ui:ScrollView class="flex-grow">
+                
+                    <!-- Row 1 -->
+                    <ui:VisualElement class="flex-row items-center border-b border-gray-100">
+                        <ui:Label text="1" class="text-slate-800 w-20 p-3 text-center" />
+                        <ui:Label text="Pemain A" class="text-slate-800 flex-1 p-3" />
+                        <ui:Label text="845" class="text-slate-800 w-48 p-3 text-center" />
+                        <ui:Label text="11★" class="text-orange-600 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                    <!-- Row 2 (Alt bg) -->
+                    <ui:VisualElement class="flex-row items-center bg-slate-50 border-b border-gray-100">
+                        <ui:Label text="2" class="text-slate-800 w-20 p-3 text-center" />
+                        <ui:Label text="Pemain B" class="text-slate-800 flex-1 p-3" />
+                        <ui:Label text="795" class="text-slate-800 w-48 p-3 text-center" />
+                        <ui:Label text="10★" class="text-orange-600 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                    <!-- Row 3 (Highlighted - User) -->
+                    <ui:VisualElement class="flex-row items-center bg-orange-100 border-b border-orange-200">
+                        <ui:Label text="3" class="text-slate-900 font-bold w-20 p-3 text-center" />
+                        <ui:Label text="Kamu" class="text-slate-900 font-bold flex-1 p-3" />
+                        <ui:Label text="795" class="text-slate-900 font-bold w-48 p-3 text-center" />
+                        <ui:Label text="9★" class="text-orange-700 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                    <!-- Row 4 -->
+                    <ui:VisualElement class="flex-row items-center border-b border-gray-100">
+                        <ui:Label text="4" class="text-slate-800 w-20 p-3 text-center" />
+                        <ui:Label text="Pemain C" class="text-slate-800 flex-1 p-3" />
+                        <ui:Label text="650" class="text-slate-800 w-48 p-3 text-center" />
+                        <ui:Label text="8★" class="text-orange-600 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                    <!-- Row 5 (Alt bg) -->
+                    <ui:VisualElement class="flex-row items-center bg-slate-50 border-b border-gray-100">
+                        <ui:Label text="5" class="text-slate-800 w-20 p-3 text-center" />
+                        <ui:Label text="Pemain D" class="text-slate-800 flex-1 p-3" />
+                        <ui:Label text="610" class="text-slate-800 w-48 p-3 text-center" />
+                        <ui:Label text="8★" class="text-orange-600 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                    <!-- Row 6 -->
+                    <ui:VisualElement class="flex-row items-center border-b border-gray-100">
+                        <ui:Label text="6" class="text-slate-800 w-20 p-3 text-center" />
+                        <ui:Label text="Pemain E" class="text-slate-800 flex-1 p-3" />
+                        <ui:Label text="580" class="text-slate-800 w-48 p-3 text-center" />
+                        <ui:Label text="7★" class="text-orange-600 font-bold w-48 p-3 text-center" />
+                    </ui:VisualElement>
+
+                </ui:ScrollView>
+            </ui:VisualElement>
+            </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

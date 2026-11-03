@@ -15,7 +15,8 @@ MonoBehaviour:
   id: rmh
   displayName: RMH
   description: Raw Material Handling Plant
-  image: {fileID: -5199953049146085424, guid: 109e08bf3bf2b5a4ba6dab3d4dacf566, type: 3}
+  image: {fileID: 21300000, guid: 190dbf14bae298b4bbd5e9e7eee141b0, type: 3}
+  vectorImage: {fileID: 7388822144124034973, guid: efa2bca3094ab7049ab42fce6153e60c, type: 3}
   facilities:
   - {fileID: 11400000, guid: 1b06a5ce90c26df48be8762654b1c55f, type: 2}
   - {fileID: 11400000, guid: 2ad1c6af831eacd4aa11335715e80b97, type: 2}

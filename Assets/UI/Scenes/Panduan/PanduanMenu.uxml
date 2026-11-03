@@ -2,23 +2,207 @@
     <Style src="../../UniverseUI/index.uss" />
     <Style src="../../style.uss" />
 
-        <!-- Container Utama -->
-    <ui:VisualElement class="flex-col h-full w-full bg-white border-4 border-slate-700 overflow-hidden">
+    <!-- Container Utama -->
+    <ui:VisualElement class="flex-col h-full w-full bg-slate-100">
         
         <!-- Header -->
-        <ui:VisualElement class="navbar bg-gray-800 w-full p-4 px-10 min-h-20">
-                <ui:Label name="title" text="Panduan" class="navbar-title text-white text-2xl" />
-                <ui:VisualElement class="flex flex-row gap-x-5">
-                    <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
-                        <ui:VisualElement class="w-6 h-6 icon-back" /> 
-                        <ui:Label text="Back" class="text-xl text-white font-bold" />
-                    </ui:Button>
-                </ui:VisualElement>
+        <ui:VisualElement class="navbar bg-gray-800 p-4 px-10 min-h-20">
+            <ui:Label text="Panduan" class="navbar-title text-white text-2xl" />
+            <ui:VisualElement class="flex flex-row gap-x-5">
+                <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                    <ui:VisualElement class="w-6 h-6 icon-back" /> 
+                    <ui:Label text="Back" class="text-xl text-white font-bold" />
+                </ui:Button>
+            </ui:VisualElement>
         </ui:VisualElement>
 
-        <!-- Container Card Item -->
-        <ui:VisualElement name="CardContainer" class="flex-row h-full w-full flex-wrap p-4 justify-center items-center flex-grow">
-            
+        <!-- Main Content Container -->
+        <ui:VisualElement class="flex-col h-full p-6 gap-y-4 flex-grow justify-center">
+
+            <!-- Top Section (3 Columns) -->
+            <ui:VisualElement class="flex-row gap-x-4 flex-grow">
+                
+                <!-- Column 1: Informasi Level -->
+                <ui:VisualElement class="flex-col flex-1 bg-white rounded-xl border border-gray-300 p-6">
+                    <ui:Label text="INFORMASI LEVEL" class="text-lg font-bold text-slate-800 mb-1" />
+                    <ui:VisualElement class="w-12 h-1 bg-indigo-600 mb-6" />
+
+                    <ui:VisualElement class="flex-col gap-y-6">
+                        <!-- Item 1 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-red-500 justify-center items-center shrink-0">
+                                <ui:Label text="1" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="flex-col flex-1">
+                                <ui:Label text="Identifikasi Bahaya" class="font-bold text-slate-800" />
+                                <ui:Label text="Bebas di peta. Temukan 10 titik, pilih semua kategori bahaya tiap titik." class="text-gray-500 whitespace-normal text-sm" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <!-- Item 2 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-orange-500 justify-center items-center shrink-0">
+                                <ui:Label text="2" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="flex-col flex-1">
+                                <ui:Label text="Pakai APD" class="font-bold text-slate-800" />
+                                <ui:Label text="10 ronde. Pilih APD yang dibutuhkan di tiap titik." class="text-gray-500 whitespace-normal text-sm" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <!-- Item 3 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-teal-500 justify-center items-center shrink-0">
+                                <ui:Label text="3" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="flex-col flex-1">
+                                <ui:Label text="Inspeksi" class="font-bold text-slate-800" />
+                                <ui:Label text="10 ronde. Nilai APD pekerja per bagian tubuh." class="text-gray-500 whitespace-normal text-sm" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <!-- Item 4 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-blue-600 justify-center items-center shrink-0">
+                                <ui:Label text="4" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="flex-col flex-1">
+                                <ui:Label text="Perawatan APD" class="font-bold text-slate-800" />
+                                <ui:Label text="10 ronde. Nilai kondisi APD: Layak, Bersihkan, Perbaiki, Ganti." class="text-gray-500 whitespace-normal text-sm" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Column 2: Cara Bermain -->
+                <ui:VisualElement class="flex-col flex-1 bg-white rounded-xl border border-gray-300 p-6">
+                    <ui:Label text="CARA BERMAIN" class="text-lg font-bold text-slate-800 mb-1" />
+                    <ui:VisualElement class="w-12 h-1 bg-indigo-600 mb-6" />
+
+                    <ui:VisualElement class="flex-col gap-y-6">
+                        <!-- Item 1 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-slate-800 justify-center items-center shrink-0">
+                                <ui:Label text="1" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:Label text="Pilih plant, lalu baca Info Bahaya: ketuk tanda ? di tiap titik." class="text-gray-700 flex-1 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                        <!-- Item 2 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-slate-800 justify-center items-center shrink-0">
+                                <ui:Label text="2" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:Label text="Mulai Level 1: temukan titik bahaya dan pilih semua kategorinya." class="text-gray-700 flex-1 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                        <!-- Item 3 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-slate-800 justify-center items-center shrink-0">
+                                <ui:Label text="3" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:Label text="Level 2 sampai 4 berjalan per ronde, satu titik per ronde." class="text-gray-700 flex-1 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                        <!-- Item 4 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-slate-800 justify-center items-center shrink-0">
+                                <ui:Label text="4" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:Label text="Tiap ronde maksimal 2 percobaan. Pakai Bantuan (-5) jika ragu." class="text-gray-700 flex-1 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                        <!-- Item 5 -->
+                        <ui:VisualElement class="flex-row gap-x-4 items-start">
+                            <ui:VisualElement class="w-10 h-10 rounded-full bg-slate-800 justify-center items-center shrink-0">
+                                <ui:Label text="5" class="text-white font-bold text-lg" />
+                            </ui:VisualElement>
+                            <ui:Label text="Capai minimal 70% (2 bintang) untuk membuka level berikutnya." class="text-gray-700 flex-1 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Column 3: Poin dan Bintang -->
+                <ui:VisualElement class="flex-col flex-1 bg-white rounded-xl border border-gray-300 p-6">
+                    <ui:Label text="POIN DAN BINTANG" class="text-lg font-bold text-slate-800 mb-1" />
+                    <ui:VisualElement class="w-12 h-1 bg-teal-600 mb-6" />
+
+                    <ui:VisualElement class="flex-col gap-y-5">
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="LEVEL 1" class="font-bold text-red-500 text-sm mb-1" />
+                            <ui:Label text="Titik benar +10, tiap kategori benar +10. Salah ketuk -5, kategori salah -5." class="text-gray-700 whitespace-normal text-sm" />
+                        </ui:VisualElement>
+
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="LEVEL 2 SAMPAI 4" class="font-bold text-orange-500 text-sm mb-1" />
+                            <ui:Label text="Per ronde: benar percobaan 1 +20, percobaan 2 +10, salah dua kali 0." class="text-gray-700 whitespace-normal text-sm" />
+                        </ui:VisualElement>
+
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="BANTUAN" class="font-bold text-purple-500 text-sm mb-1" />
+                            <ui:Label text="Cek jawaban: -5 poin, maksimal 1x per ronde." class="text-gray-700 whitespace-normal text-sm" />
+                        </ui:VisualElement>
+
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="BINTANG" class="font-bold text-teal-600 text-sm mb-1" />
+                            <ui:Label text="★★★ 90% ke atas" class="text-orange-700 font-bold text-sm" />
+                            <ui:Label text="★★☆ 70-89% (lulus)" class="text-orange-700 font-bold text-sm" />
+                            <ui:Label text="★☆☆ 40-69% (ulangi)" class="text-orange-700 font-bold text-sm" />
+                            <ui:Label text="Hasil akhir ditambah Bonus waktu." class="text-gray-700 whitespace-normal text-sm mt-1" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Bottom Section: Kartu Buff -->
+            <ui:VisualElement class="flex-col bg-white rounded-xl border border-gray-300 p-5 mt-2">
+                <ui:VisualElement class="flex-row items-center gap-x-4 mb-1">
+                    <ui:Label text="KARTU BUFF" class="text-lg font-bold text-slate-800" />
+                    <ui:Label text="Awal tiap level pemain dapat 2 kartu buff acak dari 4 jenis, pilih 1. Buff hanya berlaku di level itu." class="text-gray-400 text-xs" />
+                </ui:VisualElement>
+                <ui:VisualElement class="w-12 h-1 bg-indigo-600 mb-4" />
+
+                <ui:VisualElement class="flex-row gap-x-3 justify-between">
+                    <!-- Card 1 -->
+                    <ui:VisualElement class="flex-row flex-1 bg-orange-100 border border-orange-200 rounded-lg p-3 items-center gap-x-3">
+                        <ui:VisualElement class="w-12 h-12 rounded-full bg-orange-500 justify-center items-center shrink-0">
+                            <!-- Ganti icon sesuai asset Anda -->
+                            <ui:Label text="★" class="text-white text-2xl" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="Pengali Skor" class="font-bold text-orange-600 text-sm" />
+                            <ui:Label text="Skor jawaban benar x2. Berlaku 1-2 kali." class="text-xs text-slate-600 whitespace-normal" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- Card 2 -->
+                    <ui:VisualElement class="flex-row flex-1 bg-blue-100 border border-blue-200 rounded-lg p-3 items-center gap-x-3">
+                        <ui:VisualElement class="w-12 h-12 rounded-full bg-blue-500 justify-center items-center shrink-0">
+                            <ui:Label text="🛡" class="text-white text-2xl" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="Pelindung" class="font-bold text-blue-600 text-sm" />
+                            <ui:Label text="Salah pilih tidak mengurangi skor. Berlaku 1-2 kali." class="text-xs text-slate-600 whitespace-normal" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- Card 3 -->
+                    <ui:VisualElement class="flex-row flex-1 bg-teal-100 border border-teal-200 rounded-lg p-3 items-center gap-x-3">
+                        <ui:VisualElement class="w-12 h-12 rounded-full bg-teal-500 justify-center items-center shrink-0">
+                            <ui:Label text="▼" class="text-white text-xl" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="Penyaring" class="font-bold text-teal-600 text-sm" />
+                            <ui:Label text="Langsung aktif: saring pengecoh. Berlaku 1-2 kali." class="text-xs text-slate-600 whitespace-normal" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- Card 4 -->
+                    <ui:VisualElement class="flex-row flex-1 bg-purple-100 border border-purple-200 rounded-lg p-3 items-center gap-x-3">
+                        <ui:VisualElement class="w-12 h-12 rounded-full bg-purple-400 justify-center items-center shrink-0">
+                            <ui:Label text="⏱" class="text-white text-2xl" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="flex-col">
+                            <ui:Label text="Penambah Waktu" class="font-bold text-purple-600 text-sm" />
+                            <ui:Label text="Menambah waktu habis level 15 detik sampai 1 menit." class="text-xs text-slate-600 whitespace-normal" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+    <ui:VisualElement name="StartScreenMenu" class="flex h-full w-full items-start justify-center">
+        <ui:VisualElement name="StartScreenMenuBackground" class="absolute h-full w-full inset-0 bg-cover" style="background-image: url(../../../Images/Picture1.png)"/>
+        <ui:VisualElement class="absolute h-full w-full inset-0 bg-cover" style="background-color: rgba(255, 255, 255, 0.005)"/>
+        <ui:VisualElement name="StartScreenMenuContent" class="flex items-start gap-y-14 px-14 max-w-5xl">
+            <ui:Label name="StartScreenMenuTitle" class="text-xl text-white text-9xl font-bold font-orbitron text-wrap" text="PPE PROTOCOL" />
+            <ui:VisualElement class="flex-row gap-x-5 my-5">
+                <ui:Button name="btn-start" class="btn btn-block rounded-xl p-5 btn-primary text-white font-bold text-2xl cursor-pointer flex-row items-center px-10 justify-around max-w-80">
+                    <ui:VisualElement class="size-6 icon-play-arrow"/>
+                    <ui:Label text="Mulai Game" class="text-xl" />
+                </ui:Button>
+                
+                <ui:Button name="btn-leaderboard" class="btn btn-block rounded-xl p-5 btn-warning text-white font-bold text-2xl cursor-pointer flex-row items-center px-10 justify-around max-w-80">
+                    <ui:VisualElement class="size-6 icon-leaderboard"/>
+                    <ui:Label text="Leaderboard" class="text-xl" />
+                </ui:Button>
+             </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

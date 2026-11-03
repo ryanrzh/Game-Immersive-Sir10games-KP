@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398 265" width="3980" height="2650">
+<rect width="398" height="265" fill="#cfe0f1"/> <rect y="212" width="398" height="53" fill="#9aae8f"/>
+<g fill="#fff"><ellipse cx="143" cy="82" rx="10" ry="7"/><ellipse cx="127" cy="94" rx="8" ry="5"/><ellipse cx="335" cy="53" rx="13" ry="9"/><ellipse cx="333" cy="40" rx="16" ry="11" /><ellipse cx="353" cy="36" rx="9" ry="7"/></g>
+<rect x="15" y="86" width="45" height="126" fill="#b9c3cf"/><rect x="11" y="78" width="52" height="10" fill="#d94545"/>
+<rect x="26" y="110" width="20" height="4" fill="#8b93a3"/><rect x="26" y="140" width="20" height="4" fill="#8b93a3"/><rect x="31" y="197" width="16" height="15" fill="#8b93a3"/>
+<polygon points="53,97 62,92 124,125 120,133" fill="#6b7280"/>
+<rect x="121" y="96" width="14" height="36" fill="#b9c3cf"/><rect x="119" y="92" width="18" height="6" fill="#d94545"/>
+<rect x="113" y="130" width="175" height="16" fill="#8b93a3"/><rect x="113" y="145" width="175" height="55" fill="#b9c3cf"/><rect x="113" y="198" width="175" height="14" fill="#6b7280"/>
+<g fill="#3a3f4a"><rect x="123" y="155" width="9" height="38"/><rect x="143" y="155" width="9" height="38"/><rect x="163" y="155" width="9" height="38"/><rect x="183" y="155" width="9" height="38"/><rect x="203" y="155" width="9" height="38"/><rect x="223" y="155" width="9" height="38"/><rect x="243" y="155" width="9" height="38"/><rect x="263" y="155" width="9" height="38"/></g>
+<rect x="193" y="100" width="40" height="22" fill="#6b7280"/><rect x="195" y="91" width="28" height="9" fill="#8b93a3"/>
+<g fill="#3a3f4a"><circle cx="196" cy="125" r="3"/><circle cx="222" cy="125" r="3"/><rect x="150" y="124" width="8" height="6"/><rect x="238" y="124" width="8" height="6"/></g>
+<rect x="287" y="193" width="33" height="12" fill="#3a3f4a"/><rect x="287" y="204" width="30" height="3" fill="#6b7280"/>
+<rect x="320" y="78" width="38" height="134" fill="#b9c3cf"/><rect x="316" y="68" width="46" height="10" fill="#d94545"/>
+<g fill="#8b93a3"><rect x="320" y="100" width="38" height="4"/><rect x="320" y="123" width="38" height="4"/><rect x="320" y="146" width="38" height="4"/><rect x="320" y="168" width="38" height="4"/></g>
+<polygon points="358,212 372,195 390,212" fill="#2f343c"/>
+</svg>

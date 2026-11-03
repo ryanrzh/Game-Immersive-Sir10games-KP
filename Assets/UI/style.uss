@@ -20,12 +20,20 @@
     -unity-background-scale-mode: scale-to-fit;
 }
 
+.icon-play-arrow {
+    background-image: url('Icons/play_arrow_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg');
+    -unity-background-scale-mode: scale-to-fit;
+}
 
 .font-plus-jakarta-sans {
     -unity-font: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
     -unity-font-definition: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');
 }
 
+.font-orbitron {
+    -unity-font: url('Fonts/Orbitron-VariableFont_wght.ttf');
+    -unity-font-definition: url('Fonts/Orbitron-VariableFont_wght.ttf');
+}
 
 * {
     -unity-font: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf');

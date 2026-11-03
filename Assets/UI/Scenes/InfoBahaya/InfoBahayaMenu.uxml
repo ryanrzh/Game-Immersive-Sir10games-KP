@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../UniverseUI/index.uss" />
+    <Style src="../../style.uss" />
+
+    <ui:VisualElement class="flex-col h-full w-full bg-slate-100">
+        
+        <!-- Header -->
+        <ui:VisualElement class="navbar bg-gray-800 p-4 px-10 min-h-20">
+            <ui:Label text="Leaderboard" class="navbar-title text-white text-2xl" />
+            <ui:VisualElement class="flex flex-row gap-x-5">
+                <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                    <ui:VisualElement class="w-6 h-6 icon-back" /> 
+                    <ui:Label text="Back" class="text-xl text-white font-bold" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <!-- Area Gambar Peta -->
+        <ui:VisualElement name="map-container" class="flex-grow w-full h-full relative" style="background-image: url('project://database/Assets/Images/Plant/Picture1.png'); -unity-background-scale-mode: scale-to-fit;">
+            <ui:Label text="Ketuk tanda ? untuk melihat nama titik dan bahayanya" class="text-slate-800 font-bold p-4 text-lg z-10 inset-0" />
+            <!-- TITIK-TITIK AKAN DI-SPAWN DI SINI OLEH C# -->
+
+            <!-- POP-UP PANEL -->
+            <ui:VisualElement name="popup-panel" class="absolute w-96 bg-white rounded-2xl shadow-xl flex-col p-4 border-2 border-gray-200 z-50" style="display: none;">
+                <ui:VisualElement class="flex-row gap-x-2 mb-4 justify-center">
+                    <ui:VisualElement class="bg-yellow-400 rounded-full px-6 py-2 flex-1 items-center justify-center">
+                        <ui:Label text="FALLING" class="text-slate-800 font-bold text-xs" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="bg-blue-500 rounded-full px-6 py-2 flex-1 items-center justify-center">
+                        <ui:Label text="FALL DOWN" class="text-white font-bold text-xs" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="w-full h-32 bg-gray-200 rounded-lg mb-4 justify-center items-center overflow-hidden">
+                    <ui:Label text="(Gambar Ilustrasi)" class="text-gray-400" />
+                </ui:VisualElement>
+
+                <ui:Label name="popup-title" text="Judul Bahaya" class="font-bold text-slate-800 text-lg mb-1" />
+                <ui:Label name="popup-desc" text="Deskripsi" class="text-slate-600 whitespace-normal text-sm mb-4" />
+
+                <ui:VisualElement class="bg-green-50 border border-green-200 rounded-lg p-3 mb-4">
+                    <ui:Label name="popup-apd" text="APD" class="text-teal-800 font-bold whitespace-normal text-sm" />
+                </ui:VisualElement>
+
+                <ui:Button name="btn-tutup-popup" text="Tutup" class="bg-slate-400 rounded-full px-8 py-3 text-white font-bold border-0 cursor-pointer self-center w-48" />
+            </ui:VisualElement>
+        
+            </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

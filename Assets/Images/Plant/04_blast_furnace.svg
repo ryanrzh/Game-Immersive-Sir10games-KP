@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398 265" width="3980" height="2650">
+<rect width="398" height="265" fill="#cfe0f1"/> <rect y="212" width="398" height="53" fill="#9aae8f"/>
+<g fill="#fff"><ellipse cx="318" cy="32" rx="14" ry="9"/><ellipse cx="338" cy="26" rx="12" ry="9"/></g>
+<line x1="5" y1="208" x2="158" y2="64" stroke="#6b7280" stroke-width="9"/>
+<g stroke="#8b93a3" stroke-width="2"><line x1="45" y1="212" x2="45" y2="170"/><line x1="83" y1="212" x2="83" y2="130"/></g>
+<rect x="0" y="202" width="28" height="10" fill="#2f343c"/>
+<path d="M165 48 H195 V85 Q218 105 218 130 V212 H138 V130 Q138 105 165 85Z" fill="#b9c3cf"/>
+<rect x="155" y="30" width="47" height="15" rx="2" fill="#d94545"/>
+<g fill="#6b7280"><rect x="156" y="98" width="46" height="4"/><rect x="138" y="138" width="80" height="4"/><rect x="138" y="177" width="80" height="4"/></g>
+<rect x="139" y="196" width="14" height="14" fill="#f59a1b"/>
+<rect x="218" y="174" width="60" height="8" fill="#6b7280"/>
+<g><path d="M236 212 V100 a17 17 0 0 1 34 0 V212Z" fill="#8b93a3"/><path d="M278 212 V100 a17 17 0 0 1 34 0 V212Z" fill="#8b93a3"/>
+<rect x="240" y="147" width="26" height="6" fill="#6b7280"/><rect x="282" y="147" width="26" height="6" fill="#6b7280"/></g>
+</svg>
