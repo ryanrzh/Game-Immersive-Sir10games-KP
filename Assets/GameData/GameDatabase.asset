@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: GameDatabase
   m_EditorClassIdentifier: Assembly-CSharp::Game.GameDatabase
   plants:
+  - {fileID: 11400000, guid: bf7e67decba8d504580701dd19f03b48, type: 2}
+  - {fileID: 11400000, guid: 56dfbb2511f285743bbe86158450b007, type: 2}
+  - {fileID: 11400000, guid: 22b8cf21c4675be469a9f812a714d53a, type: 2}
+  - {fileID: 11400000, guid: c386e6253f3592d43806f0e642add710, type: 2}
+  - {fileID: 11400000, guid: 8da937f38145f164aad2613fc31416a6, type: 2}
   - {fileID: 11400000, guid: 40145ad005b0efa44a83ad486e7ae8a3, type: 2}
+  - {fileID: 11400000, guid: 5724efd53d04e9a46868758911a925a0, type: 2}
+  - {fileID: 11400000, guid: 7f4a46d013be516498f5f57cf03820ef, type: 2}
   levels:
   - {fileID: 11400000, guid: 20deb75e7c7029740b0bd6db1bebed93, type: 2}
   - {fileID: 11400000, guid: 2ef90dcf7f690e8439afff297ba482ac, type: 2}
   - {fileID: 11400000, guid: 741a400b42a9def498b8939e943a4940, type: 2}
   - {fileID: 11400000, guid: 32a55814de09a814b949087a4ddc27de, type: 2}
-  scoreRule: {fileID: 11400000, guid: a4c9fe33405b0f6468e127566bc2cbe4, type: 2}

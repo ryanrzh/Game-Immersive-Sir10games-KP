@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../../UniverseUI/index.uss" />
+    <ui:VisualElement name="point" class="flex justify-center items-center size-20 absolute bg-primary text-primary rounded-full">
+         <ui:Label name="number" text="1" class="text-white text-4xl font-bold" />
+    </ui:VisualElement>
+</ui:UXML>

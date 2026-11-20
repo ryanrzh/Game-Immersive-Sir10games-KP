@@ -1,0 +1,149 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <ui:VisualElement class="flex-col w-full h-full bg-slate-100">
+        
+        <!-- NAVBAR -->
+        <ui:VisualElement class="navbar bg-slate-800 border-b-4 border-blue-600 flex-row justify-between items-center w-full px-6 py-4 shadow-lg z-20">
+            <ui:Label text="Modul 2 | Persiapan APD (Gear Up)" class="text-white text-2xl font-black tracking-wide" />
+            
+            <ui:VisualElement class="flex-row gap-4 items-center">
+                <ui:Label name="lbl-score" text="Total Skor: 0" class="bg-blue-600 text-white font-bold px-6 py-3 rounded-xl" />
+                <ui:Label name="lbl-round" text="Titik 1/3" class="bg-orange-500 text-white font-bold px-6 py-3 rounded-xl" />
+                
+                <ui:VisualElement class="flex-row items-center gap-3 bg-slate-700 px-5 py-2 rounded-xl">
+                    <ui:Button name="btn-info" text="i" class="bg-slate-500 text-white font-black rounded-full w-8 h-8 p-0 border-none hover:bg-slate-600 cursor-pointer" />
+                    <ui:VisualElement class="icon-timer w-6 h-6 tint-white" />
+                    <ui:Label name="timer-label" text="05:00" class="text-white text-xl font-extrabold" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- MAIN CONTENT -->
+        <ui:VisualElement class="flex-1 flex-row p-6 gap-6">
+            
+            <!-- PANEL KIRI: AVATAR & CALLOUTS -->
+            <ui:VisualElement class="w-[40%] bg-white rounded-3xl shadow-md border border-slate-200 p-6 relative flex-col items-center justify-center overflow-hidden">
+                <ui:Label text="STATUS PEMAKAIAN APD" class="text-slate-500 font-extrabold text-sm tracking-widest absolute top-6 left-6" />
+                
+                <ui:VisualElement name="worker-avatar" class="w-[300px] h-[500px] bg-contain bg-center relative mt-8" style="background-image: url('placeholder_avatar.png');" />
+                <ui:VisualElement name="callouts-container" class="absolute inset-0 pointer-events-none" />
+            </ui:VisualElement>
+
+            <!-- PANEL KANAN: TAB ZONA & PILIHAN APD -->
+            <ui:VisualElement class="flex-1 flex-col bg-white rounded-3xl shadow-md border border-slate-200 p-6">
+                
+                <!-- 1. Area Tab (8 Zona) -->
+                <ui:VisualElement name="zone-tabs-container" class="flex-row flex-wrap justify-between gap-2 mb-4" />
+
+                <!-- 2. Header Zona Aktif & Info Bahaya -->
+                <ui:VisualElement class="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-4 relative flex-col">
+                    <ui:VisualElement class="flex-row justify-between items-center border-b border-slate-200 pb-2 mb-2">
+                        <ui:Label name="lbl-active-zone" text="KEPALA" class="text-2xl font-black text-slate-800 uppercase" />
+                        <ui:Button name="btn-hint" text="Lihat Kunci Jawaban (-5)" class="bg-white border border-slate-300 text-slate-700 font-bold px-4 py-2 rounded-lg hover:bg-slate-100 cursor-pointer" />
+                    </ui:VisualElement>
+                    
+                    <ui:VisualElement class="flex-row items-start gap-3">
+                        <ui:Label text="i" class="bg-blue-600 text-white font-bold rounded-full w-6 h-6 text-center" style="font-size: 14px; line-height: 24px;" />
+                        <ui:Label name="lbl-zone-hazard" text="Info bahaya spesifik untuk bagian tubuh ini akan muncul di sini." class="text-sm text-slate-600 whitespace-normal flex-1" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- 3. List Pilihan APD (Grid Kartu) -->
+                <ui:ScrollView class="flex-1 w-full border-b-2 border-slate-100 mb-4">
+                    <ui:VisualElement name="ppe-options-grid" class="flex-row flex-wrap justify-center gap-4 py-2" />
+                </ui:ScrollView>
+
+                <!-- 4. Footer & Submit -->
+                <ui:VisualElement class="flex-row justify-between items-center pt-2">
+                    <ui:VisualElement class="flex-row items-center gap-3">
+                        <ui:Label text="👷" class="text-3xl" />
+                        <ui:Label name="lbl-progress" text="0/8 APD Dipakai" class="text-xl font-black text-slate-800" />
+                    </ui:VisualElement>
+                    <ui:Button name="btn-submit" text="Selesai Memilih &gt;" class="bg-amber-400 text-slate-900 font-black text-xl px-10 py-4 rounded-xl hover:bg-amber-500 transition-colors border-none cursor-pointer" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- INFO MODAL -->
+    <ui:VisualElement name="info-modal" class="absolute inset-0 bg-slate-900/80 items-center justify-center flex" style="display: none; z-index: 60;">
+        <ui:VisualElement class="bg-white p-8 rounded-3xl flex-col w-[550px] border-4 border-blue-400 shadow-2xl">
+            <ui:Label text="Panduan Modul 2 (Gear Up)" class="text-2xl font-extrabold text-slate-800 border-b-2 border-slate-200 pb-4 mb-4" />
+            <ui:Label text="1. Navigasikan tab di atas untuk memeriksa setiap bagian tubuh.&#10;2. Baca potensi bahaya, lalu pilih APD yang paling sesuai dari opsi yang tersedia.&#10;3. Jika area tersebut aman, pilih 'Tanpa APD'.&#10;4. Pakaikan APD hingga lengkap, lalu klik Selesai." class="text-sm text-slate-600 whitespace-normal leading-relaxed mb-8" />
+            <ui:Button name="btn-info-ok" text="Mengerti" class="w-full bg-blue-600 text-white font-extrabold text-lg py-5 rounded-2xl hover:bg-blue-700 cursor-pointer border-none" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    
+    <!-- HINT MODAL -->
+    <ui:VisualElement name="hint-modal" class="absolute inset-0 bg-slate-900/80 items-center justify-center flex" style="display: none; z-index: 50;">
+        <ui:VisualElement class="bg-white p-6 rounded-3xl flex-col items-center w-[400px] border-4 border-amber-400 shadow-2xl">
+            <ui:Label text="Konfirmasi Bantuan" class="text-2xl font-extrabold text-slate-800 mb-2" />
+            <ui:Label name="hint-msg" text="Bantuan ini akan otomatis memakaikan (atau mengosongkan) APD yang benar pada zona ini, namun skor Anda akan dipotong 5 poin. Lanjutkan?" class="text-sm text-center text-slate-600 mb-6 whitespace-normal leading-relaxed" />
+            <ui:VisualElement class="flex-row gap-4 w-full">
+                <ui:Button name="btn-hint-cancel" text="Batal" class="flex-1 bg-slate-300 text-slate-800 font-bold py-4 rounded-xl hover:bg-slate-400 transition-colors cursor-pointer border-none" />
+                <ui:Button name="btn-hint-confirm" text="Gunakan" class="flex-1 bg-amber-500 text-white font-bold py-4 rounded-xl hover:bg-amber-600 transition-colors cursor-pointer border-none" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- PPE IMAGE MODAL (DETAIL APD) -->
+    <ui:VisualElement name="ppe-modal" class="absolute inset-0 bg-slate-900/90 items-center justify-center flex" style="display: none; z-index: 80;">
+        <ui:VisualElement class="bg-white p-8 rounded-3xl flex-col items-center w-[500px] border-4 border-slate-300 shadow-2xl relative">
+            <ui:Button name="btn-close-ppe" text="✖" class="absolute top-4 right-4 bg-red-500 text-white font-bold text-lg w-12 h-12 rounded-full hover:bg-red-600 transition-colors border-none cursor-pointer" />
+            <ui:Label text="DETAIL APD" class="text-xl font-extrabold text-slate-800 mb-6 tracking-widest border-b-2 border-slate-200 pb-2 w-full text-center" />
+            <ui:VisualElement name="ppe-modal-img" class="w-[300px] h-[300px] bg-slate-100 rounded-xl mb-6 bg-contain bg-center border border-slate-200" />
+            <ui:Label name="ppe-modal-name" text="Nama APD" class="text-2xl font-black text-slate-900 mb-3 text-center whitespace-normal" />
+            <ui:Label name="ppe-modal-desc" text="Deskripsi detail APD akan muncul di sini..." class="text-sm text-slate-600 text-center whitespace-normal leading-relaxed" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- RESULT MODAL -->
+    <ui:VisualElement name="result-modal" class="absolute inset-0 bg-slate-900/95 items-center justify-center flex" style="display: none; z-index: 70;">
+        <ui:VisualElement class="bg-white rounded-3xl flex-col items-center w-[900px] h-[90%] border-4 border-slate-700 shadow-2xl overflow-hidden">
+            
+            <!-- Header Evaluasi -->
+            <ui:VisualElement class="w-full bg-slate-100 items-center py-6 border-b-2 border-slate-200">
+                <ui:Label name="result-title" text="EVALUASI MODUL 2" class="text-2xl font-extrabold text-slate-800 mb-2 tracking-wide" />
+                <ui:Label name="stars-label" text="★ ★ ★" class="text-6xl font-black text-orange-400 mb-2 tracking-widest drop-shadow-md" />
+                <ui:VisualElement class="flex-row items-baseline gap-3">
+                    <ui:Label name="score-pct" text="100%" class="text-5xl font-black text-blue-600" />
+                    <ui:Label name="status-label" text="(LULUS)" class="text-2xl font-extrabold text-green-600" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Table Header -->
+            <ui:VisualElement class="w-full flex-row bg-slate-700 py-3 px-4 mt-4">
+                <ui:Label text="Titik &amp; APD" style="width: 35%; -unity-text-align: middle-left;" class="text-sm font-bold text-white" />
+                <ui:Label text="Kunci Jawaban" style="width: 20%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Pilihan Anda" style="width: 20%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Poin" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Status" style="width: 10%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+            </ui:VisualElement>
+
+            <!-- List Evaluasi (Diisi oleh C#) -->
+            <ui:ScrollView name="detail-list" class="w-full flex-1 bg-white" />
+
+            <!-- Footer & Kalkulasi -->
+            <ui:VisualElement class="w-full bg-slate-100 p-5 border-t-2 border-slate-200 flex-col gap-4">
+                <ui:VisualElement class="flex-row justify-between items-center bg-white p-4 rounded-xl border border-slate-300">
+                    <ui:VisualElement class="flex-col">
+                        <ui:Label name="summary-base" text="Total Poin Jawaban: 0" class="text-sm font-bold text-slate-600" />
+                        <ui:Label name="summary-bonus" text="Bonus Waktu (Sisa Detik): +0" class="text-sm font-bold text-green-600" />
+                    </ui:VisualElement>
+                    <ui:Label name="score-final" text="SKOR AKHIR: 0" class="text-2xl font-black text-blue-700" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="flex-row gap-4">
+                    <ui:Button name="btn-retry" text="Ulangi Modul" class="flex-1 bg-slate-300 text-slate-800 font-extrabold text-lg py-4 rounded-2xl hover:bg-slate-400 transition-colors cursor-pointer border-none" />
+                    <ui:Button name="btn-next" text="Lanjut Modul Berikutnya" class="flex-1 bg-green-600 text-white font-extrabold text-lg py-4 rounded-2xl hover:bg-green-700 transition-colors cursor-pointer border-none" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>

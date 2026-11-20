@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 0918f70b6d28d294589b82dab64dd6ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5392450489081225406
+    second: Six Green Face Shield Conditions_0
+  - first:
+      213: 5816741330493475661
+    second: Six Green Face Shield Conditions_1
+  - first:
+      213: -7505538438491649407
+    second: Six Green Face Shield Conditions_2
+  - first:
+      213: -6661481204727674360
+    second: Six Green Face Shield Conditions_3
+  - first:
+      213: -1412648104624267468
+    second: Six Green Face Shield Conditions_4
+  - first:
+      213: 641927908952164396
+    second: Six Green Face Shield Conditions_5
+  - first:
+      213: 782991971676974090
+    second: Six Green Face Shield Conditions_6
+  - first:
+      213: -5358310044874712714
+    second: Six Green Face Shield Conditions_7
+  - first:
+      213: -1380036586897261457
+    second: Six Green Face Shield Conditions_8
+  - first:
+      213: -5420762888818245676
+    second: Six Green Face Shield Conditions_9
+  - first:
+      213: 1569086085978544823
+    second: Six Green Face Shield Conditions_10
+  - first:
+      213: -1469858506718557499
+    second: Six Green Face Shield Conditions_11
+  - first:
+      213: 2959058992213910802
+    second: Six Green Face Shield Conditions_12
+  - first:
+      213: -4691609129906150962
+    second: Six Green Face Shield Conditions_13
+  - first:
+      213: 754704853566976549
+    second: Six Green Face Shield Conditions_14
+  - first:
+      213: 9168740375868286966
+    second: Six Green Face Shield Conditions_15
+  - first:
+      213: -4691834659694494136
+    second: Six Green Face Shield Conditions_16
+  - first:
+      213: 609358041363746492
+    second: Six Green Face Shield Conditions_17
+  - first:
+      213: -4626923263714720953
+    second: Six Green Face Shield Conditions_18
+  - first:
+      213: -6187899948444712587
+    second: Six Green Face Shield Conditions_19
+  - first:
+      213: -7828159869900044676
+    second: Six Green Face Shield Conditions_20
+  - first:
+      213: 2018243919453873657
+    second: Six Green Face Shield Conditions_21
+  - first:
+      213: 2709323840285692546
+    second: Six Green Face Shield Conditions_22
+  - first:
+      213: 7492714797632355841
+    second: Six Green Face Shield Conditions_23
+  - first:
+      213: -5565874273964075454
+    second: Six Green Face Shield Conditions_24
+  - first:
+      213: -3524869907719854744
+    second: Six Green Face Shield Conditions_25
+  - first:
+      213: -4241412633986579514
+    second: Six Green Face Shield Conditions_26
+  - first:
+      213: 8279396263671743536
+    second: Six Green Face Shield Conditions_27
+  - first:
+      213: -8186620803920537585
+    second: Six Green Face Shield Conditions_28
+  - first:
+      213: 2234879956864553139
+    second: Six Green Face Shield Conditions_29
+  - first:
+      213: -81790099772709588
+    second: Six Green Face Shield Conditions_30
+  - first:
+      213: -7432516424764604747
+    second: Six Green Face Shield Conditions_31
+  - first:
+      213: -4785496080929304118
+    second: Six Green Face Shield Conditions_32
+  - first:
+      213: -8252969172275933204
+    second: Six Green Face Shield Conditions_33
+  - first:
+      213: -6985453958038096764
+    second: Six Green Face Shield Conditions_34
+  - first:
+      213: -2175379607796734670
+    second: Six Green Face Shield Conditions_35
+  - first:
+      213: -70323201383538955
+    second: Six Green Face Shield Conditions_36
+  - first:
+      213: 8279618186389158695
+    second: Six Green Face Shield Conditions_37
+  - first:
+      213: -6317635785693856933
+    second: Six Green Face Shield Conditions_38
+  - first:
+      213: -1793546476061272636
+    second: Six Green Face Shield Conditions_39
+  - first:
+      213: 1829041706784011263
+    second: Six Green Face Shield Conditions_40
+  - first:
+      213: -4331466186904069414
+    second: Six Green Face Shield Conditions_41
+  - first:
+      213: 3652087087537468187
+    second: Six Green Face Shield Conditions_42
+  - first:
+      213: 4776917285361641469
+    second: Six Green Face Shield Conditions_43
+  - first:
+      213: -9181608772036227469
+    second: Six Green Face Shield Conditions_44
+  - first:
+      213: 1112813203870330238
+    second: Six Green Face Shield Conditions_45
+  - first:
+      213: -6798141092258725183
+    second: Six Green Face Shield Conditions_46
+  - first:
+      213: 6969423492260264841
+    second: Six Green Face Shield Conditions_47
+  - first:
+      213: -8219935404089942771
+    second: Six Green Face Shield Conditions_48
+  - first:
+      213: 7286399990520483982
+    second: Six Green Face Shield Conditions_49
+  - first:
+      213: 7654521011551311885
+    second: Six Green Face Shield Conditions_50
+  - first:
+      213: 7936947526347927190
+    second: Six Green Face Shield Conditions_51
+  - first:
+      213: -8492845636416507888
+    second: Six Green Face Shield Conditions_52
+  - first:
+      213: 1089569562794719166
+    second: Six Green Face Shield Conditions_53
+  - first:
+      213: 2099639784733027468
+    second: Six Green Face Shield Conditions_54
+  - first:
+      213: -2503380876130884660
+    second: Six Green Face Shield Conditions_55
+  - first:
+      213: 4352211549293534218
+    second: Six Green Face Shield Conditions_56
+  - first:
+      213: -380085735054127613
+    second: Six Green Face Shield Conditions_57
+  - first:
+      213: -4543156084338093144
+    second: Six Green Face Shield Conditions_58
+  - first:
+      213: -1475961503744423844
+    second: Six Green Face Shield Conditions_59
+  - first:
+      213: 8840538774765390575
+    second: Six Green Face Shield Conditions_60
+  - first:
+      213: 4316939322111148440
+    second: Six Green Face Shield Conditions_61
+  - first:
+      213: 8981552734711560693
+    second: Six Green Face Shield Conditions_62
+  - first:
+      213: -921189993464052703
+    second: Six Green Face Shield Conditions_63
+  - first:
+      213: -1644168041529209531
+    second: Six Green Face Shield Conditions_64
+  - first:
+      213: -2503182870110080064
+    second: Six Green Face Shield Conditions_65
+  - first:
+      213: 5316188767885188300
+    second: Six Green Face Shield Conditions_66
+  - first:
+      213: -2324234127825802505
+    second: Six Green Face Shield Conditions_67
+  - first:
+      213: -6285489526067153259
+    second: Six Green Face Shield Conditions_68
+  - first:
+      213: -5284876455502957318
+    second: Six Green Face Shield Conditions_69
+  - first:
+      213: 1175153502126387027
+    second: Six Green Face Shield Conditions_70
+  - first:
+      213: -4977837293312702280
+    second: Six Green Face Shield Conditions_71
+  - first:
+      213: 6500543922471233533
+    second: Six Green Face Shield Conditions_72
+  - first:
+      213: -8253211045799971050
+    second: Six Green Face Shield Conditions_73
+  - first:
+      213: 2693367324316713623
+    second: Six Green Face Shield Conditions_74
+  - first:
+      213: -5447216961786980608
+    second: Six Green Face Shield Conditions_75
+  - first:
+      213: -7512782063620585589
+    second: Six Green Face Shield Conditions_76
+  - first:
+      213: 8094481164015165665
+    second: Six Green Face Shield Conditions_77
+  - first:
+      213: 50931392816126442
+    second: Six Green Face Shield Conditions_78
+  - first:
+      213: 5768384920738220962
+    second: Six Green Face Shield Conditions_79
+  - first:
+      213: 4744155692071672542
+    second: Six Green Face Shield Conditions_80
+  - first:
+      213: -4385275364064128868
+    second: Six Green Face Shield Conditions_81
+  - first:
+      213: -6411731493738843368
+    second: Six Green Face Shield Conditions_82
+  - first:
+      213: -3033187974091112523
+    second: Six Green Face Shield Conditions_83
+  - first:
+      213: 5064327905321277155
+    second: Six Green Face Shield Conditions_84
+  - first:
+      213: -6247368878534356106
+    second: Six Green Face Shield Conditions_85
+  - first:
+      213: 4656458302366437159
+    second: Six Green Face Shield Conditions_86
+  - first:
+      213: -7557071970975816669
+    second: Six Green Face Shield Conditions_87
+  - first:
+      213: 5608256305191937005
+    second: Six Green Face Shield Conditions_88
+  - first:
+      213: 2600865998254295359
+    second: Six Green Face Shield Conditions_89
+  - first:
+      213: -4806277849119879790
+    second: Six Green Face Shield Conditions_90
+  - first:
+      213: -8998507877445198814
+    second: Six Green Face Shield Conditions_91
+  - first:
+      213: -3451152370613217635
+    second: Six Green Face Shield Conditions_92
+  - first:
+      213: -5265100924315407978
+    second: Six Green Face Shield Conditions_93
+  - first:
+      213: -8582160503364905379
+    second: Six Green Face Shield Conditions_94
+  - first:
+      213: -283986730548824151
+    second: Six Green Face Shield Conditions_95
+  - first:
+      213: 5646815235587807042
+    second: Six Green Face Shield Conditions_96
+  - first:
+      213: 2477051538185104952
+    second: Six Green Face Shield Conditions_97
+  - first:
+      213: -3862100107876373959
+    second: Six Green Face Shield Conditions_98
+  - first:
+      213: -4290318848048393335
+    second: Six Green Face Shield Conditions_99
+  - first:
+      213: 6706839631370111253
+    second: Six Green Face Shield Conditions_100
+  - first:
+      213: 823709210256247087
+    second: Six Green Face Shield Conditions_101
+  - first:
+      213: -7797453276847078386
+    second: Six Green Face Shield Conditions_102
+  - first:
+      213: 3994955966275125663
+    second: Six Green Face Shield Conditions_103
+  - first:
+      213: -2485375241739970669
+    second: Six Green Face Shield Conditions_104
+  - first:
+      213: -271066294135124674
+    second: Six Green Face Shield Conditions_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 195
+        width: 344
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0619e3625d5da40800000000000000
+      internalID: 5392450489081225406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 195
+        width: 340
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b8562fb6739b050800000000000000
+      internalID: 5816741330493475661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 198
+        width: 339
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a4aa56e88f6d790800000000000000
+      internalID: -7505538438491649407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_3
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 179
+        width: 362
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a044a632aad83a0800000000000000
+      internalID: -6661481204727674360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_4
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 197
+        width: 339
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fdd3b8804456ce0800000000000000
+      internalID: -1412648104624267468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Green Face Shield Conditions_5
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 196
+        width: 341
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28c088380698e800800000000000000
+      internalID: 641927908952164396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b7fda610b17b1e4b9715c38c7b57004
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Six Green Face Shield Conditions_0: 5392450489081225406
+      Six Green Face Shield Conditions_1: 5816741330493475661
+      Six Green Face Shield Conditions_10: 1569086085978544823
+      Six Green Face Shield Conditions_100: 6706839631370111253
+      Six Green Face Shield Conditions_101: 823709210256247087
+      Six Green Face Shield Conditions_102: -7797453276847078386
+      Six Green Face Shield Conditions_103: 3994955966275125663
+      Six Green Face Shield Conditions_104: -2485375241739970669
+      Six Green Face Shield Conditions_105: -271066294135124674
+      Six Green Face Shield Conditions_11: -1469858506718557499
+      Six Green Face Shield Conditions_12: 2959058992213910802
+      Six Green Face Shield Conditions_13: -4691609129906150962
+      Six Green Face Shield Conditions_14: 754704853566976549
+      Six Green Face Shield Conditions_15: 9168740375868286966
+      Six Green Face Shield Conditions_16: -4691834659694494136
+      Six Green Face Shield Conditions_17: 609358041363746492
+      Six Green Face Shield Conditions_18: -4626923263714720953
+      Six Green Face Shield Conditions_19: -6187899948444712587
+      Six Green Face Shield Conditions_2: -7505538438491649407
+      Six Green Face Shield Conditions_20: -7828159869900044676
+      Six Green Face Shield Conditions_21: 2018243919453873657
+      Six Green Face Shield Conditions_22: 2709323840285692546
+      Six Green Face Shield Conditions_23: 7492714797632355841
+      Six Green Face Shield Conditions_24: -5565874273964075454
+      Six Green Face Shield Conditions_25: -3524869907719854744
+      Six Green Face Shield Conditions_26: -4241412633986579514
+      Six Green Face Shield Conditions_27: 8279396263671743536
+      Six Green Face Shield Conditions_28: -8186620803920537585
+      Six Green Face Shield Conditions_29: 2234879956864553139
+      Six Green Face Shield Conditions_3: -6661481204727674360
+      Six Green Face Shield Conditions_30: -81790099772709588
+      Six Green Face Shield Conditions_31: -7432516424764604747
+      Six Green Face Shield Conditions_32: -4785496080929304118
+      Six Green Face Shield Conditions_33: -8252969172275933204
+      Six Green Face Shield Conditions_34: -6985453958038096764
+      Six Green Face Shield Conditions_35: -2175379607796734670
+      Six Green Face Shield Conditions_36: -70323201383538955
+      Six Green Face Shield Conditions_37: 8279618186389158695
+      Six Green Face Shield Conditions_38: -6317635785693856933
+      Six Green Face Shield Conditions_39: -1793546476061272636
+      Six Green Face Shield Conditions_4: -1412648104624267468
+      Six Green Face Shield Conditions_40: 1829041706784011263
+      Six Green Face Shield Conditions_41: -4331466186904069414
+      Six Green Face Shield Conditions_42: 3652087087537468187
+      Six Green Face Shield Conditions_43: 4776917285361641469
+      Six Green Face Shield Conditions_44: -9181608772036227469
+      Six Green Face Shield Conditions_45: 1112813203870330238
+      Six Green Face Shield Conditions_46: -6798141092258725183
+      Six Green Face Shield Conditions_47: 6969423492260264841
+      Six Green Face Shield Conditions_48: -8219935404089942771
+      Six Green Face Shield Conditions_49: 7286399990520483982
+      Six Green Face Shield Conditions_5: 641927908952164396
+      Six Green Face Shield Conditions_50: 7654521011551311885
+      Six Green Face Shield Conditions_51: 7936947526347927190
+      Six Green Face Shield Conditions_52: -8492845636416507888
+      Six Green Face Shield Conditions_53: 1089569562794719166
+      Six Green Face Shield Conditions_54: 2099639784733027468
+      Six Green Face Shield Conditions_55: -2503380876130884660
+      Six Green Face Shield Conditions_56: 4352211549293534218
+      Six Green Face Shield Conditions_57: -380085735054127613
+      Six Green Face Shield Conditions_58: -4543156084338093144
+      Six Green Face Shield Conditions_59: -1475961503744423844
+      Six Green Face Shield Conditions_6: 782991971676974090
+      Six Green Face Shield Conditions_60: 8840538774765390575
+      Six Green Face Shield Conditions_61: 4316939322111148440
+      Six Green Face Shield Conditions_62: 8981552734711560693
+      Six Green Face Shield Conditions_63: -921189993464052703
+      Six Green Face Shield Conditions_64: -1644168041529209531
+      Six Green Face Shield Conditions_65: -2503182870110080064
+      Six Green Face Shield Conditions_66: 5316188767885188300
+      Six Green Face Shield Conditions_67: -2324234127825802505
+      Six Green Face Shield Conditions_68: -6285489526067153259
+      Six Green Face Shield Conditions_69: -5284876455502957318
+      Six Green Face Shield Conditions_7: -5358310044874712714
+      Six Green Face Shield Conditions_70: 1175153502126387027
+      Six Green Face Shield Conditions_71: -4977837293312702280
+      Six Green Face Shield Conditions_72: 6500543922471233533
+      Six Green Face Shield Conditions_73: -8253211045799971050
+      Six Green Face Shield Conditions_74: 2693367324316713623
+      Six Green Face Shield Conditions_75: -5447216961786980608
+      Six Green Face Shield Conditions_76: -7512782063620585589
+      Six Green Face Shield Conditions_77: 8094481164015165665
+      Six Green Face Shield Conditions_78: 50931392816126442
+      Six Green Face Shield Conditions_79: 5768384920738220962
+      Six Green Face Shield Conditions_8: -1380036586897261457
+      Six Green Face Shield Conditions_80: 4744155692071672542
+      Six Green Face Shield Conditions_81: -4385275364064128868
+      Six Green Face Shield Conditions_82: -6411731493738843368
+      Six Green Face Shield Conditions_83: -3033187974091112523
+      Six Green Face Shield Conditions_84: 5064327905321277155
+      Six Green Face Shield Conditions_85: -6247368878534356106
+      Six Green Face Shield Conditions_86: 4656458302366437159
+      Six Green Face Shield Conditions_87: -7557071970975816669
+      Six Green Face Shield Conditions_88: 5608256305191937005
+      Six Green Face Shield Conditions_89: 2600865998254295359
+      Six Green Face Shield Conditions_9: -5420762888818245676
+      Six Green Face Shield Conditions_90: -4806277849119879790
+      Six Green Face Shield Conditions_91: -8998507877445198814
+      Six Green Face Shield Conditions_92: -3451152370613217635
+      Six Green Face Shield Conditions_93: -5265100924315407978
+      Six Green Face Shield Conditions_94: -8582160503364905379
+      Six Green Face Shield Conditions_95: -283986730548824151
+      Six Green Face Shield Conditions_96: 5646815235587807042
+      Six Green Face Shield Conditions_97: 2477051538185104952
+      Six Green Face Shield Conditions_98: -3862100107876373959
+      Six Green Face Shield Conditions_99: -4290318848048393335
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

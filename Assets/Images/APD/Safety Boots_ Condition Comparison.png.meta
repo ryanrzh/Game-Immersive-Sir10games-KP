@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 987f78dd7c6c6ef4e9f8a178ceff6076
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2316825198539385966
+    second: Safety Boots_ Condition Comparison_0
+  - first:
+      213: -7050650024660471727
+    second: Safety Boots_ Condition Comparison_1
+  - first:
+      213: 6048333825248390316
+    second: Safety Boots_ Condition Comparison_2
+  - first:
+      213: -5035592249108474591
+    second: Safety Boots_ Condition Comparison_3
+  - first:
+      213: -5350834001838153686
+    second: Safety Boots_ Condition Comparison_4
+  - first:
+      213: -8521938230082021997
+    second: Safety Boots_ Condition Comparison_5
+  - first:
+      213: 9127069728494200864
+    second: Safety Boots_ Condition Comparison_6
+  - first:
+      213: -7739985737230052197
+    second: Safety Boots_ Condition Comparison_7
+  - first:
+      213: -4257786985552832425
+    second: Safety Boots_ Condition Comparison_8
+  - first:
+      213: 7414206785542534582
+    second: Safety Boots_ Condition Comparison_9
+  - first:
+      213: 7516397043116898738
+    second: Safety Boots_ Condition Comparison_10
+  - first:
+      213: 1234315677511879896
+    second: Safety Boots_ Condition Comparison_11
+  - first:
+      213: 2110135738870238037
+    second: Safety Boots_ Condition Comparison_12
+  - first:
+      213: 2560129442835013680
+    second: Safety Boots_ Condition Comparison_13
+  - first:
+      213: 2365178076773726242
+    second: Safety Boots_ Condition Comparison_14
+  - first:
+      213: 1271237372409280547
+    second: Safety Boots_ Condition Comparison_15
+  - first:
+      213: 5214899749271848390
+    second: Safety Boots_ Condition Comparison_16
+  - first:
+      213: 6740699757188785055
+    second: Safety Boots_ Condition Comparison_17
+  - first:
+      213: -2753919997866251215
+    second: Safety Boots_ Condition Comparison_18
+  - first:
+      213: -2939821118905711456
+    second: Safety Boots_ Condition Comparison_19
+  - first:
+      213: -4388066741528393903
+    second: Safety Boots_ Condition Comparison_20
+  - first:
+      213: -1651838882866268294
+    second: Safety Boots_ Condition Comparison_21
+  - first:
+      213: -457579922252927741
+    second: Safety Boots_ Condition Comparison_22
+  - first:
+      213: 5947102706810241468
+    second: Safety Boots_ Condition Comparison_23
+  - first:
+      213: -8943610086313133448
+    second: Safety Boots_ Condition Comparison_24
+  - first:
+      213: 2994049758735567084
+    second: Safety Boots_ Condition Comparison_25
+  - first:
+      213: 1359404407743693268
+    second: Safety Boots_ Condition Comparison_26
+  - first:
+      213: 3730395054140590958
+    second: Safety Boots_ Condition Comparison_27
+  - first:
+      213: -1937276913238971184
+    second: Safety Boots_ Condition Comparison_28
+  - first:
+      213: 3484254249961747950
+    second: Safety Boots_ Condition Comparison_29
+  - first:
+      213: 6316261580231582771
+    second: Safety Boots_ Condition Comparison_30
+  - first:
+      213: 6125310120809007266
+    second: Safety Boots_ Condition Comparison_31
+  - first:
+      213: -3328037517459972169
+    second: Safety Boots_ Condition Comparison_32
+  - first:
+      213: -220435240444658507
+    second: Safety Boots_ Condition Comparison_33
+  - first:
+      213: 3486601726756172982
+    second: Safety Boots_ Condition Comparison_34
+  - first:
+      213: -762171162761345213
+    second: Safety Boots_ Condition Comparison_35
+  - first:
+      213: 6287557594104963978
+    second: Safety Boots_ Condition Comparison_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_0
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 169
+        width: 357
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c2d953e34072020800000000000000
+      internalID: 2316825198539385966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 170
+        width: 357
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1507384982f072e90800000000000000
+      internalID: -7050650024660471727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_2
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 168
+        width: 357
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cace8e0919fffe350800000000000000
+      internalID: 6048333825248390316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_3
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 169
+        width: 355
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125dd26778bfd1ab0800000000000000
+      internalID: -5035592249108474591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_4
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 167
+        width: 357
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20ea5443d40eb5b0800000000000000
+      internalID: -5350834001838153686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Boots_ Condition Comparison_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 168
+        width: 357
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334a626317ed7a750800000000000000
+      internalID: 6316261580231582771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f030bf932a740ab4ca7bd89f36b45f2f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Safety Boots_ Condition Comparison_0: 2316825198539385966
+      Safety Boots_ Condition Comparison_1: -7050650024660471727
+      Safety Boots_ Condition Comparison_10: 7516397043116898738
+      Safety Boots_ Condition Comparison_11: 1234315677511879896
+      Safety Boots_ Condition Comparison_12: 2110135738870238037
+      Safety Boots_ Condition Comparison_13: 2560129442835013680
+      Safety Boots_ Condition Comparison_14: 2365178076773726242
+      Safety Boots_ Condition Comparison_15: 1271237372409280547
+      Safety Boots_ Condition Comparison_16: 5214899749271848390
+      Safety Boots_ Condition Comparison_17: 6740699757188785055
+      Safety Boots_ Condition Comparison_18: -2753919997866251215
+      Safety Boots_ Condition Comparison_19: -2939821118905711456
+      Safety Boots_ Condition Comparison_2: 6048333825248390316
+      Safety Boots_ Condition Comparison_20: -4388066741528393903
+      Safety Boots_ Condition Comparison_21: -1651838882866268294
+      Safety Boots_ Condition Comparison_22: -457579922252927741
+      Safety Boots_ Condition Comparison_23: 5947102706810241468
+      Safety Boots_ Condition Comparison_24: -8943610086313133448
+      Safety Boots_ Condition Comparison_25: 2994049758735567084
+      Safety Boots_ Condition Comparison_26: 1359404407743693268
+      Safety Boots_ Condition Comparison_27: 3730395054140590958
+      Safety Boots_ Condition Comparison_28: -1937276913238971184
+      Safety Boots_ Condition Comparison_29: 3484254249961747950
+      Safety Boots_ Condition Comparison_3: -5035592249108474591
+      Safety Boots_ Condition Comparison_30: 6316261580231582771
+      Safety Boots_ Condition Comparison_31: 6125310120809007266
+      Safety Boots_ Condition Comparison_32: -3328037517459972169
+      Safety Boots_ Condition Comparison_33: -220435240444658507
+      Safety Boots_ Condition Comparison_34: 3486601726756172982
+      Safety Boots_ Condition Comparison_35: -762171162761345213
+      Safety Boots_ Condition Comparison_36: 6287557594104963978
+      Safety Boots_ Condition Comparison_4: -5350834001838153686
+      Safety Boots_ Condition Comparison_5: -8521938230082021997
+      Safety Boots_ Condition Comparison_6: 9127069728494200864
+      Safety Boots_ Condition Comparison_7: -7739985737230052197
+      Safety Boots_ Condition Comparison_8: -4257786985552832425
+      Safety Boots_ Condition Comparison_9: 7414206785542534582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

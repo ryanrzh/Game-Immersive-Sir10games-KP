@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: ebe9b5db0004be345a0b835e83e59e5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6213661252564897176
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_0
+  - first:
+      213: 6977610767176000805
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_1
+  - first:
+      213: -1765805682580775645
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_2
+  - first:
+      213: 5065514566898510959
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_3
+  - first:
+      213: 1020969933518247566
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_4
+  - first:
+      213: 8160726682055578548
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_5
+  - first:
+      213: -4584814829893360091
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_6
+  - first:
+      213: 8220285299862721415
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_7
+  - first:
+      213: -8666634087622222451
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_8
+  - first:
+      213: -4616748540487397437
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_9
+  - first:
+      213: -201596275951208879
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_10
+  - first:
+      213: 4268674502242137220
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_11
+  - first:
+      213: 238251770117015696
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_12
+  - first:
+      213: 6292882810592767884
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_13
+  - first:
+      213: 7841441985149135229
+    second: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 29
+        width: 329
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c6d8c09a25c4640800000000000000
+      internalID: 5065514566898510959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 31
+        width: 324
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b399f01ea9b04170800000000000000
+      internalID: 8160726682055578548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 29
+        width: 332
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156f2ef4149c33df0800000000000000
+      internalID: -201596275951208879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 32
+        width: 328
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484f8e7e7d06d3b30800000000000000
+      internalID: 4268674502242137220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 32
+        width: 332
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79e5a390f562dc60800000000000000
+      internalID: 7841441985149135229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9f7f75271171ab44a5d688f74a7c96a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_0: 6213661252564897176
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_1: 6977610767176000805
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_10: -201596275951208879
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_11: 4268674502242137220
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_12: 238251770117015696
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_13: 6292882810592767884
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_14: 7841441985149135229
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_2: -1765805682580775645
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_3: 5065514566898510959
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_4: 1020969933518247566
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_5: 8160726682055578548
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_6: -4584814829893360091
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_7: 8220285299862721415
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_8: -8666634087622222451
+      SIRVIVE_Welding_Helmet_5_Kondisi_Spritesheet_9: -4616748540487397437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

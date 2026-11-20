@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 2c900bc5f00abb640b8e49aef43114f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7056251190215807967
+    second: Four Neon-Striped Elastic Bands_0
+  - first:
+      213: -5777926245584899009
+    second: Four Neon-Striped Elastic Bands_1
+  - first:
+      213: -565260572397623643
+    second: Four Neon-Striped Elastic Bands_2
+  - first:
+      213: 7152774070925171319
+    second: Four Neon-Striped Elastic Bands_3
+  - first:
+      213: -6603503256127558065
+    second: Four Neon-Striped Elastic Bands_4
+  - first:
+      213: -4860493099580897263
+    second: Four Neon-Striped Elastic Bands_5
+  - first:
+      213: 2608350991013618182
+    second: Four Neon-Striped Elastic Bands_6
+  - first:
+      213: -7584583197865139150
+    second: Four Neon-Striped Elastic Bands_7
+  - first:
+      213: 8626073401645717555
+    second: Four Neon-Striped Elastic Bands_8
+  - first:
+      213: -2644834068598094842
+    second: Four Neon-Striped Elastic Bands_9
+  - first:
+      213: 8687187552926960771
+    second: Four Neon-Striped Elastic Bands_10
+  - first:
+      213: 5049649757488454805
+    second: Four Neon-Striped Elastic Bands_11
+  - first:
+      213: -846296460030130967
+    second: Four Neon-Striped Elastic Bands_12
+  - first:
+      213: -6650534036059378847
+    second: Four Neon-Striped Elastic Bands_13
+  - first:
+      213: -3804288377708293653
+    second: Four Neon-Striped Elastic Bands_14
+  - first:
+      213: 3263168128097095098
+    second: Four Neon-Striped Elastic Bands_15
+  - first:
+      213: -3226803029976339288
+    second: Four Neon-Striped Elastic Bands_16
+  - first:
+      213: 3315285027357908292
+    second: Four Neon-Striped Elastic Bands_17
+  - first:
+      213: 5171090088900369010
+    second: Four Neon-Striped Elastic Bands_18
+  - first:
+      213: -5722817191718902799
+    second: Four Neon-Striped Elastic Bands_19
+  - first:
+      213: -5770662734125337273
+    second: Four Neon-Striped Elastic Bands_20
+  - first:
+      213: 380282439173170597
+    second: Four Neon-Striped Elastic Bands_21
+  - first:
+      213: 4751717652795227924
+    second: Four Neon-Striped Elastic Bands_22
+  - first:
+      213: 3343359535456381185
+    second: Four Neon-Striped Elastic Bands_23
+  - first:
+      213: 7072633212654718488
+    second: Four Neon-Striped Elastic Bands_24
+  - first:
+      213: -7588919666581873830
+    second: Four Neon-Striped Elastic Bands_25
+  - first:
+      213: -3799991915998591308
+    second: Four Neon-Striped Elastic Bands_26
+  - first:
+      213: -565479123128550207
+    second: Four Neon-Striped Elastic Bands_27
+  - first:
+      213: -3663889416717196113
+    second: Four Neon-Striped Elastic Bands_28
+  - first:
+      213: 6908512507150080458
+    second: Four Neon-Striped Elastic Bands_29
+  - first:
+      213: 7781633336205303426
+    second: Four Neon-Striped Elastic Bands_30
+  - first:
+      213: 380479607245393380
+    second: Four Neon-Striped Elastic Bands_31
+  - first:
+      213: 60571554038163588
+    second: Four Neon-Striped Elastic Bands_32
+  - first:
+      213: 8164298670400816338
+    second: Four Neon-Striped Elastic Bands_33
+  - first:
+      213: -1996767434317016170
+    second: Four Neon-Striped Elastic Bands_34
+  - first:
+      213: -6261092416608971399
+    second: Four Neon-Striped Elastic Bands_35
+  - first:
+      213: 3545397477592016740
+    second: Four Neon-Striped Elastic Bands_36
+  - first:
+      213: 665416968526556861
+    second: Four Neon-Striped Elastic Bands_37
+  - first:
+      213: -6280126363824378308
+    second: Four Neon-Striped Elastic Bands_38
+  - first:
+      213: 674732894873433588
+    second: Four Neon-Striped Elastic Bands_39
+  - first:
+      213: -8842297839898940325
+    second: Four Neon-Striped Elastic Bands_40
+  - first:
+      213: -3178517865375769418
+    second: Four Neon-Striped Elastic Bands_41
+  - first:
+      213: -7827563159981297020
+    second: Four Neon-Striped Elastic Bands_42
+  - first:
+      213: 3436830253617549945
+    second: Four Neon-Striped Elastic Bands_43
+  - first:
+      213: 6927731930286167671
+    second: Four Neon-Striped Elastic Bands_44
+  - first:
+      213: -7508228934301434642
+    second: Four Neon-Striped Elastic Bands_45
+  - first:
+      213: 6388068939071869920
+    second: Four Neon-Striped Elastic Bands_46
+  - first:
+      213: 3393860762133009094
+    second: Four Neon-Striped Elastic Bands_47
+  - first:
+      213: -2132710914553567514
+    second: Four Neon-Striped Elastic Bands_48
+  - first:
+      213: 396714950988323958
+    second: Four Neon-Striped Elastic Bands_49
+  - first:
+      213: -6270129550744544192
+    second: Four Neon-Striped Elastic Bands_50
+  - first:
+      213: 2932135278879556569
+    second: Four Neon-Striped Elastic Bands_51
+  - first:
+      213: 3380612361257103330
+    second: Four Neon-Striped Elastic Bands_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Four Neon-Striped Elastic Bands_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 143
+        width: 468
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c62499de8231e90800000000000000
+      internalID: -7056251190215807967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Neon-Striped Elastic Bands_43
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 143
+        width: 510
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972903418e212bf20800000000000000
+      internalID: 3436830253617549945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Neon-Striped Elastic Bands_50
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 143
+        width: 493
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c1138e4660cf8a0800000000000000
+      internalID: -6270129550744544192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Neon-Striped Elastic Bands_51
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 141
+        width: 477
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3c103408901b820800000000000000
+      internalID: 2932135278879556569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf2f655f8f50bfd40abe95c28c62bb0a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Four Neon-Striped Elastic Bands_0: -7056251190215807967
+      Four Neon-Striped Elastic Bands_1: -5777926245584899009
+      Four Neon-Striped Elastic Bands_10: 8687187552926960771
+      Four Neon-Striped Elastic Bands_11: 5049649757488454805
+      Four Neon-Striped Elastic Bands_12: -846296460030130967
+      Four Neon-Striped Elastic Bands_13: -6650534036059378847
+      Four Neon-Striped Elastic Bands_14: -3804288377708293653
+      Four Neon-Striped Elastic Bands_15: 3263168128097095098
+      Four Neon-Striped Elastic Bands_16: -3226803029976339288
+      Four Neon-Striped Elastic Bands_17: 3315285027357908292
+      Four Neon-Striped Elastic Bands_18: 5171090088900369010
+      Four Neon-Striped Elastic Bands_19: -5722817191718902799
+      Four Neon-Striped Elastic Bands_2: -565260572397623643
+      Four Neon-Striped Elastic Bands_20: -5770662734125337273
+      Four Neon-Striped Elastic Bands_21: 380282439173170597
+      Four Neon-Striped Elastic Bands_22: 4751717652795227924
+      Four Neon-Striped Elastic Bands_23: 3343359535456381185
+      Four Neon-Striped Elastic Bands_24: 7072633212654718488
+      Four Neon-Striped Elastic Bands_25: -7588919666581873830
+      Four Neon-Striped Elastic Bands_26: -3799991915998591308
+      Four Neon-Striped Elastic Bands_27: -565479123128550207
+      Four Neon-Striped Elastic Bands_28: -3663889416717196113
+      Four Neon-Striped Elastic Bands_29: 6908512507150080458
+      Four Neon-Striped Elastic Bands_3: 7152774070925171319
+      Four Neon-Striped Elastic Bands_30: 7781633336205303426
+      Four Neon-Striped Elastic Bands_31: 380479607245393380
+      Four Neon-Striped Elastic Bands_32: 60571554038163588
+      Four Neon-Striped Elastic Bands_33: 8164298670400816338
+      Four Neon-Striped Elastic Bands_34: -1996767434317016170
+      Four Neon-Striped Elastic Bands_35: -6261092416608971399
+      Four Neon-Striped Elastic Bands_36: 3545397477592016740
+      Four Neon-Striped Elastic Bands_37: 665416968526556861
+      Four Neon-Striped Elastic Bands_38: -6280126363824378308
+      Four Neon-Striped Elastic Bands_39: 674732894873433588
+      Four Neon-Striped Elastic Bands_4: -6603503256127558065
+      Four Neon-Striped Elastic Bands_40: -8842297839898940325
+      Four Neon-Striped Elastic Bands_41: -3178517865375769418
+      Four Neon-Striped Elastic Bands_42: -7827563159981297020
+      Four Neon-Striped Elastic Bands_43: 3436830253617549945
+      Four Neon-Striped Elastic Bands_44: 6927731930286167671
+      Four Neon-Striped Elastic Bands_45: -7508228934301434642
+      Four Neon-Striped Elastic Bands_46: 6388068939071869920
+      Four Neon-Striped Elastic Bands_47: 3393860762133009094
+      Four Neon-Striped Elastic Bands_48: -2132710914553567514
+      Four Neon-Striped Elastic Bands_49: 396714950988323958
+      Four Neon-Striped Elastic Bands_5: -4860493099580897263
+      Four Neon-Striped Elastic Bands_50: -6270129550744544192
+      Four Neon-Striped Elastic Bands_51: 2932135278879556569
+      Four Neon-Striped Elastic Bands_52: 3380612361257103330
+      Four Neon-Striped Elastic Bands_6: 2608350991013618182
+      Four Neon-Striped Elastic Bands_7: -7584583197865139150
+      Four Neon-Striped Elastic Bands_8: 8626073401645717555
+      Four Neon-Striped Elastic Bands_9: -2644834068598094842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

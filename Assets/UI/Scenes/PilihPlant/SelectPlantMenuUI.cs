@@ -25,8 +25,10 @@ namespace Game.APD
                 newCard.RegisterCallback<ClickEvent>(ev =>
                 {
                     APDGameManager.Instance.SetPlantSelectedData(item);
-                    GameManager.LoadScene("PlantMenu");
+                    GameManager.LoadScene("03_PilihLevelMenu");
                 });
+
+                newCard.Q<Label>("item-number").text = (i + 1).ToString();
 
                 cardContainer.Add(newCard);
 
@@ -37,24 +39,24 @@ namespace Game.APD
                 }
             }
 
-            var btnPanduan = root.Q<Button>("btn-panduan");
-            btnPanduan.RegisterCallback<ClickEvent>(ev =>
-            {
-                GameManager.LoadScene("PanduanMenu");
-                print("Clicked on: Panduan");
-            });
+            //var btnPanduan = root.Q<Button>("btn-panduan");
+            //btnPanduan.RegisterCallback<ClickEvent>(ev =>
+            //{
+            //    GameManager.LoadScene("PanduanMenu");
+            //    print("Clicked on: Panduan");
+            //});
 
-            var btnLeaderboard = root.Q<Button>("btn-leaderboard");
-            btnLeaderboard.RegisterCallback<ClickEvent>(ev =>
-            {
-                GameManager.LoadScene("LeaderboardMenu");
-                print("Clicked on: Leaderboard");
-            });
+            //var btnLeaderboard = root.Q<Button>("btn-leaderboard");
+            //btnLeaderboard.RegisterCallback<ClickEvent>(ev =>
+            //{
+            //    GameManager.LoadScene("LeaderboardMenu");
+            //    print("Clicked on: Leaderboard");
+            //});
 
             var btnBack = root.Q<Button>("btn-back");
             btnBack.RegisterCallback<ClickEvent>(ev =>
             {
-                GameManager.LoadScene("StartScreen");
+                GameManager.LoadScene("01_StartScreen");
             });
         }
     }

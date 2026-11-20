@@ -15,6 +15,6 @@ MonoBehaviour:
   id: shoes
   displayName: Safety shoes / boots
   description: 
-  image: {fileID: 0}
+  image: {fileID: 2142601585629621872, guid: a1d50a0ccb07d544d95d98e58ed946f0, type: 3}
   zone: 64
   variantOf: {fileID: 0}

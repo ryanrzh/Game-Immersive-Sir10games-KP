@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 7ad6094bdf3f5584ea4c71eaba8b604f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3544892570459070501
+    second: Industrial Face Shield Condition Spritesheet_0
+  - first:
+      213: 4265774620258067972
+    second: Industrial Face Shield Condition Spritesheet_1
+  - first:
+      213: -4246292071115926643
+    second: Industrial Face Shield Condition Spritesheet_2
+  - first:
+      213: -6832925242452146041
+    second: Industrial Face Shield Condition Spritesheet_3
+  - first:
+      213: 741409749006003448
+    second: Industrial Face Shield Condition Spritesheet_4
+  - first:
+      213: 8392232622341740538
+    second: Industrial Face Shield Condition Spritesheet_5
+  - first:
+      213: -5892427593434408622
+    second: Industrial Face Shield Condition Spritesheet_6
+  - first:
+      213: 6140789988024831032
+    second: Industrial Face Shield Condition Spritesheet_7
+  - first:
+      213: 60684698418247624
+    second: Industrial Face Shield Condition Spritesheet_8
+  - first:
+      213: 352198281556568299
+    second: Industrial Face Shield Condition Spritesheet_9
+  - first:
+      213: -2771003451914857537
+    second: Industrial Face Shield Condition Spritesheet_10
+  - first:
+      213: -7806567375618753100
+    second: Industrial Face Shield Condition Spritesheet_11
+  - first:
+      213: 4229213944612096078
+    second: Industrial Face Shield Condition Spritesheet_12
+  - first:
+      213: -4282148921272178249
+    second: Industrial Face Shield Condition Spritesheet_13
+  - first:
+      213: 6356366721468921425
+    second: Industrial Face Shield Condition Spritesheet_14
+  - first:
+      213: -1558925034370009365
+    second: Industrial Face Shield Condition Spritesheet_15
+  - first:
+      213: -7760714023308977429
+    second: Industrial Face Shield Condition Spritesheet_16
+  - first:
+      213: 8981556822473335451
+    second: Industrial Face Shield Condition Spritesheet_17
+  - first:
+      213: 496812257464056557
+    second: Industrial Face Shield Condition Spritesheet_18
+  - first:
+      213: 7250238294994683743
+    second: Industrial Face Shield Condition Spritesheet_19
+  - first:
+      213: 5768495844276040701
+    second: Industrial Face Shield Condition Spritesheet_20
+  - first:
+      213: 1487500839235269452
+    second: Industrial Face Shield Condition Spritesheet_21
+  - first:
+      213: 518290999766186433
+    second: Industrial Face Shield Condition Spritesheet_22
+  - first:
+      213: 1353554012525364807
+    second: Industrial Face Shield Condition Spritesheet_23
+  - first:
+      213: 3832511353698350028
+    second: Industrial Face Shield Condition Spritesheet_24
+  - first:
+      213: 2938050480273359493
+    second: Industrial Face Shield Condition Spritesheet_25
+  - first:
+      213: 7156147572933112950
+    second: Industrial Face Shield Condition Spritesheet_26
+  - first:
+      213: 4139976904030723765
+    second: Industrial Face Shield Condition Spritesheet_27
+  - first:
+      213: -5262870696496099722
+    second: Industrial Face Shield Condition Spritesheet_28
+  - first:
+      213: -5179578590417135609
+    second: Industrial Face Shield Condition Spritesheet_29
+  - first:
+      213: 5617477210838274965
+    second: Industrial Face Shield Condition Spritesheet_30
+  - first:
+      213: -6782308093896180440
+    second: Industrial Face Shield Condition Spritesheet_31
+  - first:
+      213: 3043412088884056041
+    second: Industrial Face Shield Condition Spritesheet_32
+  - first:
+      213: -6065725181865097225
+    second: Industrial Face Shield Condition Spritesheet_33
+  - first:
+      213: 8199865347463120194
+    second: Industrial Face Shield Condition Spritesheet_34
+  - first:
+      213: -8421582650261175123
+    second: Industrial Face Shield Condition Spritesheet_35
+  - first:
+      213: -8517183456542374979
+    second: Industrial Face Shield Condition Spritesheet_36
+  - first:
+      213: -5963285720203705684
+    second: Industrial Face Shield Condition Spritesheet_37
+  - first:
+      213: 1748319605119123212
+    second: Industrial Face Shield Condition Spritesheet_38
+  - first:
+      213: -5193237099103197044
+    second: Industrial Face Shield Condition Spritesheet_39
+  - first:
+      213: -5615992064124687514
+    second: Industrial Face Shield Condition Spritesheet_40
+  - first:
+      213: -3180211362321310926
+    second: Industrial Face Shield Condition Spritesheet_41
+  - first:
+      213: -8600273461100082359
+    second: Industrial Face Shield Condition Spritesheet_42
+  - first:
+      213: -5603135072730310585
+    second: Industrial Face Shield Condition Spritesheet_43
+  - first:
+      213: 7437012603292311030
+    second: Industrial Face Shield Condition Spritesheet_44
+  - first:
+      213: 1361349535381655475
+    second: Industrial Face Shield Condition Spritesheet_45
+  - first:
+      213: 575234631904934332
+    second: Industrial Face Shield Condition Spritesheet_46
+  - first:
+      213: -8032581179763446776
+    second: Industrial Face Shield Condition Spritesheet_47
+  - first:
+      213: -6580018109995393260
+    second: Industrial Face Shield Condition Spritesheet_48
+  - first:
+      213: -5715977346224066168
+    second: Industrial Face Shield Condition Spritesheet_49
+  - first:
+      213: -7412833224190579450
+    second: Industrial Face Shield Condition Spritesheet_50
+  - first:
+      213: 7718493801869661669
+    second: Industrial Face Shield Condition Spritesheet_51
+  - first:
+      213: -6549870198797201133
+    second: Industrial Face Shield Condition Spritesheet_52
+  - first:
+      213: 1439067701709916055
+    second: Industrial Face Shield Condition Spritesheet_53
+  - first:
+      213: -8070424233829059349
+    second: Industrial Face Shield Condition Spritesheet_54
+  - first:
+      213: 5416427706333187699
+    second: Industrial Face Shield Condition Spritesheet_55
+  - first:
+      213: 5977226289245686395
+    second: Industrial Face Shield Condition Spritesheet_56
+  - first:
+      213: 5614813117084560883
+    second: Industrial Face Shield Condition Spritesheet_57
+  - first:
+      213: 8043737614610371807
+    second: Industrial Face Shield Condition Spritesheet_58
+  - first:
+      213: 89600231779040754
+    second: Industrial Face Shield Condition Spritesheet_59
+  - first:
+      213: -6877630927394383449
+    second: Industrial Face Shield Condition Spritesheet_60
+  - first:
+      213: -4861245549616321683
+    second: Industrial Face Shield Condition Spritesheet_61
+  - first:
+      213: 3651400832246937231
+    second: Industrial Face Shield Condition Spritesheet_62
+  - first:
+      213: -1155327222005209110
+    second: Industrial Face Shield Condition Spritesheet_63
+  - first:
+      213: -8978295104851722030
+    second: Industrial Face Shield Condition Spritesheet_64
+  - first:
+      213: 4097408369158886047
+    second: Industrial Face Shield Condition Spritesheet_65
+  - first:
+      213: -4624495736133413502
+    second: Industrial Face Shield Condition Spritesheet_66
+  - first:
+      213: 4090410828844439939
+    second: Industrial Face Shield Condition Spritesheet_67
+  - first:
+      213: 4209287980998595749
+    second: Industrial Face Shield Condition Spritesheet_68
+  - first:
+      213: -3967299428455681299
+    second: Industrial Face Shield Condition Spritesheet_69
+  - first:
+      213: 2720832421376591626
+    second: Industrial Face Shield Condition Spritesheet_70
+  - first:
+      213: -8497042100990538228
+    second: Industrial Face Shield Condition Spritesheet_71
+  - first:
+      213: 2875066197522763302
+    second: Industrial Face Shield Condition Spritesheet_72
+  - first:
+      213: 7166625144789540882
+    second: Industrial Face Shield Condition Spritesheet_73
+  - first:
+      213: -7591440757974808691
+    second: Industrial Face Shield Condition Spritesheet_74
+  - first:
+      213: -8681345083492653066
+    second: Industrial Face Shield Condition Spritesheet_75
+  - first:
+      213: -1811314723185165236
+    second: Industrial Face Shield Condition Spritesheet_76
+  - first:
+      213: 8657734049961823586
+    second: Industrial Face Shield Condition Spritesheet_77
+  - first:
+      213: 7777603017745807522
+    second: Industrial Face Shield Condition Spritesheet_78
+  - first:
+      213: 211734548356139598
+    second: Industrial Face Shield Condition Spritesheet_79
+  - first:
+      213: -8416644930000874574
+    second: Industrial Face Shield Condition Spritesheet_80
+  - first:
+      213: -5168467087982131653
+    second: Industrial Face Shield Condition Spritesheet_81
+  - first:
+      213: 4724458682939214425
+    second: Industrial Face Shield Condition Spritesheet_82
+  - first:
+      213: 5049749778298664263
+    second: Industrial Face Shield Condition Spritesheet_83
+  - first:
+      213: -6759525399681207603
+    second: Industrial Face Shield Condition Spritesheet_84
+  - first:
+      213: -5001151340980201232
+    second: Industrial Face Shield Condition Spritesheet_85
+  - first:
+      213: -1202720814175315490
+    second: Industrial Face Shield Condition Spritesheet_86
+  - first:
+      213: -1205160687611298139
+    second: Industrial Face Shield Condition Spritesheet_87
+  - first:
+      213: 1975025419860544112
+    second: Industrial Face Shield Condition Spritesheet_88
+  - first:
+      213: -704735003174654881
+    second: Industrial Face Shield Condition Spritesheet_89
+  - first:
+      213: -639163002033298974
+    second: Industrial Face Shield Condition Spritesheet_90
+  - first:
+      213: 7869720489429672066
+    second: Industrial Face Shield Condition Spritesheet_91
+  - first:
+      213: -4966780527866137194
+    second: Industrial Face Shield Condition Spritesheet_92
+  - first:
+      213: -8873753973765413205
+    second: Industrial Face Shield Condition Spritesheet_93
+  - first:
+      213: 3447576217216876710
+    second: Industrial Face Shield Condition Spritesheet_94
+  - first:
+      213: -1823880387675257483
+    second: Industrial Face Shield Condition Spritesheet_95
+  - first:
+      213: -1870526141623483573
+    second: Industrial Face Shield Condition Spritesheet_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Industrial Face Shield Condition Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 565
+        width: 381
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf9dd22df20ecec0800000000000000
+      internalID: -3544892570459070501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial Face Shield Condition Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 565
+        width: 379
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406eb548a63133b30800000000000000
+      internalID: 4265774620258067972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial Face Shield Condition Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 564
+        width: 383
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83d390fbd32215c0800000000000000
+      internalID: -4246292071115926643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial Face Shield Condition Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 62
+        width: 379
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78807d2c1b29c21a0800000000000000
+      internalID: -6832925242452146041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial Face Shield Condition Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 49
+        width: 382
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fca3821d340a4a00800000000000000
+      internalID: 741409749006003448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d2dd555fc745ee84591691cd31cf5e32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Industrial Face Shield Condition Spritesheet_0: -3544892570459070501
+      Industrial Face Shield Condition Spritesheet_1: 4265774620258067972
+      Industrial Face Shield Condition Spritesheet_10: -2771003451914857537
+      Industrial Face Shield Condition Spritesheet_11: -7806567375618753100
+      Industrial Face Shield Condition Spritesheet_12: 4229213944612096078
+      Industrial Face Shield Condition Spritesheet_13: -4282148921272178249
+      Industrial Face Shield Condition Spritesheet_14: 6356366721468921425
+      Industrial Face Shield Condition Spritesheet_15: -1558925034370009365
+      Industrial Face Shield Condition Spritesheet_16: -7760714023308977429
+      Industrial Face Shield Condition Spritesheet_17: 8981556822473335451
+      Industrial Face Shield Condition Spritesheet_18: 496812257464056557
+      Industrial Face Shield Condition Spritesheet_19: 7250238294994683743
+      Industrial Face Shield Condition Spritesheet_2: -4246292071115926643
+      Industrial Face Shield Condition Spritesheet_20: 5768495844276040701
+      Industrial Face Shield Condition Spritesheet_21: 1487500839235269452
+      Industrial Face Shield Condition Spritesheet_22: 518290999766186433
+      Industrial Face Shield Condition Spritesheet_23: 1353554012525364807
+      Industrial Face Shield Condition Spritesheet_24: 3832511353698350028
+      Industrial Face Shield Condition Spritesheet_25: 2938050480273359493
+      Industrial Face Shield Condition Spritesheet_26: 7156147572933112950
+      Industrial Face Shield Condition Spritesheet_27: 4139976904030723765
+      Industrial Face Shield Condition Spritesheet_28: -5262870696496099722
+      Industrial Face Shield Condition Spritesheet_29: -5179578590417135609
+      Industrial Face Shield Condition Spritesheet_3: -6832925242452146041
+      Industrial Face Shield Condition Spritesheet_30: 5617477210838274965
+      Industrial Face Shield Condition Spritesheet_31: -6782308093896180440
+      Industrial Face Shield Condition Spritesheet_32: 3043412088884056041
+      Industrial Face Shield Condition Spritesheet_33: -6065725181865097225
+      Industrial Face Shield Condition Spritesheet_34: 8199865347463120194
+      Industrial Face Shield Condition Spritesheet_35: -8421582650261175123
+      Industrial Face Shield Condition Spritesheet_36: -8517183456542374979
+      Industrial Face Shield Condition Spritesheet_37: -5963285720203705684
+      Industrial Face Shield Condition Spritesheet_38: 1748319605119123212
+      Industrial Face Shield Condition Spritesheet_39: -5193237099103197044
+      Industrial Face Shield Condition Spritesheet_4: 741409749006003448
+      Industrial Face Shield Condition Spritesheet_40: -5615992064124687514
+      Industrial Face Shield Condition Spritesheet_41: -3180211362321310926
+      Industrial Face Shield Condition Spritesheet_42: -8600273461100082359
+      Industrial Face Shield Condition Spritesheet_43: -5603135072730310585
+      Industrial Face Shield Condition Spritesheet_44: 7437012603292311030
+      Industrial Face Shield Condition Spritesheet_45: 1361349535381655475
+      Industrial Face Shield Condition Spritesheet_46: 575234631904934332
+      Industrial Face Shield Condition Spritesheet_47: -8032581179763446776
+      Industrial Face Shield Condition Spritesheet_48: -6580018109995393260
+      Industrial Face Shield Condition Spritesheet_49: -5715977346224066168
+      Industrial Face Shield Condition Spritesheet_5: 8392232622341740538
+      Industrial Face Shield Condition Spritesheet_50: -7412833224190579450
+      Industrial Face Shield Condition Spritesheet_51: 7718493801869661669
+      Industrial Face Shield Condition Spritesheet_52: -6549870198797201133
+      Industrial Face Shield Condition Spritesheet_53: 1439067701709916055
+      Industrial Face Shield Condition Spritesheet_54: -8070424233829059349
+      Industrial Face Shield Condition Spritesheet_55: 5416427706333187699
+      Industrial Face Shield Condition Spritesheet_56: 5977226289245686395
+      Industrial Face Shield Condition Spritesheet_57: 5614813117084560883
+      Industrial Face Shield Condition Spritesheet_58: 8043737614610371807
+      Industrial Face Shield Condition Spritesheet_59: 89600231779040754
+      Industrial Face Shield Condition Spritesheet_6: -5892427593434408622
+      Industrial Face Shield Condition Spritesheet_60: -6877630927394383449
+      Industrial Face Shield Condition Spritesheet_61: -4861245549616321683
+      Industrial Face Shield Condition Spritesheet_62: 3651400832246937231
+      Industrial Face Shield Condition Spritesheet_63: -1155327222005209110
+      Industrial Face Shield Condition Spritesheet_64: -8978295104851722030
+      Industrial Face Shield Condition Spritesheet_65: 4097408369158886047
+      Industrial Face Shield Condition Spritesheet_66: -4624495736133413502
+      Industrial Face Shield Condition Spritesheet_67: 4090410828844439939
+      Industrial Face Shield Condition Spritesheet_68: 4209287980998595749
+      Industrial Face Shield Condition Spritesheet_69: -3967299428455681299
+      Industrial Face Shield Condition Spritesheet_7: 6140789988024831032
+      Industrial Face Shield Condition Spritesheet_70: 2720832421376591626
+      Industrial Face Shield Condition Spritesheet_71: -8497042100990538228
+      Industrial Face Shield Condition Spritesheet_72: 2875066197522763302
+      Industrial Face Shield Condition Spritesheet_73: 7166625144789540882
+      Industrial Face Shield Condition Spritesheet_74: -7591440757974808691
+      Industrial Face Shield Condition Spritesheet_75: -8681345083492653066
+      Industrial Face Shield Condition Spritesheet_76: -1811314723185165236
+      Industrial Face Shield Condition Spritesheet_77: 8657734049961823586
+      Industrial Face Shield Condition Spritesheet_78: 7777603017745807522
+      Industrial Face Shield Condition Spritesheet_79: 211734548356139598
+      Industrial Face Shield Condition Spritesheet_8: 60684698418247624
+      Industrial Face Shield Condition Spritesheet_80: -8416644930000874574
+      Industrial Face Shield Condition Spritesheet_81: -5168467087982131653
+      Industrial Face Shield Condition Spritesheet_82: 4724458682939214425
+      Industrial Face Shield Condition Spritesheet_83: 5049749778298664263
+      Industrial Face Shield Condition Spritesheet_84: -6759525399681207603
+      Industrial Face Shield Condition Spritesheet_85: -5001151340980201232
+      Industrial Face Shield Condition Spritesheet_86: -1202720814175315490
+      Industrial Face Shield Condition Spritesheet_87: -1205160687611298139
+      Industrial Face Shield Condition Spritesheet_88: 1975025419860544112
+      Industrial Face Shield Condition Spritesheet_89: -704735003174654881
+      Industrial Face Shield Condition Spritesheet_9: 352198281556568299
+      Industrial Face Shield Condition Spritesheet_90: -639163002033298974
+      Industrial Face Shield Condition Spritesheet_91: 7869720489429672066
+      Industrial Face Shield Condition Spritesheet_92: -4966780527866137194
+      Industrial Face Shield Condition Spritesheet_93: -8873753973765413205
+      Industrial Face Shield Condition Spritesheet_94: 3447576217216876710
+      Industrial Face Shield Condition Spritesheet_95: -1823880387675257483
+      Industrial Face Shield Condition Spritesheet_96: -1870526141623483573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

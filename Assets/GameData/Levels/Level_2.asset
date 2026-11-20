@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level_2
   m_EditorClassIdentifier: Assembly-CSharp::Game.Level
   id: level2
-  displayName: Pakai APD
-  description: 
+  displayName: Gear Up
+  description: pemain memilih APD yang sesuai dengan bahaya pekerjaan. Penilaian
+    mempertimbangkan kesesuaian dan kecepatan.
   type: 1
+  vectorImage: {fileID: 7388822144124034973, guid: 5ea4e93d53f9b8147b0266441a58c132, type: 3}

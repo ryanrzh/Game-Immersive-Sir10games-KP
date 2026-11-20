@@ -9,24 +9,40 @@ EditorBuildSettings:
     path: Assets/UI/UniverseUI/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/StartScreen.unity
+    path: Assets/Scenes/01_StartScreen.unity
     guid: c8e6090f3647b2941ba08922e18cdf56
   - enabled: 1
-    path: Assets/Scenes/PilihPlantMenu.unity
+    path: Assets/Scenes/02_PilihPlantMenu.unity
     guid: 3476acf4316eae24c9b728460e358bf0
   - enabled: 1
-    path: Assets/Scenes/PanduanMenu.unity
+    path: Assets/Scenes/UI/PanduanMenu.unity
     guid: 994068b0473dd984595fdabe2d073104
   - enabled: 1
-    path: Assets/Scenes/PlantMenu.unity
+    path: Assets/Scenes/03_PilihLevelMenu.unity
     guid: 59b1171855cfad0478e19fe37a1df043
   - enabled: 1
-    path: Assets/Scenes/LeaderboardMenu.unity
+    path: Assets/Scenes/UI/LeaderboardMenu.unity
     guid: 3aceb87f20fd57541b22d0ed96e03125
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InfoBahayaMenu.unity
     guid: d1dafbbb92e09f1458659e703d422a90
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level 1 Game Menu.unity
+    guid: 31540e7eae882444b96b30e07c396139
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level 1 Start Menu.unity
+    guid: cda960eee8b35d447b56d39835aed140
+  - enabled: 1
+    path: Assets/Scenes/Level 4/Level 4 Game Menu.unity
+    guid: 5fbb68731f8ce3947b6f6432ef47f9fa
+  - enabled: 1
+    path: Assets/Scenes/Level 3/Level 3 Game Menu.unity
+    guid: f0386ddc621aa054a9523748aaf139ae
+  - enabled: 1
+    path: Assets/Scenes/Level 2/Level 2 Game Menu.unity
+    guid: 3c17a7665def0f442b4c760fe11cacfa
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e9765f8ddd69daa499ddffc655414317, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 24b9b93466980f94cabb338c4cc1d9cf, type: 2}
   m_UseUCBPForAssetBundles: 0

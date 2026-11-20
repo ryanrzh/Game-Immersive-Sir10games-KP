@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 951bcadb32187e7439815c8e5e56eb60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2198165455915560925
+    second: Hard Hat Arrangement with Rear View_0
+  - first:
+      213: 7719940976802882383
+    second: Hard Hat Arrangement with Rear View_1
+  - first:
+      213: -5415243292365449866
+    second: Hard Hat Arrangement with Rear View_2
+  - first:
+      213: -3450061286377816472
+    second: Hard Hat Arrangement with Rear View_3
+  - first:
+      213: -6137857773949911668
+    second: Hard Hat Arrangement with Rear View_4
+  - first:
+      213: 6282303779477122296
+    second: Hard Hat Arrangement with Rear View_5
+  - first:
+      213: 2964830789980883723
+    second: Hard Hat Arrangement with Rear View_6
+  - first:
+      213: -332093054347902882
+    second: Hard Hat Arrangement with Rear View_7
+  - first:
+      213: 469969992409150018
+    second: Hard Hat Arrangement with Rear View_8
+  - first:
+      213: -8565384853045551486
+    second: Hard Hat Arrangement with Rear View_9
+  - first:
+      213: 7953030722861172886
+    second: Hard Hat Arrangement with Rear View_10
+  - first:
+      213: 190085601183556724
+    second: Hard Hat Arrangement with Rear View_11
+  - first:
+      213: 1676500155886658437
+    second: Hard Hat Arrangement with Rear View_12
+  - first:
+      213: -9040402874412197974
+    second: Hard Hat Arrangement with Rear View_13
+  - first:
+      213: -4208086393902193618
+    second: Hard Hat Arrangement with Rear View_14
+  - first:
+      213: -8328363719406616266
+    second: Hard Hat Arrangement with Rear View_15
+  - first:
+      213: 8142400796799996646
+    second: Hard Hat Arrangement with Rear View_16
+  - first:
+      213: -6423582806291059798
+    second: Hard Hat Arrangement with Rear View_17
+  - first:
+      213: -7580563641459602497
+    second: Hard Hat Arrangement with Rear View_18
+  - first:
+      213: -6039570027244945977
+    second: Hard Hat Arrangement with Rear View_19
+  - first:
+      213: 3599509737287034211
+    second: Hard Hat Arrangement with Rear View_20
+  - first:
+      213: 4947860046469798099
+    second: Hard Hat Arrangement with Rear View_21
+  - first:
+      213: -4463101691395432368
+    second: Hard Hat Arrangement with Rear View_22
+  - first:
+      213: -2831016252085387030
+    second: Hard Hat Arrangement with Rear View_23
+  - first:
+      213: -5972705384903626178
+    second: Hard Hat Arrangement with Rear View_24
+  - first:
+      213: 428022973011309708
+    second: Hard Hat Arrangement with Rear View_25
+  - first:
+      213: 4654222052969895832
+    second: Hard Hat Arrangement with Rear View_26
+  - first:
+      213: 1220812887178839697
+    second: Hard Hat Arrangement with Rear View_27
+  - first:
+      213: -9149877465216880087
+    second: Hard Hat Arrangement with Rear View_28
+  - first:
+      213: -6266700900822039608
+    second: Hard Hat Arrangement with Rear View_29
+  - first:
+      213: 6054943574954194778
+    second: Hard Hat Arrangement with Rear View_30
+  - first:
+      213: -3677882428835746610
+    second: Hard Hat Arrangement with Rear View_31
+  - first:
+      213: 7422319514380576950
+    second: Hard Hat Arrangement with Rear View_32
+  - first:
+      213: -6275004127735072704
+    second: Hard Hat Arrangement with Rear View_33
+  - first:
+      213: -2788660156829983393
+    second: Hard Hat Arrangement with Rear View_34
+  - first:
+      213: 3764574491638518046
+    second: Hard Hat Arrangement with Rear View_35
+  - first:
+      213: -1888514212703074300
+    second: Hard Hat Arrangement with Rear View_36
+  - first:
+      213: 163740483607622320
+    second: Hard Hat Arrangement with Rear View_37
+  - first:
+      213: -8216485971752108036
+    second: Hard Hat Arrangement with Rear View_38
+  - first:
+      213: 4202056377645210774
+    second: Hard Hat Arrangement with Rear View_39
+  - first:
+      213: 7513614977214311114
+    second: Hard Hat Arrangement with Rear View_40
+  - first:
+      213: 6749884045285838554
+    second: Hard Hat Arrangement with Rear View_41
+  - first:
+      213: 7847355290614096545
+    second: Hard Hat Arrangement with Rear View_42
+  - first:
+      213: 6193214486195896094
+    second: Hard Hat Arrangement with Rear View_43
+  - first:
+      213: 5188886597485769185
+    second: Hard Hat Arrangement with Rear View_44
+  - first:
+      213: -7369524262017187384
+    second: Hard Hat Arrangement with Rear View_45
+  - first:
+      213: -8661895461811081048
+    second: Hard Hat Arrangement with Rear View_46
+  - first:
+      213: -532635655989024009
+    second: Hard Hat Arrangement with Rear View_47
+  - first:
+      213: -7588175347119395173
+    second: Hard Hat Arrangement with Rear View_48
+  - first:
+      213: -9107883782263242102
+    second: Hard Hat Arrangement with Rear View_49
+  - first:
+      213: 6331779783741670875
+    second: Hard Hat Arrangement with Rear View_50
+  - first:
+      213: -6657071829372016312
+    second: Hard Hat Arrangement with Rear View_51
+  - first:
+      213: 7943523283270015475
+    second: Hard Hat Arrangement with Rear View_52
+  - first:
+      213: -3487671625054398368
+    second: Hard Hat Arrangement with Rear View_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_0
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 718
+        width: 348
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfa165f5d3718e10800000000000000
+      internalID: 2198165455915560925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 716
+        width: 351
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce3da900a3f2750800000000000000
+      internalID: 6282303779477122296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 716
+        width: 347
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69888e33e47de5e60800000000000000
+      internalID: 7953030722861172886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 716
+        width: 349
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583e2816200244710800000000000000
+      internalID: 1676500155886658437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_45
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 172
+        width: 347
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1c7d6aab03ab990800000000000000
+      internalID: -7369524262017187384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_46
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 99
+        width: 336
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0be2d58f3cac780800000000000000
+      internalID: -8661895461811081048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard Hat Arrangement with Rear View_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 346
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa211261b2bb98f0800000000000000
+      internalID: -532635655989024009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fb35aa1e94761264c8efa69c2a89f4f2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hard Hat Arrangement with Rear View_0: 2198165455915560925
+      Hard Hat Arrangement with Rear View_1: 7719940976802882383
+      Hard Hat Arrangement with Rear View_10: 7953030722861172886
+      Hard Hat Arrangement with Rear View_11: 190085601183556724
+      Hard Hat Arrangement with Rear View_12: 1676500155886658437
+      Hard Hat Arrangement with Rear View_13: -9040402874412197974
+      Hard Hat Arrangement with Rear View_14: -4208086393902193618
+      Hard Hat Arrangement with Rear View_15: -8328363719406616266
+      Hard Hat Arrangement with Rear View_16: 8142400796799996646
+      Hard Hat Arrangement with Rear View_17: -6423582806291059798
+      Hard Hat Arrangement with Rear View_18: -7580563641459602497
+      Hard Hat Arrangement with Rear View_19: -6039570027244945977
+      Hard Hat Arrangement with Rear View_2: -5415243292365449866
+      Hard Hat Arrangement with Rear View_20: 3599509737287034211
+      Hard Hat Arrangement with Rear View_21: 4947860046469798099
+      Hard Hat Arrangement with Rear View_22: -4463101691395432368
+      Hard Hat Arrangement with Rear View_23: -2831016252085387030
+      Hard Hat Arrangement with Rear View_24: -5972705384903626178
+      Hard Hat Arrangement with Rear View_25: 428022973011309708
+      Hard Hat Arrangement with Rear View_26: 4654222052969895832
+      Hard Hat Arrangement with Rear View_27: 1220812887178839697
+      Hard Hat Arrangement with Rear View_28: -9149877465216880087
+      Hard Hat Arrangement with Rear View_29: -6266700900822039608
+      Hard Hat Arrangement with Rear View_3: -3450061286377816472
+      Hard Hat Arrangement with Rear View_30: 6054943574954194778
+      Hard Hat Arrangement with Rear View_31: -3677882428835746610
+      Hard Hat Arrangement with Rear View_32: 7422319514380576950
+      Hard Hat Arrangement with Rear View_33: -6275004127735072704
+      Hard Hat Arrangement with Rear View_34: -2788660156829983393
+      Hard Hat Arrangement with Rear View_35: 3764574491638518046
+      Hard Hat Arrangement with Rear View_36: -1888514212703074300
+      Hard Hat Arrangement with Rear View_37: 163740483607622320
+      Hard Hat Arrangement with Rear View_38: -8216485971752108036
+      Hard Hat Arrangement with Rear View_39: 4202056377645210774
+      Hard Hat Arrangement with Rear View_4: -6137857773949911668
+      Hard Hat Arrangement with Rear View_40: 7513614977214311114
+      Hard Hat Arrangement with Rear View_41: 6749884045285838554
+      Hard Hat Arrangement with Rear View_42: 7847355290614096545
+      Hard Hat Arrangement with Rear View_43: 6193214486195896094
+      Hard Hat Arrangement with Rear View_44: 5188886597485769185
+      Hard Hat Arrangement with Rear View_45: -7369524262017187384
+      Hard Hat Arrangement with Rear View_46: -8661895461811081048
+      Hard Hat Arrangement with Rear View_47: -532635655989024009
+      Hard Hat Arrangement with Rear View_48: -7588175347119395173
+      Hard Hat Arrangement with Rear View_49: -9107883782263242102
+      Hard Hat Arrangement with Rear View_5: 6282303779477122296
+      Hard Hat Arrangement with Rear View_50: 6331779783741670875
+      Hard Hat Arrangement with Rear View_51: -6657071829372016312
+      Hard Hat Arrangement with Rear View_52: 7943523283270015475
+      Hard Hat Arrangement with Rear View_53: -3487671625054398368
+      Hard Hat Arrangement with Rear View_6: 2964830789980883723
+      Hard Hat Arrangement with Rear View_7: -332093054347902882
+      Hard Hat Arrangement with Rear View_8: 469969992409150018
+      Hard Hat Arrangement with Rear View_9: -8565384853045551486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

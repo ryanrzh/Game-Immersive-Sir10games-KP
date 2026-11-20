@@ -6,13 +6,15 @@
     <ui:VisualElement class="flex-col h-full w-full bg-slate-100">
         
         <!-- Header -->
-        <ui:VisualElement class="navbar bg-gray-800 p-4 px-10 min-h-20">
-            <ui:Label text="Panduan" class="navbar-title text-white text-2xl" />
-            <ui:VisualElement class="flex flex-row gap-x-5">
-                <ui:Button name="btn-back" class="btn btn-error flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
-                    <ui:VisualElement class="w-6 h-6 icon-back" /> 
-                    <ui:Label text="Back" class="text-xl text-white font-bold" />
+        <ui:VisualElement class="navbar bg-transparent border-0 flex-row justify-between items-center w-full py-10 px-10 min-h-20">
+            <ui:VisualElement class="">
+                <ui:Button name="btn-back" class="btn btn-ghost flex-row items-center p-2 rounded-lg cursor-pointer px-10 gap-x-5">
+                    <ui:VisualElement class="w-6 h-6 icon-back-new tint-slate-900" /> 
+                    <ui:Label text="Kembali" class="text-xl text-slate-900 font-bold" />
                 </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement class="">
+                <ui:Label name="title" text="PANDUAN" class="navbar-title text-slate-900 text-4xl font-extrabold font-plus-jakarta-sans-bold" />
             </ui:VisualElement>
         </ui:VisualElement>
 

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 8c1bce20852b9944fa535b81fb7262d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5916086972558224482
+    second: Chemical Suit Condition Sprite Sheet_0
+  - first:
+      213: -5116343303625759126
+    second: Chemical Suit Condition Sprite Sheet_1
+  - first:
+      213: 106030015672259485
+    second: Chemical Suit Condition Sprite Sheet_2
+  - first:
+      213: -887370851226927457
+    second: Chemical Suit Condition Sprite Sheet_3
+  - first:
+      213: -4231154739778389058
+    second: Chemical Suit Condition Sprite Sheet_4
+  - first:
+      213: -1761647904984425451
+    second: Chemical Suit Condition Sprite Sheet_5
+  - first:
+      213: 4686039540222836578
+    second: Chemical Suit Condition Sprite Sheet_6
+  - first:
+      213: -5945679768874933452
+    second: Chemical Suit Condition Sprite Sheet_7
+  - first:
+      213: 8767232629672753373
+    second: Chemical Suit Condition Sprite Sheet_8
+  - first:
+      213: 6573887418408175842
+    second: Chemical Suit Condition Sprite Sheet_9
+  - first:
+      213: 7378588944228877917
+    second: Chemical Suit Condition Sprite Sheet_10
+  - first:
+      213: 4681362687603278630
+    second: Chemical Suit Condition Sprite Sheet_11
+  - first:
+      213: 4764637068917969685
+    second: Chemical Suit Condition Sprite Sheet_12
+  - first:
+      213: 2491612349631393630
+    second: Chemical Suit Condition Sprite Sheet_13
+  - first:
+      213: 4548832799731464944
+    second: Chemical Suit Condition Sprite Sheet_14
+  - first:
+      213: 8484122373994677179
+    second: Chemical Suit Condition Sprite Sheet_15
+  - first:
+      213: 5092982497087770590
+    second: Chemical Suit Condition Sprite Sheet_16
+  - first:
+      213: 54493824689212197
+    second: Chemical Suit Condition Sprite Sheet_17
+  - first:
+      213: -6070335274872771811
+    second: Chemical Suit Condition Sprite Sheet_18
+  - first:
+      213: 1269875936477251226
+    second: Chemical Suit Condition Sprite Sheet_19
+  - first:
+      213: 5352545907843513482
+    second: Chemical Suit Condition Sprite Sheet_20
+  - first:
+      213: 4047956348534893021
+    second: Chemical Suit Condition Sprite Sheet_21
+  - first:
+      213: -1095615275551740436
+    second: Chemical Suit Condition Sprite Sheet_22
+  - first:
+      213: 5810130017107656839
+    second: Chemical Suit Condition Sprite Sheet_23
+  - first:
+      213: 2795926065824518246
+    second: Chemical Suit Condition Sprite Sheet_24
+  - first:
+      213: -7839466825193730687
+    second: Chemical Suit Condition Sprite Sheet_25
+  - first:
+      213: 1521159912192838583
+    second: Chemical Suit Condition Sprite Sheet_26
+  - first:
+      213: 7992082511521353306
+    second: Chemical Suit Condition Sprite Sheet_27
+  - first:
+      213: -3076053374900790807
+    second: Chemical Suit Condition Sprite Sheet_28
+  - first:
+      213: -2841142657770427374
+    second: Chemical Suit Condition Sprite Sheet_29
+  - first:
+      213: -8122096677682281252
+    second: Chemical Suit Condition Sprite Sheet_30
+  - first:
+      213: 4054712868679344810
+    second: Chemical Suit Condition Sprite Sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 559
+        width: 233
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c26abb1c92a1250800000000000000
+      internalID: 5916086972558224482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 557
+        width: 237
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6620767fd81ff8b0800000000000000
+      internalID: -5116343303625759126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 560
+        width: 229
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d939cabccb1b87100800000000000000
+      internalID: 106030015672259485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 17
+        width: 246
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e359c89ec6fa3f0800000000000000
+      internalID: -887370851226927457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 19
+        width: 248
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7cc98e2be745c0800000000000000
+      internalID: -4231154739778389058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemical Suit Condition Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 17
+        width: 244
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb385ec2958adb570800000000000000
+      internalID: 8484122373994677179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d57c759fef732f240a92eaaca8b8bda9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chemical Suit Condition Sprite Sheet_0: 5916086972558224482
+      Chemical Suit Condition Sprite Sheet_1: -5116343303625759126
+      Chemical Suit Condition Sprite Sheet_10: 7378588944228877917
+      Chemical Suit Condition Sprite Sheet_11: 4681362687603278630
+      Chemical Suit Condition Sprite Sheet_12: 4764637068917969685
+      Chemical Suit Condition Sprite Sheet_13: 2491612349631393630
+      Chemical Suit Condition Sprite Sheet_14: 4548832799731464944
+      Chemical Suit Condition Sprite Sheet_15: 8484122373994677179
+      Chemical Suit Condition Sprite Sheet_16: 5092982497087770590
+      Chemical Suit Condition Sprite Sheet_17: 54493824689212197
+      Chemical Suit Condition Sprite Sheet_18: -6070335274872771811
+      Chemical Suit Condition Sprite Sheet_19: 1269875936477251226
+      Chemical Suit Condition Sprite Sheet_2: 106030015672259485
+      Chemical Suit Condition Sprite Sheet_20: 5352545907843513482
+      Chemical Suit Condition Sprite Sheet_21: 4047956348534893021
+      Chemical Suit Condition Sprite Sheet_22: -1095615275551740436
+      Chemical Suit Condition Sprite Sheet_23: 5810130017107656839
+      Chemical Suit Condition Sprite Sheet_24: 2795926065824518246
+      Chemical Suit Condition Sprite Sheet_25: -7839466825193730687
+      Chemical Suit Condition Sprite Sheet_26: 1521159912192838583
+      Chemical Suit Condition Sprite Sheet_27: 7992082511521353306
+      Chemical Suit Condition Sprite Sheet_28: -3076053374900790807
+      Chemical Suit Condition Sprite Sheet_29: -2841142657770427374
+      Chemical Suit Condition Sprite Sheet_3: -887370851226927457
+      Chemical Suit Condition Sprite Sheet_30: -8122096677682281252
+      Chemical Suit Condition Sprite Sheet_31: 4054712868679344810
+      Chemical Suit Condition Sprite Sheet_4: -4231154739778389058
+      Chemical Suit Condition Sprite Sheet_5: -1761647904984425451
+      Chemical Suit Condition Sprite Sheet_6: 4686039540222836578
+      Chemical Suit Condition Sprite Sheet_7: -5945679768874933452
+      Chemical Suit Condition Sprite Sheet_8: 8767232629672753373
+      Chemical Suit Condition Sprite Sheet_9: 6573887418408175842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

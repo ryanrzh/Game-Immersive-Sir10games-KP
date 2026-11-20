@@ -1,0 +1,2912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb45a4bf03e3d409ebda55e04ec7d0, type: 3}
+  m_Name: CareCaseDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.CareCaseDatabase
+  cases:
+  - caseImage: {fileID: 7953030722861172886, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Helm Krakatau Posco dipakai seorang operator. Cangkang mengilap tanpa
+      retak atau penyok, ratchet mengunci pas, pita suspensi utuh, tali dagu normal.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua komponen utuh dan berfungsi, jadi helm siap dipakai.
+  - caseImage: {fileID: 1676500155886658437, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Helm berlumur debu pabrik dan bercak oli di bagian depan. Cangkang
+      tidak retak, tidak penyok, suspensi masih bagus.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Cukup dilap kain lembut lembap dengan sabun ringan. Jangan pakai
+      pelarut, pembersih keras, atau kain kasar.
+  - caseImage: {fileID: 6282303779477122296, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Sebuah kunci inggris jatuh dari lantai atas dan menghantam helm yang
+      sedang dipakai. Setelah dicek, tidak ada retak yang terlihat dari luar.
+    defectTags:
+    - setelah_benturan_keras
+    - kerusakan_tak_terlihat
+    correctDecision: 8
+    explanation: Helm yang pernah menahan benturan keras harus diganti walau tampak
+      utuh, karena kerusakan material sering tidak terlihat.
+  - caseImage: {fileID: 2198165455915560925, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Helm sering dijemur di dashboard truk. Catnya kusam, kilap hilang,
+      dan permukaannya seperti berkapur saat diusap.
+    defectTags:
+    - mengapur
+    - pudar
+    - terpapar_panas_uv
+    correctDecision: 8
+    explanation: Pengapuran dan hilangnya kilap menandakan cangkang rusak oleh panas
+      atau UV sehingga daya lindungnya turun.
+  - caseImage: {fileID: -532635655989024009, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Helm ditempeli banyak stiker pribadi dan sebagian cangkangnya dicat
+      ulang oleh pemakainya.
+    defectTags:
+    - stiker_cat_tidak_resmi
+    correctDecision: 8
+    explanation: Cat dan perekat dapat melemahkan material cangkang. Helm bukan tempat
+      menempel stiker atau mengecat sembarangan.
+  - caseImage: {fileID: -7369524262017187384, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Ada retak rambut di dekat tepi brim. Pemakai bilang masih kuat karena
+      retaknya kecil.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Retak sekecil apa pun membuat helm tidak boleh dipakai lagi.
+  - caseImage: {fileID: -8661895461811081048, guid: 951bcadb32187e7439815c8e5e56eb60, type: 3}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 0
+    condition: Cangkang helm masih bagus, tetapi pita suspensi di dalam sobek dan
+      ratchet slip sehingga helm goyah saat menunduk.
+    defectTags:
+    - suspensi_rusak
+    - ratchet_slip
+    - longgar
+    correctDecision: 7
+    explanation: Suspensi adalah komponen yang bisa diganti. Cangkang yang masih
+      baik tidak perlu dibuang.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 1
+    condition: Selesai shift, seorang pekerja menaruh helm di dashboard mobil yang
+      parkir di bawah matahari. Di mana helm seharusnya disimpan?
+    defectTags:
+    - penyimpanan_salah
+    - dashboard_terik
+    correctDecision: 19
+    explanation: Simpan di tempat sejuk dan kering, jauh dari panas dan sinar matahari
+      langsung.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 1
+    condition: Helm disimpan di rak yang sama dengan drum solvent dan jerigen oli.
+      Penyimpanan mana yang benar?
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    correctDecision: 21
+    explanation: Uap solvent, minyak, dan bahan kimia bisa merusak cangkang, jadi
+      helm harus dijauhkan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: ead2c00d2d2af064e809e476589b004c, type: 2}
+    caseType: 1
+    condition: Lima helm ditumpuk lalu dilempar ke bak peralatan bersama perkakas.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    - dilempar
+    correctDecision: 19
+    explanation: Helm tidak boleh dilempar atau ditumpuk. Simpan di tempat sejuk,
+      kering, dan aman dari benturan.
+  - caseImage: {fileID: -3544892570459070501, guid: 7ad6094bdf3f5584ea4c71eaba8b604f, type: 3}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 0
+    condition: Visor face shield bening bersih, tanpa goresan, slot dan pivot kuat,
+      dipasang di helm tanpa goyang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Visor, mounting, dan pivot normal, jadi siap dipakai.
+  - caseImage: {fileID: 4265774620258067972, guid: 7ad6094bdf3f5584ea4c71eaba8b604f, type: 3}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 0
+    condition: Visor penuh debu gerinda dan bercak cairan pendingin yang mengering,
+      tetapi tidak ada goresan dalam.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Bilas lalu lap dengan kain lembut dan air sabun ringan agar visor
+      tidak tergores.
+  - caseImage: {fileID: -4246292071115926643, guid: 7ad6094bdf3f5584ea4c71eaba8b604f, type: 3}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 0
+    condition: Visor penuh goresan halus sehingga pandangan ke benda kerja buram,
+      terutama saat menghadap lampu.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Goresan yang menghalangi pandangan adalah alasan mengganti visor.
+  - caseImage: {fileID: 741409749006003448, guid: 7ad6094bdf3f5584ea4c71eaba8b604f, type: 3}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 0
+    condition: Ditemukan retak di dekat slot mounting visor. Visor masih menempel
+      di helm.
+    defectTags:
+    - retak
+    - mounting_rusak
+    correctDecision: 8
+    explanation: Retak pada visor atau mounting membuatnya gagal melindungi dari
+      percikan dan serpihan.
+  - caseImage: {fileID: -6832925242452146041, guid: 7ad6094bdf3f5584ea4c71eaba8b604f, type: 3}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 0
+    condition: Visor melengkung setelah lama ditumpuk di bawah kotak perkakas.
+    defectTags:
+    - deformasi
+    - penyimpanan_salah
+    correctDecision: 8
+    explanation: Visor yang sudah berubah bentuk tidak bisa diluruskan dan harus
+      diganti.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 62984eb95d82d3e44bf00ad838c62741, type: 2}
+    caseType: 1
+    condition: Visor dilempar ke kotak perkakas bersama palu dan kunci. Bagaimana
+      penyimpanan yang benar?
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    - ditumpuk
+    correctDecision: 23
+    explanation: Simpan datar atau tergantung dan jangan tertindih agar visor tidak
+      melengkung.
+  - caseImage: {fileID: 7841441985149135229, guid: ebe9b5db0004be345a0b835e83e59e5e, type: 3}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 0
+    condition: Helm las dengan lensa filter jernih, lensa luar bersih, baterai dan
+      sensor normal, headband kencang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua bagian berfungsi normal, jadi siap dipakai mengelas.
+  - caseImage: {fileID: 5065514566898510959, guid: ebe9b5db0004be345a0b835e83e59e5e, type: 3}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 0
+    condition: Lensa luar helm las penuh bintik percikan las dan buram, sedangkan
+      filter ADF di dalam masih bagus.
+    defectTags:
+    - tergores
+    - percikan_las
+    - pandangan_terganggu
+    correctDecision: 7
+    explanation: Pelindung lensa luar memang dirancang sebagai bagian yang diganti
+      secara berkala.
+  - caseImage: {fileID: 8160726682055578548, guid: ebe9b5db0004be345a0b835e83e59e5e, type: 3}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 0
+    condition: Saat busur las menyala, lensa tidak menggelap sempurna sehingga mata
+      silau.
+    defectTags:
+    - adf_tidak_menggelap
+    - sensor_baterai
+    correctDecision: 8
+    explanation: ADF yang tidak menggelap sempurna tidak lagi melindungi dari UV/IR,
+      sehingga helm tidak boleh dipakai.
+  - caseImage: {fileID: -201596275951208879, guid: ebe9b5db0004be345a0b835e83e59e5e, type: 3}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 0
+    condition: Lensa filter berdebu halus. Seorang welder berniat menyiramnya dengan
+      air dari selang.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Lap dengan kain atau wipe lembut dan jangan membasahi sensor.
+  - caseImage: {fileID: 4268674502242137220, guid: ebe9b5db0004be345a0b835e83e59e5e, type: 3}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 0
+    condition: Indikator baterai redup dan sensor terkadang telat bereaksi, padahal
+      lensa tidak rusak.
+    defectTags:
+    - sensor_baterai
+    correctDecision: 7
+    explanation: Baterai atau sensor yang lemah diganti sebagai komponen, bukan seluruh
+      helm.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 7678f77abb801204791806f54127c917, type: 2}
+    caseType: 1
+    condition: Helm las dilempar ke bak truk bersama gerinda dan kompresor. Penyimpanan
+      yang benar?
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    - dekat_panas_debu
+    correctDecision: 26
+    explanation: Simpan di tas atau case yang menjauhkannya dari panas dan debu.
+  - caseImage: {fileID: 5392450489081225406, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Face shield shaded dipasang di helm bersama kacamata safety di dalamnya.
+      Visor mulus, mounting kuat.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi normal. Face shield melengkapi kacamata, tidak menggantikannya.
+  - caseImage: {fileID: 5816741330493475661, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Visor shaded retak halus di bagian samping saat dipakai dekat pengecoran
+      kontinyu.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Retak pada visor menurunkan perlindungan dari percikan dan radiasi.
+  - caseImage: {fileID: -7505538438491649407, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Visor tergores sehingga pekerja sulit melihat cairan baja dengan jelas.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Goresan yang menghalangi pandangan adalah alasan ganti.
+  - caseImage: {fileID: -6661481204727674360, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Pivot face shield longgar sehingga visor jatuh sendiri saat menunduk,
+      tetapi visor tidak rusak.
+    defectTags:
+    - pivot_longgar
+    - longgar
+    correctDecision: 6
+    explanation: Kencangkan atau perbaiki pivotnya. Visor yang utuh tidak perlu diganti.
+  - caseImage: {fileID: -1412648104624267468, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Visor tertutup debu pengecoran, tanpa goresan.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Bilas dan lap lembut dengan air sabun ringan.
+  - caseImage: {fileID: 641927908952164396, guid: 0918f70b6d28d294589b82dab64dd6ad, type: 3}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 0
+    condition: Pekerja baru menerima face shield shaded tanpa label kode atau shade,
+      dan tidak tahu cocok atau tidak untuk area konverter.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Jenis shaded perlu dikonfirmasi ke pemasok atau safety sebelum dipakai.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 2762c464fd3a12346806c39771ca0c99, type: 2}
+    caseType: 1
+    condition: Face shield disimpan menggantung dengan visor tertekan benda lain
+      di loker sempit.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    correctDecision: 23
+    explanation: Simpan datar atau tergantung tanpa tertindih.
+  - caseImage: {fileID: -9049357015807658207, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Kacamata safety clear bersih, lensa bening tanpa goresan, bingkai
+      lurus dan rapat di pelipis.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Tidak ada cacat, jadi layak dipakai.
+  - caseImage: {fileID: 3306426373436340620, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Lensa kacamata berdebu partikel logam halus setelah shift gerinda.
+      Tidak ada goresan dalam.
+    defectTags:
+    - kotor
+    - debu_logam
+    correctDecision: 1
+    explanation: Tiup debu kasar dulu, bilas, lalu lap kedua sisi dengan microfiber.
+      Jangan lap kering langsung.
+  - caseImage: {fileID: -1951568615, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Pekerja mengelap lensa berdebu dengan ujung kaos dan tisu kasar. Cara
+      perawatan yang benar?
+    defectTags:
+    - cara_bersih_salah
+    - kotor
+    correctDecision: 1
+    explanation: Gunakan microfiber, bukan tisu atau bahan kasar yang menimbulkan
+      goresan.
+  - caseImage: {fileID: 1643038560, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Lensa tergores halus tepat di bagian tengah sehingga pandangan silau
+      dan buram.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Lensa yang tergores harus diganti.
+  - caseImage: {fileID: 1653532588, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Bingkai kacamata bengkok dan sebelah gagangnya longgar sehingga tidak
+      rapat di pelipis.
+    defectTags:
+    - bengkok
+    - longgar
+    correctDecision: 8
+    explanation: Bingkai bengkok atau melemah tidak memberi perlindungan samping
+      yang rapat.
+  - caseImage: {fileID: -1813552290, guid: d9f91823a0b90e6489eb105b39d572b0, type: 3}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 0
+    condition: Ada retak halus di sudut lensa setelah terjatuh.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Lensa retak tidak boleh dipakai karena bisa pecah saat terkena partikel.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 1
+    condition: Kacamata dimasukkan ke saku bersama kunci dan koin. Penyimpanan yang
+      benar?
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    correctDecision: 22
+    explanation: Simpan di case atau kantong microfiber dengan lensa menghadap atas.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 1
+    condition: Kacamata diletakkan lensa menghadap bawah di atas meja kerja.
+    defectTags:
+    - penyimpanan_salah
+    - lensa_menghadap_bawah
+    correctDecision: 22
+    explanation: Lensa menempel permukaan keras mudah tergores. Simpan di case.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 2e163cea2015f524cbbc4a1eac9d375c, type: 2}
+    caseType: 1
+    condition: Kacamata dititipkan di dashboard mobil yang terkena matahari dan panas.
+    defectTags:
+    - penyimpanan_salah
+    - dashboard_terik
+    correctDecision: 22
+    explanation: Case microfiber, jauh dari matahari, bahan kimia, dan suhu ekstrem.
+  - caseImage: {fileID: -7867968807193154049, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Kacamata big lens bersih, lensa lebar bening tanpa goresan, bingkai
+      lurus dan rapat di sisi dahi dan pelipis.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Tidak ada cacat sehingga layak dipakai di area lapangan.
+  - caseImage: {fileID: -387219370, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Lensa big lens berdebu partikel logam dan ada bercak cipratan bahan
+      kimia yang sudah mengering, tanpa goresan dalam.
+    defectTags:
+    - kotor
+    - debu_logam
+    - terkena_bahan_kimia
+    correctDecision: 1
+    explanation: Tiup debu kasar, bilas, lalu lap kedua sisi dengan microfiber. Jangan
+      pakai tisu, bahan kasar, atau sabun non-lensa.
+  - caseImage: {fileID: -1032561620, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Lensa big lens penuh goresan halus akibat sering dilap kering, sehingga
+      pandangan buram saat menghadap cahaya.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Lensa yang tergores harus diganti.
+  - caseImage: {fileID: 1704785545, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Bingkai big lens bengkok sehingga ada celah di sisi pelipis.
+    defectTags:
+    - bengkok
+    - tidak_rapat
+    correctDecision: 8
+    explanation: Bingkai bengkok membuat perlindungan samping tidak rapat.
+  - caseImage: {fileID: -248722214, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Ada retak halus di sudut lensa lebar setelah kacamata terjatuh dari
+      meja.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Lensa retak bisa pecah saat terkena partikel sehingga tidak boleh
+      dipakai.
+  - caseImage: {fileID: -717723214, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Sekrup engsel gagang kacamata kendor sehingga kacamata mudah melorot,
+      lensa dan bingkai masih utuh.
+    defectTags:
+    - longgar
+    - engsel_kendor
+    correctDecision: 6
+    explanation: Kencangkan engsel. Bingkai dan lensa yang utuh tidak perlu diganti.
+  - caseImage: {fileID: -55325036, guid: 0d29e85aeaf31be468dbe03303064583, type: 3}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 0
+    condition: Pekerja mengelap lensa yang berdebu dengan ujung baju kering sambil
+      digosok keras.
+    defectTags:
+    - cara_bersih_salah
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Tiup dan bilas dulu, baru lap dengan microfiber agar debu tidak
+      menggores lensa.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 1
+    condition: Kacamata big lens diletakkan lensa menghadap bawah di atas meja bengkel.
+    defectTags:
+    - penyimpanan_salah
+    - lensa_menghadap_bawah
+    correctDecision: 22
+    explanation: Simpan di case atau kantong microfiber dengan lensa menghadap atas.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 17958a7ef8735dd4a8f8bef51a00590b, type: 2}
+    caseType: 1
+    condition: Kacamata ditaruh di rak dekat jerigen kimia dan terkena sinar matahari
+      dari jendela.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    - sinar_matahari_langsung
+    correctDecision: 21
+    explanation: Simpan di case, jauh dari matahari, bahan kimia, dan suhu ekstrem.
+  - caseImage: {fileID: -6930323976879510970, guid: c63da044f44e3714cafd4f5a13690436, type: 3}
+    equipment: {fileID: 11400000, guid: 399d6256ae2a8174faa6c8d119d44d95, type: 2}
+    caseType: 0
+    condition: Kacamata smoke untuk pekerjaan luar ruang terik. Lensa bersih, bingkai
+      kokoh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik dan siap dipakai di luar ruangan.
+  - caseImage: {fileID: -6099417925731985400, guid: c63da044f44e3714cafd4f5a13690436, type: 3}
+    equipment: {fileID: 11400000, guid: 399d6256ae2a8174faa6c8d119d44d95, type: 2}
+    caseType: 0
+    condition: Lensa smoke tergores setelah jatuh ke aspal.
+    defectTags:
+    - tergores
+    correctDecision: 8
+    explanation: Lensa tergores harus diganti.
+  - caseImage: {fileID: -5311844719959563068, guid: c63da044f44e3714cafd4f5a13690436, type: 3}
+    equipment: {fileID: 11400000, guid: 399d6256ae2a8174faa6c8d119d44d95, type: 2}
+    caseType: 0
+    condition: Lensa smoke berdebu halus dari area stockyard.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Tiup, bilas, lalu lap dengan microfiber.
+  - caseImage: {fileID: 5255378945434539716, guid: c63da044f44e3714cafd4f5a13690436, type: 3}
+    equipment: {fileID: 11400000, guid: 399d6256ae2a8174faa6c8d119d44d95, type: 2}
+    caseType: 0
+    condition: Bingkai kacamata smoke retak di dekat engsel.
+    defectTags:
+    - retak
+    - bingkai_rusak
+    correctDecision: 8
+    explanation: Bingkai retak atau melemah membuat kacamata tidak aman.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 399d6256ae2a8174faa6c8d119d44d95, type: 2}
+    caseType: 1
+    condition: Kacamata smoke ditinggal di bak motor yang terkena matahari dan hujan.
+    defectTags:
+    - penyimpanan_salah
+    - sinar_matahari_langsung
+    correctDecision: 22
+    explanation: Simpan di case, jauh dari matahari, bahan kimia, dan suhu ekstrem.
+  - caseImage: {fileID: 6269318905782194669, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Goggle kimia bersih, segel karet lentur, ventilasi tidak tersumbat,
+      strap normal.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua komponen baik sehingga siap dipakai.
+  - caseImage: {fileID: 3207609196335491687, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Segel karet goggle mengeras dan retak, sehingga cairan bisa merembes
+      ke mata.
+    defectTags:
+    - karet_keras
+    - retak
+    - segel_bocor
+    correctDecision: 8
+    explanation: Karet atau segel yang keras dan retak berarti goggle tidak lagi
+      kedap.
+  - caseImage: {fileID: -9190388443505776778, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Lensa goggle berkabut berat dan tidak hilang walau sudah dibersihkan.
+    defectTags:
+    - berkabut
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Lensa yang terus berkabut berat harus diganti.
+  - caseImage: {fileID: -2953641938532290523, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Lubang ventilasi goggle tertutup lumpur dan residu kering.
+    defectTags:
+    - kotor
+    - ventilasi_tersumbat
+    correctDecision: 1
+    explanation: Cuci dengan air sabun lembut, bilas, keringkan. Tanpa pelarut.
+  - caseImage: {fileID: 4735809886472274510, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Pekerja hendak menyeka noda di goggle dengan thinner agar cepat bersih.
+    defectTags:
+    - cara_bersih_salah
+    - kotor
+    correctDecision: 1
+    explanation: Jangan pakai pelarut. Cukup air sabun lembut, bilas, lalu keringkan.
+  - caseImage: {fileID: -2953641938532290523, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Goggle terkena tetesan asam pekat dan karetnya terasa lengket.
+    defectTags:
+    - terkena_bahan_kimia
+    - lengket
+    correctDecision: 8
+    explanation: Karet yang lengket setelah kontak kimia sudah rusak dan harus diganti.
+  - caseImage: {fileID: -793156302642715777, guid: 8516a39cbdc9ebe40831c2d11444af38, type: 3}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 0
+    condition: Goggle habis dicuci tetapi masih basah dan hendak dimasukkan ke kotak
+      tertutup.
+    defectTags:
+    - basah
+    - penyimpanan_salah
+    correctDecision: 3
+    explanation: Keringkan dulu agar tidak lembap atau berjamur sebelum disimpan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 048db2e265bb20f408732e70dc2472a9, type: 2}
+    caseType: 1
+    condition: Case goggle disimpan di rak yang sama dengan jerigen bahan kimia.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    correctDecision: 21
+    explanation: Case bersih dan kering, jauh dari bahan kimia.
+  - caseImage: {fileID: 8121020966213379865, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Impact goggles bersih, lensa bening tanpa retak, tali elastis kencang,
+      busa utuh, menempel rapat tanpa celah.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua komponen baik sehingga siap dipakai untuk gerinda berat atau
+      penghancuran.
+  - caseImage: {fileID: 643990783, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Lensa impact goggles penuh debu gerinda dan serpihan halus setelah
+      shift, tanpa goresan dalam.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Bilas, lap lembut, lalu keringkan seperti merawat kacamata.
+  - caseImage: {fileID: 184991783, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Tali elastis goggles kendur sehingga goggles melorot dan ada celah
+      di pipi.
+    defectTags:
+    - tali_kendur
+    - longgar
+    - tidak_rapat
+    correctDecision: 8
+    explanation: Tali kendur membuat goggles tidak rapat sehingga serpihan bisa masuk.
+  - caseImage: {fileID: 164807596, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Busa di tepi goggles sobek dan sebagian terlepas, lensanya masih bagus.
+    defectTags:
+    - busa_sobek
+    - tidak_rapat
+    correctDecision: 7
+    explanation: Busa adalah bagian yang bisa diganti. Pastikan goggles kembali rapat
+      tanpa celah.
+  - caseImage: {fileID: 1492872722, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Lensa goggles retak setelah terkena serpihan beton saat penghancuran.
+    defectTags:
+    - retak
+    - setelah_benturan_keras
+    correctDecision: 8
+    explanation: Lensa retak tidak boleh dipakai karena bisa pecah saat terbentur.
+  - caseImage: {fileID: -447435608, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Lensa goggles penuh goresan sehingga pandangan ke benda kerja terganggu.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Goresan yang mengganggu pandangan adalah alasan mengganti.
+  - caseImage: {fileID: -954548106, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Goggles mudah berkabut karena lubang ventilasi tak langsung tersumbat
+      debu.
+    defectTags:
+    - berkabut
+    - ventilasi_tersumbat
+    - kotor
+    correctDecision: 1
+    explanation: Bersihkan ventilasi dan lensa. Ventilasi tak langsung membantu mencegah
+      kabut, dan anti-fog bisa dipakai.
+  - caseImage: {fileID: -1614452349, guid: d84d3638391de584abec23c8597a502b, type: 3}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 0
+    condition: Goggles basah oleh keringat dan hendak langsung dimasukkan ke kantong.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan dulu sebelum disimpan agar tidak lembap.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 2ea7318829d959a4dba9bc5d579a93fb, type: 2}
+    caseType: 1
+    condition: Goggles dilempar ke bak peralatan bersama gerinda dan palu.
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    correctDecision: 22
+    explanation: Simpan di case atau kantong yang bersih dan kering agar lensa tidak
+      tergores.
+  - caseImage: {fileID: 7621448551538034450, guid: a700de1b33d26ee458e6c6f73beb42be, type: 3}
+    equipment: {fileID: 11400000, guid: eb62524c2d19c1e468fe73a719ed7816, type: 2}
+    caseType: 0
+    condition: Kacamata resep safety bersih, bingkai utuh, lensa resep terpasang
+      kencang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Tidak ada cacat sehingga layak dipakai.
+  - caseImage: {fileID: 1375501337819353571, guid: a700de1b33d26ee458e6c6f73beb42be, type: 3}
+    equipment: {fileID: 11400000, guid: eb62524c2d19c1e468fe73a719ed7816, type: 2}
+    caseType: 0
+    condition: Bingkai kacamata resep retak di sisi gagang.
+    defectTags:
+    - retak
+    - bingkai_rusak
+    correctDecision: 8
+    explanation: Bingkai retak atau lensa rusak adalah alasan ganti.
+  - caseImage: {fileID: -8828929976135973253, guid: a700de1b33d26ee458e6c6f73beb42be, type: 3}
+    equipment: {fileID: 11400000, guid: eb62524c2d19c1e468fe73a719ed7816, type: 2}
+    caseType: 0
+    condition: Lensa resep longgar dan hampir lepas dari bingkai, bingkai tidak retak.
+    defectTags:
+    - lensa_longgar
+    - longgar
+    correctDecision: 6
+    explanation: Kembalikan ke optik untuk dikencangkan. Bingkai yang utuh tidak
+      perlu diganti.
+  - caseImage: {fileID: -3546968434956590793, guid: a700de1b33d26ee458e6c6f73beb42be, type: 3}
+    equipment: {fileID: 11400000, guid: eb62524c2d19c1e468fe73a719ed7816, type: 2}
+    caseType: 0
+    condition: Lensa resep berdebu dan berminyak karena sering tersentuh jari.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Lap dengan microfiber seperti kacamata safety lainnya.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: eb62524c2d19c1e468fe73a719ed7816, type: 2}
+    caseType: 1
+    condition: Kacamata resep disimpan di laci bersama perkakas tanpa pelindung.
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    correctDecision: 22
+    explanation: Simpan di case agar lensa tidak tergores.
+  - caseImage: {fileID: 8690817414932529093, guid: b3c6633818866b1429e7dd8cc098ef00, type: 3}
+    equipment: {fileID: 11400000, guid: 52d44d46bc8b5764b9d1bbaa5cb575d1, type: 2}
+    caseType: 0
+    condition: Kacamata shaded untuk area panas atau radiasi. Lensa utuh, bingkai
+      kokoh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik sehingga layak pakai.
+  - caseImage: {fileID: 8690817414932529093, guid: b3c6633818866b1429e7dd8cc098ef00, type: 3}
+    equipment: {fileID: 11400000, guid: 52d44d46bc8b5764b9d1bbaa5cb575d1, type: 2}
+    caseType: 0
+    condition: Pekerja menerima kacamata shaded tetapi tidak ada keterangan jenis
+      atau shade-nya.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Jenis dan shade tidak jelas, jadi konfirmasi ke pemasok atau tim
+      safety dulu.
+  - caseImage: {fileID: 7814441525982699964, guid: b3c6633818866b1429e7dd8cc098ef00, type: 3}
+    equipment: {fileID: 11400000, guid: 52d44d46bc8b5764b9d1bbaa5cb575d1, type: 2}
+    caseType: 0
+    condition: Lensa shaded retak setelah terkena percikan panas.
+    defectTags:
+    - retak
+    - terkena_panas
+    correctDecision: 8
+    explanation: Lensa retak tidak boleh dipakai.
+  - caseImage: {fileID: -6863960792859078694, guid: b3c6633818866b1429e7dd8cc098ef00, type: 3}
+    equipment: {fileID: 11400000, guid: 52d44d46bc8b5764b9d1bbaa5cb575d1, type: 2}
+    caseType: 0
+    condition: Lensa shaded tergores sehingga pandangan terganggu.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 8
+    explanation: Goresan yang mengganggu pandangan adalah alasan ganti.
+  - caseImage: {fileID: -6929068699281328020, guid: b3c6633818866b1429e7dd8cc098ef00, type: 3}
+    equipment: {fileID: 11400000, guid: 52d44d46bc8b5764b9d1bbaa5cb575d1, type: 2}
+    caseType: 0
+    condition: Lensa berdebu halus dan bercak jari.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Lap lembut dengan microfiber.
+  - caseImage: {fileID: -3985155647643933553, guid: e475de8916e80c842989b821d6547d26, type: 3}
+    equipment: {fileID: 11400000, guid: 91a89a1f5b5445a4f8379270daf15dfe, type: 2}
+    caseType: 0
+    condition: Dispenser earplug penuh, wadah bersih, terpasang di pintu masuk area
+      bising.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Siap dipakai karena isi cukup dan wadah bersih.
+  - caseImage: {fileID: -4205338119120177665, guid: e475de8916e80c842989b821d6547d26, type: 3}
+    equipment: {fileID: 11400000, guid: 91a89a1f5b5445a4f8379270daf15dfe, type: 2}
+    caseType: 0
+    condition: Wadah dispenser retak dan kotor bekas oli sehingga earplug di dalamnya
+      ikut kotor.
+    defectTags:
+    - retak
+    - kotor
+    correctDecision: 8
+    explanation: Wadah retak dan kotor membuat earplug terkontaminasi sehingga wadah
+      diganti.
+  - caseImage: {fileID: -8425575617766841628, guid: e475de8916e80c842989b821d6547d26, type: 3}
+    equipment: {fileID: 11400000, guid: 91a89a1f5b5445a4f8379270daf15dfe, type: 2}
+    caseType: 0
+    condition: Isi dispenser tinggal beberapa pasang dan wadah masih bersih.
+    defectTags:
+    - isi_hampir_habis
+    correctDecision: 6
+    explanation: Isi ulang dispenser. Wadah masih baik.
+  - caseImage: {fileID: 7377535701510231993, guid: e475de8916e80c842989b821d6547d26, type: 3}
+    equipment: {fileID: 11400000, guid: 91a89a1f5b5445a4f8379270daf15dfe, type: 2}
+    caseType: 0
+    condition: Bagian luar dispenser berdebu dan lengket tetapi tidak retak.
+    defectTags:
+    - kotor
+    - lengket
+    correctDecision: 1
+    explanation: Lap wadah lalu isi ulang bila perlu.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 91a89a1f5b5445a4f8379270daf15dfe, type: 2}
+    caseType: 1
+    condition: Dispenser earplug diletakkan di gudang lembap jauh dari pintu area
+      bising.
+    defectTags:
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 31
+    explanation: Taruh di tempat kering dekat hazard sign agar mudah diambil sebelum
+      masuk area bising.
+  - caseImage: {fileID: 8855586136338477440, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Earmuff dengan headband lentur, bantalan utuh, busa peredam kering.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua bagian normal sehingga layak pakai.
+  - caseImage: {fileID: -4129846703629069704, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Bantalan earmuff sobek dan busanya menyembul keluar.
+    defectTags:
+    - bantalan_sobek
+    - segel_bocor
+    correctDecision: 7
+    explanation: Cushion dan busa adalah komponen yang diganti secara berkala agar
+      segel tetap baik.
+  - caseImage: {fileID: 1580584861332920270, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Headband earmuff longgar sehingga cup tidak menekan telinga.
+    defectTags:
+    - headband_longgar
+    - longgar
+    correctDecision: 8
+    explanation: Headband yang kehilangan tekanan tidak memberi segel peredam yang
+      cukup.
+  - caseImage: {fileID: -4079382257099457371, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Busa peredam earmuff basah karena keringat dan hujan.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Pastikan busa peredam benar-benar kering sebelum dipakai atau disimpan.
+  - caseImage: {fileID: -8219837018979336698, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Cup earmuff kotor oli. Seorang pekerja ingin mencelupkan seluruh earmuff
+      ke ember air.
+    defectTags:
+    - kotor
+    - berminyak
+    - cara_bersih_salah
+    correctDecision: 1
+    explanation: Bersihkan dengan deterjen ringan dan air hangat, jangan dicelup,
+      dan jaga busa tetap kering.
+  - caseImage: {fileID: -8219837018979336698, guid: 79a89fbb1fa776e4e836eea1217c8255, type: 3}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 0
+    condition: Earmuff sudah dipakai sekitar tiga tahun dan bantalannya mengeras.
+    defectTags:
+    - kedaluwarsa
+    - kaku_keras
+    correctDecision: 8
+    explanation: Masa pakai ear defender sekitar tiga tahun. Bantalan keras menurunkan
+      peredaman.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: f4ef04ac65dec794cb9357f9ffaab524, type: 2}
+    caseType: 1
+    condition: Earmuff dilipat dan ditekuk headbandnya di laci, lalu diletakkan di
+      bawah sinar matahari jendela.
+    defectTags:
+    - penyimpanan_salah
+    - ditekuk
+    - sinar_matahari_langsung
+    correctDecision: 19
+    explanation: Hindari tekukan dan sinar matahari langsung, simpan kering.
+  - caseImage: {fileID: 2786520242205510547, guid: 1e3cf1b6529635146bfc013f9d4e8e9d, type: 3}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 0
+    condition: Seorang pekerja mengambil sepasang earplug baru dari dispenser dengan
+      tangan bersih sebelum masuk area bising.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Earplug baru dan bersih siap dipakai.
+  - caseImage: {fileID: 1887054292016678270, guid: 1e3cf1b6529635146bfc013f9d4e8e9d, type: 3}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 0
+    condition: Earplug dipakai sepanjang shift pagi dan sekarang kotor serta lembap.
+    defectTags:
+    - kotor
+    - lembap
+    - sudah_dipakai
+    correctDecision: 9
+    explanation: Earplug dibuang setelah satu shift atau saat kotor.
+  - caseImage: {fileID: 7318965192325517516, guid: 1e3cf1b6529635146bfc013f9d4e8e9d, type: 3}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 0
+    condition: Earplug jatuh ke lantai berminyak sebelum dipasang.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 9
+    explanation: Earplug yang kotor tidak dibersihkan, langsung dibuang.
+  - caseImage: {fileID: -5849103814895455323, guid: 1e3cf1b6529635146bfc013f9d4e8e9d, type: 3}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 0
+    condition: Pekerja menawarkan earplug bekasnya untuk dipakai temannya.
+    defectTags:
+    - berbagi_pakai
+    - sudah_dipakai
+    correctDecision: 9
+    explanation: Earplug tidak boleh dipakai bergantian karena risiko infeksi.
+  - caseImage: {fileID: -1080701697772682371, guid: 1e3cf1b6529635146bfc013f9d4e8e9d, type: 3}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 0
+    condition: Earplug sobek dan busanya tidak mengembang lagi setelah ditekan.
+    defectTags:
+    - sobek
+    - kaku_keras
+    correctDecision: 9
+    explanation: Earplug rusak tidak meredam dengan benar sehingga dibuang.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 7bcb6607593a0ef4daec74e437b02a32, type: 2}
+    caseType: 1
+    condition: Pekerja membawa satu pasang earplug di saku bajunya selama seminggu.
+    defectTags:
+    - penyimpanan_salah
+    - kotor
+    correctDecision: 27
+    explanation: Simpan di kemasan atau dispenser yang bersih, dan jangan dipakai
+      ulang berhari-hari.
+  - caseImage: {fileID: 5725128391087066813, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Respirator half-face bersih, katup berfungsi, strap lentur, dan filter
+      masih baru.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua komponen baik sehingga siap dipakai.
+  - caseImage: {fileID: 3277414245631910224, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Seusai menyemprot cat, respirator kotor dan masih terpasang filter.
+      Langkah perawatan yang benar?
+    defectTags:
+    - kotor
+    - habis_dipakai
+    correctDecision: 2
+    explanation: Lepas filter dulu, cuci bagian reusable dengan sabun disinfektan
+      ringan, bilas, lalu keringkan.
+  - caseImage: {fileID: -3577900605141097994, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Seorang pekerja hendak mulai bekerja di area uap pelarut tanpa mengecek
+      kerapatan respirator.
+    defectTags:
+    - seal_check_belum_dilakukan
+    correctDecision: 13
+    explanation: Seal check positif/negatif wajib dilakukan sebelum setiap pemakaian.
+  - caseImage: {fileID: -6524933763715615408, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Katup hembus respirator retak sehingga udara bocor.
+    defectTags:
+    - katup_rusak
+    - segel_bocor
+    correctDecision: 7
+    explanation: Katup adalah komponen yang bisa diganti. Facepiece masih bisa dipakai.
+  - caseImage: {fileID: -766721595574106100, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Facepiece berubah bentuk karena ditindih di bak peralatan dan tidak
+      lagi menempel rapat.
+    defectTags:
+    - deformasi
+    - penyimpanan_salah
+    correctDecision: 8
+    explanation: Bentuk yang berubah merusak segel hasil fit test sehingga facepiece
+      diganti.
+  - caseImage: {fileID: -8920680867293843474, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Jadwal fit test tahunan seorang pekerja sudah lewat.
+    defectTags:
+    - fit_test_kedaluwarsa
+    correctDecision: 12
+    explanation: Fit test dilakukan berkala, misalnya tahunan, dan sebelum tiap pakai
+      dicek segelnya.
+  - caseImage: {fileID: 8802312666280785620, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Pekerja merasa napas berat saat memakai respirator dengan filter yang
+      sudah lama.
+    defectTags:
+    - napas_berat
+    - filter_tersumbat
+    correctDecision: 7
+    explanation: Napas berat menandakan filter perlu diganti.
+  - caseImage: {fileID: 3900294978360924139, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Setelah dicuci, respirator masih basah dan langsung dimasukkan ke
+      kantong.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan sepenuhnya, jangan dibiarkan lembap saat disimpan.
+  - caseImage: {fileID: -2004098915248671055, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 1
+    condition: Respirator disimpan terbuka di bak peralatan bersama kompresor dan
+      kaleng cat.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    - dilempar
+    correctDecision: 26
+    explanation: Simpan di kantong atau wadah tertutup, jauh dari debu, kelembapan,
+      dan bahan kimia.
+  - caseImage: {fileID: -2004098915248671055, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Strap elastis respirator putus.
+    defectTags:
+    - strap_putus
+    - longgar
+    correctDecision: 7
+    explanation: Strap bisa diganti tanpa membuang seluruh facepiece.
+  - caseImage: {fileID: 8307320616427207062, guid: 11164ec97222dde4fbe6c8ca6e2a8b76, type: 3}
+    equipment: {fileID: 11400000, guid: 8588339d0bcef204d86e01bcb10a10be, type: 2}
+    caseType: 0
+    condition: Kartrid mulai berbau uap solvent saat dipakai bekerja.
+    defectTags:
+    - bau_iritasi
+    - filter_jenuh
+    correctDecision: 7
+    explanation: Bau atau iritasi menandakan kartrid sudah jenuh dan harus segera
+      diganti.
+  - caseImage: {fileID: -990731655704892920, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Respirator full-face bersih, lensa bening, gasket lentur, katup normal.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua bagian baik sehingga siap dipakai.
+  - caseImage: {fileID: -3508288143764633778, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Lensa full-face tergores parah dan menghalangi pandangan.
+    defectTags:
+    - tergores
+    - pandangan_terganggu
+    correctDecision: 7
+    explanation: Lensa yang tergores parah diganti.
+  - caseImage: {fileID: -8916404383223206823, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Facepiece full-face retak dan segelnya tidak rapat.
+    defectTags:
+    - retak
+    - segel_bocor
+    correctDecision: 8
+    explanation: Facepiece rusak harus diganti.
+  - caseImage: {fileID: -4280958575488878795, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Head harness longgar dan segel di dagu terasa lepas.
+    defectTags:
+    - longgar
+    - segel_bocor
+    correctDecision: 6
+    explanation: Kencangkan atau atur ulang harness. Lakukan seal check sebelum pakai.
+  - caseImage: {fileID: -4079223112709888818, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Sebelum masuk area uap kimia, pekerja tidak melakukan pengecekan kerapatan.
+    defectTags:
+    - seal_check_belum_dilakukan
+    correctDecision: 13
+    explanation: Seal check wajib dilakukan sebelum dipakai.
+  - caseImage: {fileID: -3092986981273021335, guid: de9debdabe145a448bc708601022637f, type: 3}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 0
+    condition: Setelah dipakai, respirator full-face kotor dan lengket bekas uap
+      cat.
+    defectTags:
+    - kotor
+    - lengket
+    correctDecision: 2
+    explanation: Lepas kartrid, cuci dengan sabun ringan, bilas, keringkan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 080b2c1e9c6d62b4b978ac8375c051e6, type: 2}
+    caseType: 1
+    condition: Respirator full-face disimpan di loker lembap sambil menempel dinding
+      basah.
+    defectTags:
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 26
+    explanation: Simpan di wadah tertutup yang kering dan jauh dari debu, matahari,
+      dan bahan kimia.
+  - caseImage: {fileID: 1300178265222984985, guid: 63a6eb8a3a0fc734c9c372f8744aacdd, type: 3}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 0
+    condition: Kartrid partikel baru, segel kemasan utuh, tanggal belum kedaluwarsa.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kartrid baru dengan segel utuh siap dipasang.
+  - caseImage: {fileID: -3243895729797331657, guid: 63a6eb8a3a0fc734c9c372f8744aacdd, type: 3}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 0
+    condition: Pekerja merasa napas berat saat memakai kartrid partikel yang sudah
+      lama dipakai di area debu.
+    defectTags:
+    - napas_berat
+    - filter_tersumbat
+    correctDecision: 7
+    explanation: Napas berat berarti filter tersumbat dan harus diganti.
+  - caseImage: {fileID: -360957348, guid: 63a6eb8a3a0fc734c9c372f8744aacdd, type: 3}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 0
+    condition: Kartrid partikel basah dan kotor setelah kehujanan.
+    defectTags:
+    - basah
+    - kotor
+    correctDecision: 9
+    explanation: Kartrid tidak dibersihkan. Ganti dengan yang baru.
+  - caseImage: {fileID: 1599263392, guid: 63a6eb8a3a0fc734c9c372f8744aacdd, type: 3}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 0
+    condition: Seorang pekerja memakai kartrid debu di area penuh uap solvent karena
+      dianggap sama saja.
+    defectTags:
+    - kartrid_salah_jenis
+    correctDecision: 7
+    explanation: Kartrid debu tidak menyaring gas atau uap. Ganti dengan kartrid
+      yang sesuai bahaya.
+  - caseImage: {fileID: -1182596311, guid: 63a6eb8a3a0fc734c9c372f8744aacdd, type: 3}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 0
+    condition: Kemasan kartrid sudah sobek dan tanggal kedaluwarsa terlewat.
+    defectTags:
+    - kedaluwarsa
+    - kemasan_rusak
+    correctDecision: 9
+    explanation: Kartrid kedaluwarsa tidak dipakai.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: fd6336f7173a5aa4e96cd456c5f1df10, type: 2}
+    caseType: 1
+    condition: Kartrid cadangan disimpan terbuka di bak truk.
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    correctDecision: 27
+    explanation: Simpan di kemasan tertutup, sejuk, kering, jauh kontaminan.
+  - caseImage: {fileID: 9112074388986516180, guid: 9612be6d62b307944a5842e452776aac, type: 3}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 0
+    condition: Kartrid gas/kimia baru, segel utuh, sesuai jenis bahaya di area kerja.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Segel utuh dan jenis sesuai sehingga bisa dipasang.
+  - caseImage: {fileID: -4153445656056798767, guid: 9612be6d62b307944a5842e452776aac, type: 3}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 0
+    condition: Pekerja mulai mencium bau uap kimia dan merasa iritasi saat memakai
+      kartrid.
+    defectTags:
+    - bau_iritasi
+    - filter_jenuh
+    correctDecision: 7
+    explanation: Bau atau iritasi menandakan kartrid sudah jenuh.
+  - caseImage: {fileID: 210927286136174434, guid: 9612be6d62b307944a5842e452776aac, type: 3}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 0
+    condition: Kartrid gas sudah lewat tanggal kedaluwarsa pada kemasannya.
+    defectTags:
+    - kedaluwarsa
+    correctDecision: 9
+    explanation: Kartrid kedaluwarsa dibuang dan tidak dipakai.
+  - caseImage: {fileID: 992846099365575019, guid: 9612be6d62b307944a5842e452776aac, type: 3}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 0
+    condition: Segel kemasan kartrid sudah dibuka beberapa minggu lalu dan dibiarkan
+      di meja.
+    defectTags:
+    - kemasan_rusak
+    - terpapar_udara
+    correctDecision: 9
+    explanation: Kartrid yang segelnya sudah terbuka lama sebaiknya tidak dipakai.
+  - caseImage: {fileID: -4264320111463391933, guid: 9612be6d62b307944a5842e452776aac, type: 3}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 0
+    condition: Pekerja tidak tahu kartrid ini cocok untuk bahan kimia apa dan belum
+      membaca SDS.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Pilih kartrid sesuai bahaya. Rujuk SDS dan konfirmasi ke pemasok
+      atau safety.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 97c796e4d183fa4498527476a355358c, type: 2}
+    caseType: 1
+    condition: Kartrid cadangan disimpan di lemari yang sama dengan jerigen solvent
+      tanpa kemasan.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    correctDecision: 26
+    explanation: Simpan di kemasan atau wadah tertutup, jauh dari kimia dan panas.
+  - caseImage: {fileID: 6808049675056555350, guid: d17d624dffe995d49b6fc028685d544c, type: 3}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 0
+    condition: Masker partikel baru dari kemasan, klip hidung dan tali utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Masker baru siap dipakai.
+  - caseImage: {fileID: -629100920925604036, guid: d17d624dffe995d49b6fc028685d544c, type: 3}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 0
+    condition: Masker dipakai sepanjang shift, basah keringat, dan napas terasa berat.
+    defectTags:
+    - basah
+    - napas_berat
+    correctDecision: 9
+    explanation: Masker sekali pakai dibuang setelah satu shift atau saat sulit bernapas.
+  - caseImage: {fileID: -1714739856752227823, guid: d17d624dffe995d49b6fc028685d544c, type: 3}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 0
+    condition: Klip hidung masker patah dan tepi masker tidak menempel.
+    defectTags:
+    - komponen_rusak
+    - segel_bocor
+    correctDecision: 9
+    explanation: Masker rusak tidak bisa diperbaiki.
+  - caseImage: {fileID: -1442358148999260635, guid: d17d624dffe995d49b6fc028685d544c, type: 3}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 0
+    condition: Tali masker putus saat dipakai.
+    defectTags:
+    - strap_putus
+    correctDecision: 9
+    explanation: Masker sekali pakai tidak diperbaiki, langsung diganti baru.
+  - caseImage: {fileID: -4904465024849523892, guid: d17d624dffe995d49b6fc028685d544c, type: 3}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 0
+    condition: Pekerja menyimpan masker bekas di saku untuk dipakai lagi besok.
+    defectTags:
+    - sudah_dipakai
+    - penyimpanan_salah
+    correctDecision: 9
+    explanation: Masker bekas tidak dipakai ulang.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 6c06a9f33e84e7345a299ab7f35dcf39, type: 2}
+    caseType: 1
+    condition: Masker cadangan dijejalkan ke saku celana sehingga pipih.
+    defectTags:
+    - penyimpanan_salah
+    - deformasi
+    correctDecision: 27
+    explanation: Simpan di kemasan asli, kering, dan jangan dipenyetkan.
+  - caseImage: {fileID: 1307628290845943741, guid: 016bba149f5328b4fb906b62dc4a2f06, type: 3}
+    equipment: {fileID: 11400000, guid: c9283f1309f60484a96ae2d74e1083d4, type: 2}
+    caseType: 0
+    condition: Masker debu kasar baru untuk pekerjaan kebersihan umum.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Cocok untuk debu kasar non-toksik.
+  - caseImage: {fileID: 7062646130752781340, guid: 016bba149f5328b4fb906b62dc4a2f06, type: 3}
+    equipment: {fileID: 11400000, guid: c9283f1309f60484a96ae2d74e1083d4, type: 2}
+    caseType: 0
+    condition: Masker kotor, basah, dan terasa sesak.
+    defectTags:
+    - kotor
+    - basah
+    - napas_berat
+    correctDecision: 9
+    explanation: Buang bila kotor atau basah.
+  - caseImage: {fileID: -983689266816327110, guid: 016bba149f5328b4fb906b62dc4a2f06, type: 3}
+    equipment: {fileID: 11400000, guid: c9283f1309f60484a96ae2d74e1083d4, type: 2}
+    caseType: 0
+    condition: Tali masker kendur dan putus.
+    defectTags:
+    - strap_putus
+    correctDecision: 9
+    explanation: Masker rusak langsung dibuang.
+  - caseImage: {fileID: -5603184486990500514, guid: 016bba149f5328b4fb906b62dc4a2f06, type: 3}
+    equipment: {fileID: 11400000, guid: c9283f1309f60484a96ae2d74e1083d4, type: 2}
+    caseType: 0
+    condition: Masker jenis ini dipakai saat menyemprot cat dan mengamplas silika
+      halus.
+    defectTags:
+    - kartrid_salah_jenis
+    - penggunaan_salah
+    correctDecision: 8
+    explanation: Masker debu kasar bukan pengganti respirator tersertifikasi. Ganti
+      dengan respirator yang sesuai bahaya.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: c9283f1309f60484a96ae2d74e1083d4, type: 2}
+    caseType: 1
+    condition: Stok masker diletakkan terbuka di lantai gudang.
+    defectTags:
+    - penyimpanan_salah
+    - di_lantai
+    correctDecision: 27
+    explanation: Simpan di kemasan bersih dan kering.
+  - caseImage: {fileID: 2665395404364592136, guid: 7bf897781c8bf47478a0c27dd14bf10f, type: 3}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 0
+    condition: Aluminized suit lengkap dengan hood, lapisan aluminium utuh dan jahitan
+      rapat.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Lapisan dan jahitan utuh sehingga layak dipakai di area panas.
+  - caseImage: {fileID: -55917200022291015, guid: 7bf897781c8bf47478a0c27dd14bf10f, type: 3}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 0
+    condition: Lapisan aluminium di bagian dada mengelupas dan tampak kain di baliknya.
+    defectTags:
+    - lapisan_terkelupas
+    correctDecision: 8
+    explanation: Lapisan yang rusak tidak lagi memantulkan panas radiasi.
+  - caseImage: {fileID: 7054713385622657154, guid: 7bf897781c8bf47478a0c27dd14bf10f, type: 3}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 0
+    condition: Terdapat lubang kecil bekas percikan logam panas di lengan suit.
+    defectTags:
+    - berlubang
+    - lubang_bakar
+    correctDecision: 8
+    explanation: Lubang pada lapisan pelindung berarti suit harus diganti.
+  - caseImage: {fileID: -533115402986741899, guid: 7bf897781c8bf47478a0c27dd14bf10f, type: 3}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 0
+    condition: Suit berdebu setelah dipakai di area pengecoran.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Lap sesuai petunjuk produsen. Jangan dicuci mesin atau dilipat tajam.
+  - caseImage: {fileID: 110925642564865478, guid: 7bf897781c8bf47478a0c27dd14bf10f, type: 3}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 0
+    condition: Jahitan di sambungan bahu terlepas.
+    defectTags:
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Jahitan lepas pada suit tahan panas berbahaya, jadi tidak diperbaiki
+      asal-asalan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: a44d10552d2a298489cf727733d110d2, type: 2}
+    caseType: 1
+    condition: Suit dilipat tajam dan dijejalkan ke rak sempit.
+    defectTags:
+    - penyimpanan_salah
+    - dilipat_tajam
+    correctDecision: 25
+    explanation: Gantung kering dan hindari lipatan tajam yang merusak lapisan.
+  - caseImage: {fileID: 8157000518682236210, guid: 7d474608d03fdb34a8dd3322f8eca819, type: 3}
+    equipment: {fileID: 11400000, guid: 6d9707a3c204ed14da2c2504db19ac66, type: 2}
+    caseType: 0
+    condition: Wearpack tahan panas dengan lengan panjang, jahitan rapi, strip reflektif
+      utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Tidak ada kerusakan sehingga layak dipakai.
+  - caseImage: {fileID: -702478796132526933, guid: 7d474608d03fdb34a8dd3322f8eca819, type: 3}
+    equipment: {fileID: 11400000, guid: 6d9707a3c204ed14da2c2504db19ac66, type: 2}
+    caseType: 0
+    condition: Ada lubang bakar di lengan dan kain terasa menipis di bagian lutut.
+    defectTags:
+    - lubang_bakar
+    - kain_menipis
+    correctDecision: 8
+    explanation: Lubang bakar dan kain menipis berarti perlindungan panas turun.
+  - caseImage: {fileID: 7489738814846804184, guid: 7d474608d03fdb34a8dd3322f8eca819, type: 3}
+    equipment: {fileID: 11400000, guid: 6d9707a3c204ed14da2c2504db19ac66, type: 2}
+    caseType: 0
+    condition: Wearpack kotor oli dan debu, tanpa kerusakan.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Cuci sesuai petunjuk produsen dan hindari pelembut kain.
+  - caseImage: {fileID: 3338615339477278979, guid: 7d474608d03fdb34a8dd3322f8eca819, type: 3}
+    equipment: {fileID: 11400000, guid: 6d9707a3c204ed14da2c2504db19ac66, type: 2}
+    caseType: 0
+    condition: Strip reflektif di punggung mengelupas, kain masih bagus.
+    defectTags:
+    - reflektor_mengelupas
+    correctDecision: 6
+    explanation: Bagian reflektif bisa diperbaiki. Kain pelindung masih layak.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 6d9707a3c204ed14da2c2504db19ac66, type: 2}
+    caseType: 1
+    condition: Wearpack basah disimpan di loker lembap dalam keadaan kusut.
+    defectTags:
+    - basah
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 25
+    explanation: Gantung dalam kondisi kering, jauh dari bahan kimia.
+  - caseImage: {fileID: 2862022170771760546, guid: 66dbff5e09e7450489abeccf14745d57, type: 3}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 0
+    condition: Hood heat suit utuh, visor bersih, jahitan rapi.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik sehingga layak dipakai bersama set heat suit.
+  - caseImage: {fileID: -5995386441565349215, guid: 66dbff5e09e7450489abeccf14745d57, type: 3}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 0
+    condition: Hood memiliki lubang bakar kecil di dekat dagu.
+    defectTags:
+    - lubang_bakar
+    correctDecision: 8
+    explanation: Lubang bakar membuat hood tidak aman di area panas.
+  - caseImage: {fileID: 2804690086394468623, guid: 66dbff5e09e7450489abeccf14745d57, type: 3}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 0
+    condition: Kain hood menipis dan jahitan hampir terlepas.
+    defectTags:
+    - kain_menipis
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Kain menipis dan jahitan rapuh menurunkan perlindungan.
+  - caseImage: {fileID: -493281796964612249, guid: 66dbff5e09e7450489abeccf14745d57, type: 3}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 0
+    condition: Hood berdebu setelah dipakai satu shift.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Bersihkan sesuai petunjuk produsen.
+  - caseImage: {fileID: 7493622802487670188, guid: 66dbff5e09e7450489abeccf14745d57, type: 3}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 0
+    condition: Pekerja tidak yakin fungsi hood ini dan belum ada keterangan dari
+      pemasok.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Fungsi hood perlu dikonfirmasi ke pemasok atau safety.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 31183aeffc5edea41950ea4ee4d93af1, type: 2}
+    caseType: 1
+    condition: Hood diletakkan di lantai bengkel bersama kain lap.
+    defectTags:
+    - penyimpanan_salah
+    - di_lantai
+    correctDecision: 25
+    explanation: Gantung kering dan jauh dari bahan kimia.
+  - caseImage: {fileID: 5916086972558224482, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Coverall kimia baru, masih tersegel dalam kemasan, tidak ada sobekan
+      atau cacat.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Garmen baru dan utuh siap dipakai.
+  - caseImage: {fileID: -5116343303625759126, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Coverall terkena semprotan kimia berbahaya saat membersihkan tangki
+      dan sudah dilepas hati-hati.
+    defectTags:
+    - terkena_bahan_kimia
+    - terkontaminasi
+    correctDecision: 9
+    explanation: Coverall kimia umumnya sekali pakai. Setelah kontaminasi, buang.
+  - caseImage: {fileID: 106030015672259485, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Zipper coverall macet dan jahitan di ketiak robek.
+    defectTags:
+    - jahitan_lepas
+    - zipper_rusak
+    - sobek
+    correctDecision: 8
+    explanation: Kerusakan seperti ini membuat garmen tidak lagi melindungi dari
+      cairan.
+  - caseImage: {fileID: -4231154739778389058, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Selotip (tape) di sambungan lengan dan sarung tangan terlepas.
+    defectTags:
+    - komponen_rusak
+    - segel_bocor
+    correctDecision: 8
+    explanation: Sambungan harus tertutup rapat. Garmen dengan tape lepas diganti.
+  - caseImage: {fileID: 8484122373994677179, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Coverall terkontaminasi bahan berbahaya dan siap dimusnahkan.
+    defectTags:
+    - terkontaminasi_parah
+    - terkena_bahan_kimia
+    correctDecision: 18
+    explanation: Pemusnahan APD berbahan berbahaya wajib dibuatkan berita acara (Permenaker
+      Ps.8 ayat 3).
+  - caseImage: {fileID: -887370851226927457, guid: 8c1bce20852b9944fa535b81fb7262d0, type: 3}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 0
+    condition: Coverall bekas semprotan kimia tergeletak di area kerja dan masih
+      basah. Apa tindakan pertama?
+    defectTags:
+    - terkontaminasi_parah
+    - basah
+    correctDecision: 17
+    explanation: Pisahkan dan karantina agar kontaminan tidak menyebar sebelum dimusnahkan
+      sesuai prosedur.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 1
+    condition: Stok coverall ditumpuk di bawah drum dan ditindih beban berat.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    correctDecision: 30
+    explanation: Simpan di kotak, tas, atau gantungan, dan jangan ditekan atau ditindih
+      beban.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: efddd62d01afbfc4d92fa63435dbcd70, type: 2}
+    caseType: 1
+    condition: Coverall cadangan dikeluarkan dari kemasan dan dilempar di loker.
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    correctDecision: 27
+    explanation: Simpan di kemasan asli.
+  - caseImage: {fileID: -3483876713889360885, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Apron las kulit lentur, tali utuh, tanpa retak atau hangus.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Apron dalam kondisi baik.
+  - caseImage: {fileID: 32156081, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Kulit apron retak dan ada bagian hangus di dekat dada.
+    defectTags:
+    - retak
+    - kulit_hangus
+    correctDecision: 8
+    explanation: Kulit retak atau hangus tidak lagi menahan percikan.
+  - caseImage: {fileID: -61586182, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Tali apron di pinggang lepas jahitannya, kulit masih bagus.
+    defectTags:
+    - jahitan_lepas
+    - tali_putus
+    correctDecision: 6
+    explanation: Tali bisa dijahit ulang. Kulit masih bagus.
+  - caseImage: {fileID: -796844594, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Apron mulai kering dan kaku tetapi belum retak.
+    defectTags:
+    - kaku_keras
+    - kulit_kering
+    correctDecision: 4
+    explanation: Pakai kondisioner kulit agar tetap lentur.
+  - caseImage: {fileID: -196762550, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Apron berdebu dan ada bercak oli.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Lap bersih lalu keringkan.
+  - caseImage: {fileID: 379061374, guid: 6deb8565f96337e4faadc6522192231c, type: 3}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 0
+    condition: Apron basah kehujanan dan hendak langsung disimpan.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan dulu, jangan di dekat sumber panas.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 628246b0185fc164e9f67c630e3cae7f, type: 2}
+    caseType: 1
+    condition: Apron dilipat tajam dan ditumpuk di loker.
+    defectTags:
+    - penyimpanan_salah
+    - dilipat_tajam
+    correctDecision: 25
+    explanation: Gantung kering untuk menjaga kulit tidak patah.
+  - caseImage: {fileID: 6165925710363594262, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 0
+    condition: Rompi safety warna cerah, reflektor utuh, resleting berfungsi.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Warna dan reflektor baik sehingga terlihat jelas.
+  - caseImage: {fileID: 1562104358899578057, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 0
+    condition: Warna rompi pudar dan reflektor mengelupas.
+    defectTags:
+    - pudar
+    - reflektor_mengelupas
+    correctDecision: 8
+    explanation: Rompi harus terlihat jelas. Ganti bila pudar.
+  - caseImage: {fileID: -6864135228587085832, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 0
+    condition: Rompi kotor lumpur dan oli.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Cuci dengan deterjen ringan, tanpa setrika, pemutih, atau mesin
+      pengering.
+  - caseImage: {fileID: 7842079391540826278, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 0
+    condition: Resleting rompi macet tetapi kain dan reflektor masih bagus.
+    defectTags:
+    - resleting_rusak
+    correctDecision: 6
+    explanation: Ganti resleting atau perbaiki. Rompi masih layak.
+  - caseImage: {fileID: 286027363942210617, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 0
+    condition: Rompi sudah dipakai lebih dari enam bulan dan warnanya kusam.
+    defectTags:
+    - kedaluwarsa
+    - pudar
+    correctDecision: 8
+    explanation: Masa pakai sekitar enam bulan atau bila pudar.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: f250a188e2403434fbd389701f6ef018, type: 2}
+    caseType: 1
+    condition: Rompi dijemur di bawah matahari terik sepanjang hari.
+    defectTags:
+    - penyimpanan_salah
+    - sinar_matahari_langsung
+    correctDecision: 20
+    explanation: Simpan kering dan jauh dari UV serta benda tajam.
+  - caseImage: {fileID: 1158199983612580306, guid: 6e2ef69989372a64785e2815a3f1b5c7, type: 3}
+    equipment: {fileID: 11400000, guid: ace86b3af43da9b4895814ff4d638734, type: 2}
+    caseType: 0
+    condition: Rompi reflektif bersih, strip reflektif tidak mengelupas.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak untuk bekerja dekat lalu lintas atau alat berat.
+  - caseImage: {fileID: 5950243537203754735, guid: 6e2ef69989372a64785e2815a3f1b5c7, type: 3}
+    equipment: {fileID: 11400000, guid: ace86b3af43da9b4895814ff4d638734, type: 2}
+    caseType: 0
+    condition: Strip reflektif mengelupas dan warna oranye memudar.
+    defectTags:
+    - reflektor_mengelupas
+    - pudar
+    correctDecision: 8
+    explanation: Visibilitas turun sehingga harus diganti.
+  - caseImage: {fileID: 648365350164326358, guid: 6e2ef69989372a64785e2815a3f1b5c7, type: 3}
+    equipment: {fileID: 11400000, guid: ace86b3af43da9b4895814ff4d638734, type: 2}
+    caseType: 0
+    condition: Rompi berlumpur setelah kerja malam.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Cuci dengan deterjen ringan, tanpa setrika atau pemutih.
+  - caseImage: {fileID: -3775259667693637115, guid: 6e2ef69989372a64785e2815a3f1b5c7, type: 3}
+    equipment: {fileID: 11400000, guid: ace86b3af43da9b4895814ff4d638734, type: 2}
+    caseType: 0
+    condition: Rompi sudah sekitar enam bulan dipakai tiap hari.
+    defectTags:
+    - kedaluwarsa
+    correctDecision: 8
+    explanation: Ganti sekitar enam bulan atau bila pudar.
+  - caseImage: {fileID: 2384182313420176361, guid: 6e2ef69989372a64785e2815a3f1b5c7, type: 3}
+    equipment: {fileID: 11400000, guid: ace86b3af43da9b4895814ff4d638734, type: 2}
+    caseType: 0
+    condition: Rompi dijejalkan basah dalam tas plastik berhari-hari.
+    defectTags:
+    - basah
+    - penyimpanan_salah
+    correctDecision: 3
+    explanation: Keringkan dan gantung agar tidak berjamur.
+  - caseImage: {fileID: -3182870592941764382, guid: d9ff0940f63420342b2250d559c2ae74, type: 3}
+    equipment: {fileID: 11400000, guid: 398d372fcfdcbfa47bc8c3d7a8200867, type: 2}
+    caseType: 0
+    condition: Rompi fire watcher dengan tulisan dan warna jelas terbaca.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Pengawas hot work harus mudah dikenali.
+  - caseImage: {fileID: -2157904331321321144, guid: d9ff0940f63420342b2250d559c2ae74, type: 3}
+    equipment: {fileID: 11400000, guid: 398d372fcfdcbfa47bc8c3d7a8200867, type: 2}
+    caseType: 0
+    condition: Tulisan rompi sudah pudar sehingga tidak terbaca dari jarak dekat.
+    defectTags:
+    - pudar
+    correctDecision: 8
+    explanation: Rompi yang tidak terbaca tidak berfungsi sebagai identitas fire
+      watcher.
+  - caseImage: {fileID: 7765593816260245459, guid: d9ff0940f63420342b2250d559c2ae74, type: 3}
+    equipment: {fileID: 11400000, guid: 398d372fcfdcbfa47bc8c3d7a8200867, type: 2}
+    caseType: 0
+    condition: Rompi kotor debu dan keringat.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Cuci ringan, tanpa setrika.
+  - caseImage: {fileID: -7084962173656264075, guid: d9ff0940f63420342b2250d559c2ae74, type: 3}
+    equipment: {fileID: 11400000, guid: 398d372fcfdcbfa47bc8c3d7a8200867, type: 2}
+    caseType: 0
+    condition: Rompi robek besar di bagian samping.
+    defectTags:
+    - sobek
+    correctDecision: 8
+    explanation: Rompi rusak diganti.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 398d372fcfdcbfa47bc8c3d7a8200867, type: 2}
+    caseType: 1
+    condition: Rompi disimpan lembap di loker.
+    defectTags:
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 25
+    explanation: Gantung kering.
+  - caseImage: {fileID: 315025972825909955, guid: 20b66ecadc93bb841856640c99ab8842, type: 3}
+    equipment: {fileID: 11400000, guid: 7c88dc5563785ae46a8edff2c3a841de, type: 2}
+    caseType: 0
+    condition: Sarung tangan dotted pas di tangan, tanpa lubang, titik karet masih
+      utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik sehingga layak untuk material handling ringan.
+  - caseImage: {fileID: 3508783030934581253, guid: 20b66ecadc93bb841856640c99ab8842, type: 3}
+    equipment: {fileID: 11400000, guid: 7c88dc5563785ae46a8edff2c3a841de, type: 2}
+    caseType: 0
+    condition: Ujung jari sarung tangan bolong dan karet dotted tinggal sedikit.
+    defectTags:
+    - berlubang
+    - kain_menipis
+    correctDecision: 8
+    explanation: Bolong atau tipis berarti perlindungan hilang.
+  - caseImage: {fileID: -2803527934557876062, guid: 20b66ecadc93bb841856640c99ab8842, type: 3}
+    equipment: {fileID: 11400000, guid: 7c88dc5563785ae46a8edff2c3a841de, type: 2}
+    caseType: 0
+    condition: Sarung tangan kotor oli ringan.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Cuci dengan air sabun lalu keringkan.
+  - caseImage: {fileID: 4859484063796419949, guid: 20b66ecadc93bb841856640c99ab8842, type: 3}
+    equipment: {fileID: 11400000, guid: 7c88dc5563785ae46a8edff2c3a841de, type: 2}
+    caseType: 0
+    condition: Sarung tangan basah setelah dicuci.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan sebelum dipakai atau disimpan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 7c88dc5563785ae46a8edff2c3a841de, type: 2}
+    caseType: 1
+    condition: Sarung tangan dijemur di atas atap seharian lalu ditaruh di dekat
+      tungku.
+    defectTags:
+    - penyimpanan_salah
+    - sinar_matahari_langsung
+    - dekat_panas
+    correctDecision: 19
+    explanation: Simpan kering, sejuk, dan berventilasi, jauh dari matahari.
+  - caseImage: {fileID: 2588025580634275987, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Sarung tangan berlapis bersih, lapisan utuh, jahitan rapi.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Siap dipakai.
+  - caseImage: {fileID: -4885454797452371867, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Lapisan sarung tangan terkelupas di telapak.
+    defectTags:
+    - lapisan_terkelupas
+    correctDecision: 8
+    explanation: Lapisan terkelupas membuat cengkeraman dan perlindungan berkurang.
+  - caseImage: {fileID: -4114687070954234027, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Sarung tangan mengeras dan kaku setelah lama dipakai.
+    defectTags:
+    - kaku_keras
+    correctDecision: 8
+    explanation: Bahan kaku sudah rusak.
+  - caseImage: {fileID: -4263193940524870786, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Jahitan jari terlepas.
+    defectTags:
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Jahitan lepas membuat sarung tangan tidak aman.
+  - caseImage: {fileID: 4889145390300987565, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Sarung tangan kotor debu.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Cuci air sabun lalu keringkan.
+  - caseImage: {fileID: 4768857191287314561, guid: a454cd8046f18314bb1fa0ffd870119b, type: 3}
+    equipment: {fileID: 11400000, guid: 027c8da12ffd6cc498097ae1d27514d7, type: 2}
+    caseType: 0
+    condition: Sarung tangan disimpan lembap dalam kantong plastik tertutup.
+    defectTags:
+    - basah
+    - penyimpanan_salah
+    correctDecision: 3
+    explanation: Keringkan lalu simpan di tempat kering dan berventilasi.
+  - caseImage: {fileID: -7563254259790569197, guid: def6978f8580e5a46a85854af77950b5, type: 3}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 0
+    condition: Sarung tangan tahan panas manset panjang, kulit lentur, jahitan rapi.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak dipakai untuk memegang benda panas.
+  - caseImage: {fileID: -60575889922582066, guid: def6978f8580e5a46a85854af77950b5, type: 3}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 0
+    condition: Ada lubang bakar di punggung jari dan jahitan mulai lepas.
+    defectTags:
+    - lubang_bakar
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Bolong atau jahitan lepas berarti perlindungan panas hilang.
+  - caseImage: {fileID: -8920130594127966720, guid: def6978f8580e5a46a85854af77950b5, type: 3}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 0
+    condition: Kulit sarung tangan mengeras dan getas.
+    defectTags:
+    - kaku_keras
+    - kulit_hangus
+    correctDecision: 8
+    explanation: Kulit yang keras atau hangus tidak layak.
+  - caseImage: {fileID: 4750638407263162828, guid: def6978f8580e5a46a85854af77950b5, type: 3}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 0
+    condition: Kulit sarung tangan agak kering tetapi masih lentur dan tanpa retak.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan kondisioner kulit.
+  - caseImage: {fileID: 5670741122893073471, guid: def6978f8580e5a46a85854af77950b5, type: 3}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 0
+    condition: Sarung tangan basah dan hendak dikeringkan di dekat tungku.
+    defectTags:
+    - basah
+    - cara_bersih_salah
+    correctDecision: 3
+    explanation: Keringkan secara alami, jangan dengan panas langsung.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 835efb1d396c9bc4b9ac5a0d07a9a964, type: 2}
+    caseType: 1
+    condition: Sarung tangan dilempar ke lantai di dekat oli.
+    defectTags:
+    - penyimpanan_salah
+    - di_lantai
+    - dekat_bahan_kimia
+    correctDecision: 25
+    explanation: Gantung kering dan jauh dari bahan kimia.
+  - caseImage: {fileID: -3621571492872171873, guid: f4e043192133e9843a1b0a1553465eb2, type: 3}
+    equipment: {fileID: 11400000, guid: 699cd312713014e44bca1288b051618c, type: 2}
+    caseType: 0
+    condition: Sarung tangan presisi bersih, tanpa lubang, jahitan rapi.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik.
+  - caseImage: {fileID: -7773610377382757874, guid: f4e043192133e9843a1b0a1553465eb2, type: 3}
+    equipment: {fileID: 11400000, guid: 699cd312713014e44bca1288b051618c, type: 2}
+    caseType: 0
+    condition: Pekerja tidak tahu apakah sarung tangan ini anti-statis dan tidak
+      ada label spesifikasi.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Fungsi dan sifat listriknya belum dipastikan. Konfirmasi dulu.
+  - caseImage: {fileID: -8852020829908002681, guid: f4e043192133e9843a1b0a1553465eb2, type: 3}
+    equipment: {fileID: 11400000, guid: 699cd312713014e44bca1288b051618c, type: 2}
+    caseType: 0
+    condition: Sarung tangan bolong di ujung jari.
+    defectTags:
+    - berlubang
+    correctDecision: 8
+    explanation: Bolong berarti harus diganti.
+  - caseImage: {fileID: 858882064465890933, guid: f4e043192133e9843a1b0a1553465eb2, type: 3}
+    equipment: {fileID: 11400000, guid: 699cd312713014e44bca1288b051618c, type: 2}
+    caseType: 0
+    condition: Pekerja memakai sarung tangan ini sebagai pengganti sarung tangan
+      isolasi listrik.
+    defectTags:
+    - penggunaan_salah
+    correctDecision: 16
+    explanation: Jangan dipakai sebagai pengganti sarung tangan isolasi sebelum dikonfirmasi.
+      Laporkan ke atasan.
+  - caseImage: {fileID: -2707353585554970377, guid: f4e043192133e9843a1b0a1553465eb2, type: 3}
+    equipment: {fileID: 11400000, guid: 699cd312713014e44bca1288b051618c, type: 2}
+    caseType: 0
+    condition: Sarung tangan terkena debu dan keringat.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Cuci ringan sesuai petunjuk produsen.
+  - caseImage: {fileID: -459897516207068262, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Sarung tangan kimia lentur, tidak bocor saat dites, bersih.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak untuk pekerjaan kimia sesuai jenis bahaya.
+  - caseImage: {fileID: -5056310310620582934, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Saat ditiup, sarung tangan kimia terasa bocor di jari telunjuk.
+    defectTags:
+    - bocor
+    - berlubang
+    correctDecision: 8
+    explanation: Sarung tangan yang bocor tidak boleh dipakai.
+  - caseImage: {fileID: 5602135511497175989, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Sarung tangan terasa lengket dan kaku setelah lama kontak dengan kimia.
+    defectTags:
+    - lengket
+    - kaku_keras
+    - terkena_bahan_kimia
+    correctDecision: 8
+    explanation: Perubahan fisik setelah kontak kimia menandakan sarung tangan rusak.
+  - caseImage: {fileID: 9183141649768634808, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Sarung tangan reusable selesai dipakai dan terkena cairan kimia ringan.
+    defectTags:
+    - terkena_bahan_kimia
+    - kotor
+    correctDecision: 1
+    explanation: Bilas lalu cuci dengan sabun ringan setelah tiap pemakaian.
+  - caseImage: {fileID: -4907035350021838806, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Bagian dalam sarung tangan masih basah setelah dicuci.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan sebelum disimpan.
+  - caseImage: {fileID: -1298327062, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Sarung tangan terkontaminasi parah dan siap dibuang.
+    defectTags:
+    - terkontaminasi_parah
+    correctDecision: 18
+    explanation: Buang sesuai prosedur dengan berita acara untuk APD berbahan berbahaya.
+  - caseImage: {fileID: -1227761544, guid: 98dab2a8fac7a9d4ab2ac898ec4bda69, type: 3}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 0
+    condition: Sarung tangan kebesaran dan sering tersangkut di mesin.
+    defectTags:
+    - ukuran_tidak_pas
+    - longgar
+    correctDecision: 8
+    explanation: Sarung tangan harus pas. Ukuran kebesaran bisa tersangkut.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 379985549b8cc4e44b82ea8ab9083d77, type: 2}
+    caseType: 1
+    condition: Sarung tangan kimia disimpan dekat kompor dan sumber uap.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_sumber_panas
+    correctDecision: 33
+    explanation: Simpan bersih, kering, dan jauh dari panas atau uap.
+  - caseImage: {fileID: 757207241391164273, guid: ee7237358c7c6764582f54d858db45f4, type: 3}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 0
+    condition: Sarung tangan kulit lentur, pas, dan jahitan utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak untuk pekerjaan kasar.
+  - caseImage: {fileID: 8972029419939210047, guid: ee7237358c7c6764582f54d858db45f4, type: 3}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 0
+    condition: Sarung tangan bolong dan kulit mengeras.
+    defectTags:
+    - berlubang
+    - kaku_keras
+    correctDecision: 8
+    explanation: Bolong atau keras tidak layak.
+  - caseImage: {fileID: 8852707743067160737, guid: ee7237358c7c6764582f54d858db45f4, type: 3}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 0
+    condition: Kulit mulai kering tetapi belum retak.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan kondisioner kulit.
+  - caseImage: {fileID: 9046106028852168681, guid: ee7237358c7c6764582f54d858db45f4, type: 3}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 0
+    condition: Sarung tangan kotor oli.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Lap dan bersihkan sesuai bahan.
+  - caseImage: {fileID: 5203431342099462359, guid: ee7237358c7c6764582f54d858db45f4, type: 3}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 0
+    condition: Sarung tangan basah kena hujan.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan alami.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 8dbbf3bbff2c3044f8f145214e863c8b, type: 2}
+    caseType: 1
+    condition: Sarung tangan disimpan menumpuk di tong sampah dekat oli.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_bahan_kimia
+    correctDecision: 25
+    explanation: Simpan kering dan tergantung.
+  - caseImage: {fileID: 2359871086960949686, guid: db02bce009b573044822fc4fb1f8f307, type: 3}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 0
+    condition: Sarung tangan las kulit pas, ujung jari tidak kosong, manset menutup
+      pergelangan.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik untuk pekerjaan las.
+  - caseImage: {fileID: 333375748, guid: db02bce009b573044822fc4fb1f8f307, type: 3}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 0
+    condition: Kulit sarung tangan hangus di punggung tangan akibat percikan.
+    defectTags:
+    - kulit_hangus
+    correctDecision: 8
+    explanation: Kulit hangus tidak lagi melindungi.
+  - caseImage: {fileID: -1305729943560839420, guid: db02bce009b573044822fc4fb1f8f307, type: 3}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 0
+    condition: Jahitan jempol terlepas dan kulit mulai keras.
+    defectTags:
+    - jahitan_lepas
+    - kaku_keras
+    correctDecision: 8
+    explanation: Kerusakan seperti ini tidak aman dipakai mengelas.
+  - caseImage: {fileID: 5179013887034940215, guid: db02bce009b573044822fc4fb1f8f307, type: 3}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 0
+    condition: Kulit sarung tangan kering tetapi masih lentur.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan kondisioner kulit.
+  - caseImage: {fileID: 1531732390321840025, guid: db02bce009b573044822fc4fb1f8f307, type: 3}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 0
+    condition: Seorang pekerja ingin membersihkan noda dengan pemutih.
+    defectTags:
+    - kotor
+    - cara_bersih_salah
+    correctDecision: 1
+    explanation: Lap saja dan jangan dicuci dengan pemutih.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 8491dacdff3a7d5439200b689cf3c1f8, type: 2}
+    caseType: 1
+    condition: Sarung tangan disimpan lembap di loker basah.
+    defectTags:
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 25
+    explanation: Simpan kering dan tergantung.
+  - caseImage: {fileID: -8217434724898634580, guid: 858ec938f21436c4893686e641ee01a2, type: 3}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 0
+    condition: Sarung tangan aluminized lapisannya utuh, tanpa lubang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak dipakai bersama aluminized suit.
+  - caseImage: {fileID: 5940750118995760525, guid: 858ec938f21436c4893686e641ee01a2, type: 3}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 0
+    condition: Lapisan sarung tangan terkelupas dan kain terlihat.
+    defectTags:
+    - lapisan_terkelupas
+    correctDecision: 8
+    explanation: Lapisan rusak berarti harus diganti.
+  - caseImage: {fileID: -4244746964764570093, guid: 858ec938f21436c4893686e641ee01a2, type: 3}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 0
+    condition: Ada lubang bakar kecil di jempol.
+    defectTags:
+    - lubang_bakar
+    - berlubang
+    correctDecision: 8
+    explanation: Lubang pada lapisan membahayakan tangan.
+  - caseImage: {fileID: 3905125258677567687, guid: 858ec938f21436c4893686e641ee01a2, type: 3}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 0
+    condition: Sarung tangan berdebu setelah shift.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Lap sesuai produsen, tidak dicuci mesin.
+  - caseImage: {fileID: -7017383836490409668, guid: 858ec938f21436c4893686e641ee01a2, type: 3}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 0
+    condition: Pekerja tidak tahu batas suhu sarung tangan ini.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Rating suhu perlu dikonfirmasi ke pemasok.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 220dcf5322b39f24ba858e7c36b08907, type: 2}
+    caseType: 1
+    condition: Sarung tangan dilipat tajam dan ditekan di dalam laci.
+    defectTags:
+    - penyimpanan_salah
+    - dilipat_tajam
+    correctDecision: 25
+    explanation: Simpan kering tanpa lipatan tajam.
+  - caseImage: {fileID: -6742640599108759317, guid: b8095036f3dcdfa4f824607e7e961bc4, type: 3}
+    equipment: {fileID: 11400000, guid: f1bdbbd94ef76514bb5b0d456673c44a, type: 2}
+    caseType: 0
+    condition: Sarung tangan velcro menempel kuat, jahitan rapi, kulit lentur.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik.
+  - caseImage: {fileID: -1625810112, guid: b8095036f3dcdfa4f824607e7e961bc4, type: 3}
+    equipment: {fileID: 11400000, guid: f1bdbbd94ef76514bb5b0d456673c44a, type: 2}
+    caseType: 0
+    condition: Velcro sarung tangan tidak lagi menempel dan sarung tangan terlepas
+      saat bekerja.
+    defectTags:
+    - velcro_lepas
+    - longgar
+    correctDecision: 8
+    explanation: Velcro yang tidak kuat membuat sarung tangan bisa lepas.
+  - caseImage: {fileID: -405048083, guid: b8095036f3dcdfa4f824607e7e961bc4, type: 3}
+    equipment: {fileID: 11400000, guid: f1bdbbd94ef76514bb5b0d456673c44a, type: 2}
+    caseType: 0
+    condition: Velcro penuh benang dan debu sehingga daya rekatnya turun, tetapi
+      masih utuh.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Bersihkan debu dan benang dari velcro.
+  - caseImage: {fileID: -644113123, guid: b8095036f3dcdfa4f824607e7e961bc4, type: 3}
+    equipment: {fileID: 11400000, guid: f1bdbbd94ef76514bb5b0d456673c44a, type: 2}
+    caseType: 0
+    condition: Kulit sarung tangan keras dan bolong.
+    defectTags:
+    - kaku_keras
+    - berlubang
+    correctDecision: 8
+    explanation: Tidak layak pakai.
+  - caseImage: {fileID: 1139301302, guid: b8095036f3dcdfa4f824607e7e961bc4, type: 3}
+    equipment: {fileID: 11400000, guid: f1bdbbd94ef76514bb5b0d456673c44a, type: 2}
+    caseType: 0
+    condition: Kulit mulai kering saja.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan kondisioner kulit.
+  - caseImage: {fileID: -3610576278885418769, guid: 7035099893c6daf47af4402da3e55e15, type: 3}
+    equipment: {fileID: 11400000, guid: 256c040f4f69c48479a1941661c47459, type: 2}
+    caseType: 0
+    condition: Overglove kulit bersih, tanpa bolong, jahitan utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak dipakai di atas sarung tangan isolasi.
+  - caseImage: {fileID: -7511887527321110075, guid: 7035099893c6daf47af4402da3e55e15, type: 3}
+    equipment: {fileID: 11400000, guid: 256c040f4f69c48479a1941661c47459, type: 2}
+    caseType: 0
+    condition: Overglove bolong dan jahitan terlepas.
+    defectTags:
+    - berlubang
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Overglove rusak tidak lagi melindungi sarung isolasi di bawahnya.
+  - caseImage: {fileID: -4741533077829001938, guid: 7035099893c6daf47af4402da3e55e15, type: 3}
+    equipment: {fileID: 11400000, guid: 256c040f4f69c48479a1941661c47459, type: 2}
+    caseType: 0
+    condition: Pekerja baru tidak yakin prosedur plant memakai overglove di atas
+      atau di bawah sarung isolasi.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Konfirmasi prosedur ke safety atau pemasok sebelum dipakai.
+  - caseImage: {fileID: -4210182302346788927, guid: 7035099893c6daf47af4402da3e55e15, type: 3}
+    equipment: {fileID: 11400000, guid: 256c040f4f69c48479a1941661c47459, type: 2}
+    caseType: 0
+    condition: Kulit overglove kering dan kaku.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan kondisioner kulit.
+  - caseImage: {fileID: -8816801779289604044, guid: 7035099893c6daf47af4402da3e55e15, type: 3}
+    equipment: {fileID: 11400000, guid: 256c040f4f69c48479a1941661c47459, type: 2}
+    caseType: 0
+    condition: Overglove kotor oli.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Lap dan bersihkan.
+  - caseImage: {fileID: 7816426049686278235, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Sarung tangan isolasi lulus uji tiup udara dan uji dielektrik terbaru,
+      bersih, tanpa retak.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Siap dipakai untuk pekerjaan listrik.
+  - caseImage: {fileID: 8730034089468615027, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Saat uji tiup sebelum pakai, udara bocor dari jari manis.
+    defectTags:
+    - bocor
+    - berlubang
+    correctDecision: 8
+    explanation: Sarung tangan isolasi yang bocor tidak boleh dipakai.
+  - caseImage: {fileID: -5612718159060370282, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Sarung tangan gagal uji dielektrik di laboratorium, tetapi masih ada
+      di rak umum.
+    defectTags:
+    - gagal_uji
+    correctDecision: 15
+    explanation: Beri tag 'DO NOT USE' agar tidak terpakai, lalu ganti.
+  - caseImage: {fileID: 1791116572178462031, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Jadwal uji dielektrik berkala sarung tangan sudah terlewat.
+    defectTags:
+    - uji_berkala_kedaluwarsa
+    correctDecision: 12
+    explanation: Sarung tangan isolasi wajib diuji berkala.
+  - caseImage: {fileID: 3458892966102492570, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Sarung tangan ada retak kecil di punggung tangan.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Retak kecil tetap berbahaya pada listrik.
+  - caseImage: {fileID: -1206524830016672888, guid: 9edd1a7d508726a4f9c590cc57ebc858, type: 3}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 0
+    condition: Sarung tangan terkena oli.
+    defectTags:
+    - kotor
+    - berminyak
+    correctDecision: 1
+    explanation: Bersihkan sesuai produsen dan jauhkan dari minyak.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 76dcb48e255338f48a3960ae1d6d7bc9, type: 2}
+    caseType: 1
+    condition: Sarung tangan dilipat dan ditaruh dekat oli di bawah sinar matahari.
+    defectTags:
+    - penyimpanan_salah
+    - dilipat_tajam
+    - dekat_bahan_kimia
+    correctDecision: 23
+    explanation: Simpan datar atau terbuka, tidak dilipat, jauh dari oli dan UV.
+  - caseImage: {fileID: -7744386437904413935, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Safety shoes casual bersih, sol utuh, jahitan rapi, tali kencang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik untuk area kantor atau ruang operasi.
+  - caseImage: {fileID: -2646143951776320821, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Sol sepatu aus dan sebagian terlepas.
+    defectTags:
+    - sol_aus
+    correctDecision: 8
+    explanation: Sol rusak membuat sepatu tidak aman.
+  - caseImage: {fileID: 4727371985153148633, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Jahitan sepatu terlepas di sisi kiri.
+    defectTags:
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Jahitan lepas berarti sepatu harus diganti.
+  - caseImage: {fileID: -7063938339487550721, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Sepatu kotor debu dan lumpur.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Lepas tali, sikat lembut, air sabun ringan, lap lembap, lalu keringkan.
+  - caseImage: {fileID: -8363292835079353383, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Sepatu basah kehujanan.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan di suhu ruang, tidak di dekat panas.
+  - caseImage: {fileID: -6817167287426351703, guid: 537cb4e4e2aa2f141ab181bd9c3d5c45, type: 3}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 0
+    condition: Sepatu sudah dipakai 12 bulan setiap hari.
+    defectTags:
+    - kedaluwarsa
+    - sol_aus
+    correctDecision: 8
+    explanation: Masa pakai sekitar 6-12 bulan atau bila rusak.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: a5ebc597b43898347a524721300e36b5, type: 2}
+    caseType: 1
+    condition: Sepatu ditumpuk di lantai gudang.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    correctDecision: 28
+    explanation: Simpan tegak di rak, kering, dan tidak ditumpuk.
+  - caseImage: {fileID: -2905104635674538796, guid: c373211274a60fd47a36699898ca9ed3, type: 3}
+    equipment: {fileID: 11400000, guid: 15bfbac6a1190074e97f956efef56882, type: 2}
+    caseType: 0
+    condition: Safety shoes office bersih dan utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak untuk kantor.
+  - caseImage: {fileID: -2968931163470146341, guid: c373211274a60fd47a36699898ca9ed3, type: 3}
+    equipment: {fileID: 11400000, guid: 15bfbac6a1190074e97f956efef56882, type: 2}
+    caseType: 0
+    condition: Toe cap bergeser dan sol retak.
+    defectTags:
+    - toe_cap_rusak
+    - retak
+    correctDecision: 8
+    explanation: Toe cap yang rusak menghilangkan perlindungan jari.
+  - caseImage: {fileID: -7354908934674177371, guid: c373211274a60fd47a36699898ca9ed3, type: 3}
+    equipment: {fileID: 11400000, guid: 15bfbac6a1190074e97f956efef56882, type: 2}
+    caseType: 0
+    condition: Sepatu berdebu setelah dipakai seharian.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Sikat lembut dan lap.
+  - caseImage: {fileID: -4115472923754567151, guid: c373211274a60fd47a36699898ca9ed3, type: 3}
+    equipment: {fileID: 11400000, guid: 15bfbac6a1190074e97f956efef56882, type: 2}
+    caseType: 0
+    condition: Sepatu disimpan basah di dalam tas.
+    defectTags:
+    - basah
+    - penyimpanan_salah
+    correctDecision: 3
+    explanation: Keringkan dulu lalu simpan tegak di rak.
+  - caseImage: {fileID: -6172450542655822517, guid: c373211274a60fd47a36699898ca9ed3, type: 3}
+    equipment: {fileID: 11400000, guid: 15bfbac6a1190074e97f956efef56882, type: 2}
+    caseType: 0
+    condition: Sepatu dipakai sudah enam bulan dan solnya licin.
+    defectTags:
+    - sol_aus
+    correctDecision: 8
+    explanation: Sol licin berbahaya sehingga ganti.
+  - caseImage: {fileID: 6316261580231582771, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Safety shoes pabrik pas, tali kencang, sol dan toe cap utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik untuk area pabrik.
+  - caseImage: {fileID: 2316825198539385966, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Toe cap terlihat karena kulit luar sobek dan kena goresan dalam.
+    defectTags:
+    - toe_cap_rusak
+    - sobek
+    correctDecision: 8
+    explanation: Toe cap terbuka mengurangi perlindungan jari.
+  - caseImage: {fileID: -7050650024660471727, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Sol sepatu retak dan lepas sedikit.
+    defectTags:
+    - sol_aus
+    - retak
+    correctDecision: 8
+    explanation: Sol rusak harus diganti.
+  - caseImage: {fileID: 6048333825248390316, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Kulit sepatu kering dan pucat tetapi masih utuh.
+    defectTags:
+    - kulit_kering
+    correctDecision: 4
+    explanation: Gunakan semir kulit untuk merawat.
+  - caseImage: {fileID: -5035592249108474591, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Sepatu berlumpur setelah patroli.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Lepas tali, sikat, bersihkan, lalu keringkan.
+  - caseImage: {fileID: -5350834001838153686, guid: 987f78dd7c6c6ef4e9f8a178ceff6076, type: 3}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 0
+    condition: Sepatu basah kemasukan air.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan di suhu ruang.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 297949ce5d6723c4ba4dee9e6a482885, type: 2}
+    caseType: 1
+    condition: Sepatu ditumpuk di lantai lembap loker.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    - lembap
+    correctDecision: 28
+    explanation: Simpan tegak di rak, kering, dan sejuk.
+  - caseImage: {fileID: 5708888079977533914, guid: 019fad5494427e14cb953311cfa6ae90, type: 3}
+    equipment: {fileID: 11400000, guid: e1177f80d56155146bbd3a1c519efae8, type: 2}
+    caseType: 0
+    condition: Safety shoes tahan panas utuh, sol tidak mengeras.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak untuk area suhu tinggi.
+  - caseImage: {fileID: -5418615078850747770, guid: 019fad5494427e14cb953311cfa6ae90, type: 3}
+    equipment: {fileID: 11400000, guid: e1177f80d56155146bbd3a1c519efae8, type: 2}
+    caseType: 0
+    condition: Sol sepatu meleleh sebagian dan kulit mengeras setelah kontak logam
+      panas.
+    defectTags:
+    - kaku_keras
+    - terkena_panas
+    correctDecision: 8
+    explanation: Bahan terbakar atau mengeras berarti sepatu tidak aman.
+  - caseImage: {fileID: 8359227689346721897, guid: 019fad5494427e14cb953311cfa6ae90, type: 3}
+    equipment: {fileID: 11400000, guid: e1177f80d56155146bbd3a1c519efae8, type: 2}
+    caseType: 0
+    condition: Jahitan samping terlepas.
+    defectTags:
+    - jahitan_lepas
+    correctDecision: 8
+    explanation: Jahitan lepas membuat sepatu tidak kedap.
+  - caseImage: {fileID: 471932310631434809, guid: 019fad5494427e14cb953311cfa6ae90, type: 3}
+    equipment: {fileID: 11400000, guid: e1177f80d56155146bbd3a1c519efae8, type: 2}
+    caseType: 0
+    condition: Sepatu kotor debu pabrik.
+    defectTags:
+    - kotor
+    - berdebu
+    correctDecision: 1
+    explanation: Sikat bersih sesuai petunjuk produsen.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: e1177f80d56155146bbd3a1c519efae8, type: 2}
+    caseType: 1
+    condition: Sepatu disimpan di dekat tungku panas.
+    defectTags:
+    - penyimpanan_salah
+    - dekat_sumber_panas
+    correctDecision: 19
+    explanation: Simpan kering dan berventilasi, jauh dari panas berlebih.
+  - caseImage: {fileID: -3213625335654664321, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Sepatu boot bersih, tidak bocor, sol utuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Layak dipakai di area basah atau berlumpur.
+  - caseImage: {fileID: 2046423384467461325, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Boot bocor di dekat tumit dan air masuk.
+    defectTags:
+    - bocor
+    correctDecision: 8
+    explanation: Boot bocor kehilangan fungsi utamanya.
+  - caseImage: {fileID: 1665639110203745612, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Boot retak di bagian lipatan pergelangan kaki.
+    defectTags:
+    - retak
+    correctDecision: 8
+    explanation: Retak menyebabkan bocor dan menurunkan perlindungan.
+  - caseImage: {fileID: -8569910282780264985, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Boot berlumpur dan bercak kimia ringan.
+    defectTags:
+    - kotor
+    - terkena_bahan_kimia
+    correctDecision: 1
+    explanation: Bilas dan bersihkan.
+  - caseImage: {fileID: 4587536722851672126, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Bagian dalam boot basah setelah dicuci.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Keringkan sebelum disimpan.
+  - caseImage: {fileID: -8913129795936808812, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 1
+    condition: Boot dilipat atau ditekuk saat dijejalkan ke loker sempit.
+    defectTags:
+    - penyimpanan_salah
+    - dilipat_tajam
+    correctDecision: 29
+    explanation: Simpan berdiri atau digantung dan jangan dilipat.
+  - caseImage: {fileID: 3401048160458907865, guid: 552fc5ba7c0e6974f9c1bf479b24fe40, type: 3}
+    equipment: {fileID: 11400000, guid: 9762ec5e7c7ed9848a50e1018be565eb, type: 2}
+    caseType: 0
+    condition: Sol boot aus dan licin.
+    defectTags:
+    - sol_aus
+    correctDecision: 8
+    explanation: Sol licin tidak aman.
+  - caseImage: {fileID: 4747570880010631079, guid: 5906b3491869fd24aaa228d05510f5a7, type: 3}
+    equipment: {fileID: 11400000, guid: cb53d35fd5f1ac64f97750419776723c, type: 2}
+    caseType: 0
+    condition: Sepatu khusus diterima tanpa label jenis dan kegunaan.
+    defectTags:
+    - spesifikasi_tidak_jelas
+    correctDecision: 14
+    explanation: Pastikan kegunaan dan standarnya ke pemasok sebelum dipakai.
+  - caseImage: {fileID: -2784530105160722612, guid: 5906b3491869fd24aaa228d05510f5a7, type: 3}
+    equipment: {fileID: 11400000, guid: cb53d35fd5f1ac64f97750419776723c, type: 2}
+    caseType: 0
+    condition: Sol sepatu khusus aus dan licin.
+    defectTags:
+    - sol_aus
+    correctDecision: 8
+    explanation: Sol aus berbahaya.
+  - caseImage: {fileID: -6131945442400658981, guid: 5906b3491869fd24aaa228d05510f5a7, type: 3}
+    equipment: {fileID: 11400000, guid: cb53d35fd5f1ac64f97750419776723c, type: 2}
+    caseType: 0
+    condition: Sepatu khusus kotor.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Bersihkan seperti sepatu pada umumnya.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: cb53d35fd5f1ac64f97750419776723c, type: 2}
+    caseType: 1
+    condition: Sepatu khusus disimpan di lantai lembap.
+    defectTags:
+    - penyimpanan_salah
+    - lembap
+    correctDecision: 28
+    explanation: Simpan tegak di rak kering.
+  - caseImage: {fileID: -7056251190215807967, guid: 2c900bc5f00abb640b8e49aef43114f6, type: 3}
+    equipment: {fileID: 11400000, guid: f90dc484cc80091458708c71f9bab367, type: 2}
+    caseType: 0
+    condition: Foot strap terpasang rapat di ujung celana, elastisnya kuat.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Kondisi baik sehingga ujung celana tidak tersangkut mesin.
+  - caseImage: {fileID: 3436830253617549945, guid: 2c900bc5f00abb640b8e49aef43114f6, type: 3}
+    equipment: {fileID: 11400000, guid: f90dc484cc80091458708c71f9bab367, type: 2}
+    caseType: 0
+    condition: Elastis foot strap longgar dan mudah lepas.
+    defectTags:
+    - elastis_longgar
+    - longgar
+    correctDecision: 8
+    explanation: Elastis longgar tidak bisa menahan ujung celana.
+  - caseImage: {fileID: -6270129550744544192, guid: 2c900bc5f00abb640b8e49aef43114f6, type: 3}
+    equipment: {fileID: 11400000, guid: f90dc484cc80091458708c71f9bab367, type: 2}
+    caseType: 0
+    condition: Foot strap sobek di bagian perekat.
+    defectTags:
+    - sobek
+    - komponen_rusak
+    correctDecision: 8
+    explanation: Rusak sehingga diganti.
+  - caseImage: {fileID: 2932135278879556569, guid: 2c900bc5f00abb640b8e49aef43114f6, type: 3}
+    equipment: {fileID: 11400000, guid: f90dc484cc80091458708c71f9bab367, type: 2}
+    caseType: 0
+    condition: Foot strap kotor lumpur.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Lap atau cuci ringan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: f90dc484cc80091458708c71f9bab367, type: 2}
+    caseType: 1
+    condition: Foot strap ditekuk dan ditumpuk bersama sepatu di tempat lembap.
+    defectTags:
+    - penyimpanan_salah
+    - ditekuk
+    - lembap
+    correctDecision: 19
+    explanation: Simpan kering dan jangan ditekuk.
+  - caseImage: {fileID: 7792037161069311815, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness rapi tergantung di rak. Webbing utuh, jahitan bagus, D-ring
+      mulus, gesper mengunci kuat, paku keling kencang.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Semua komponen utuh sehingga layak untuk pekerjaan di ketinggian.
+  - caseImage: {fileID: -4031580776950346765, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness tergeletak dengan tali bahu, tali kaki, dan gesper kusut tidak
+      karuan, tetapi webbing utuh.
+    defectTags:
+    - kusut
+    correctDecision: 5
+    explanation: Rapikan strap terlebih dahulu, lalu inspeksi sebelum dipakai.
+  - caseImage: {fileID: 7806044803993843083, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Webbing harness berserabut di tali kaki.
+    defectTags:
+    - berserabut
+    - webbing_rusak
+    correctDecision: 8
+    explanation: Webbing berserabut kehilangan kekuatan.
+  - caseImage: {fileID: 1207158419597291581, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness baru saja menahan jatuh seorang pekerja dan tampak masih utuh.
+    defectTags:
+    - pernah_menahan_jatuh
+    correctDecision: 8
+    explanation: Harness yang pernah menahan jatuh harus ditarik dari pemakaian dan
+      diganti.
+  - caseImage: {fileID: 6112158976739112199, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: D-ring dorsal berkarat dan agak bengkok.
+    defectTags:
+    - d_ring_rusak
+    - bengkok
+    - berkarat
+    correctDecision: 8
+    explanation: D-ring harus mulus, tidak bengkok atau berkarat.
+  - caseImage: {fileID: 2166741030269514216, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Gesper harness tidak mengunci sempurna dan mudah lepas.
+    defectTags:
+    - gesper_rusak
+    correctDecision: 8
+    explanation: Gesper yang tidak mengunci berbahaya.
+  - caseImage: {fileID: -6187137707764976943, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Paku keling di dekat D-ring terasa goyah.
+    defectTags:
+    - paku_keling_goyah
+    correctDecision: 8
+    explanation: Komponen goyah mengancam kekuatan penahan jatuh.
+  - caseImage: {fileID: -6157485015420388276, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Jahitan harness berubah warna dan ada bagian yang rusak.
+    defectTags:
+    - jahitan_lepas
+    - jahitan_berubah_warna
+    correctDecision: 8
+    explanation: Perubahan warna jahitan menandakan kerusakan struktural.
+  - caseImage: {fileID: -1305409871889445886, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Webbing harness terasa getas dan keras setelah lama terkena panas
+      dan matahari.
+    defectTags:
+    - kaku_keras
+    - terpapar_panas_uv
+    correctDecision: 8
+    explanation: Webbing getas adalah tanda kerusakan akibat panas atau UV.
+  - caseImage: {fileID: 5991416675071823098, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness berjamur karena disimpan lembap.
+    defectTags:
+    - berjamur
+    - lembap
+    correctDecision: 8
+    explanation: Jamur merusak serat webbing.
+  - caseImage: {fileID: -5834635702816295230, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness tertumpah cairan asam yang tidak diketahui jenisnya.
+    defectTags:
+    - terkena_bahan_kimia
+    correctDecision: 17
+    explanation: Pisahkan dulu dari area kerja dan serahkan ke orang kompeten sebelum
+      diputuskan.
+  - caseImage: {fileID: 3896297445539213912, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness kotor lumpur tetapi komponen utuh.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Lap dengan spons air sabun, bilas dengan air bersih, tanpa pemutih
+      atau abrasif.
+  - caseImage: {fileID: -1582966354640586808, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Harness basah setelah dicuci.
+    defectTags:
+    - basah
+    correctDecision: 3
+    explanation: Gantung kering sendiri, jauhkan dari panas langsung, jangan pakai
+      mesin pengering.
+  - caseImage: {fileID: -393658374627684279, guid: def04d6e1788e5a4a89d4f462490db7a, type: 3}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 0
+    condition: Jadwal inspeksi berkala harness sudah lewat enam bulan dan belum ada
+      catatan.
+    defectTags:
+    - inspeksi_berkala_terlewat
+    correctDecision: 11
+    explanation: Inspeksi menyeluruh oleh orang kompeten, terdokumentasi, minimal
+      tiap enam bulan.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 1
+    condition: Harness dilempar ke bak truk bersama gerinda dan jerigen solvent.
+    defectTags:
+    - penyimpanan_salah
+    - dilempar
+    - dekat_bahan_kimia
+    correctDecision: 24
+    explanation: Gantung atau letakkan datar di tempat bersih, kering, sejuk, bebas
+      gas, UV, panas, dan korosif.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: e58807f859722f1428d0815886e06d5d, type: 2}
+    caseType: 1
+    condition: Harness ditumpuk di bawah kotak besi di gudang.
+    defectTags:
+    - penyimpanan_salah
+    - ditumpuk
+    correctDecision: 24
+    explanation: Jangan tertindih benda berat. Gantung atau simpan datar.
+  - caseImage: {fileID: -2517917484823425606, guid: 60c0678ee54fad64e8bbd64b9138a7df, type: 3}
+    equipment: {fileID: 11400000, guid: 5bcaf452024fc5744b5c0815e3a12838, type: 2}
+    caseType: 0
+    condition: Barrier chain terpasang rapi pada cone di sekeliling area bahaya,
+      warna jelas.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Siap berfungsi sebagai pembatas visual.
+  - caseImage: {fileID: -4965138632499223464, guid: 60c0678ee54fad64e8bbd64b9138a7df, type: 3}
+    equipment: {fileID: 11400000, guid: 5bcaf452024fc5744b5c0815e3a12838, type: 2}
+    caseType: 0
+    condition: Salah satu mata rantai putus.
+    defectTags:
+    - putus
+    correctDecision: 8
+    explanation: Rantai putus tidak bisa membatasi area dengan baik.
+  - caseImage: {fileID: -777581825245724988, guid: 60c0678ee54fad64e8bbd64b9138a7df, type: 3}
+    equipment: {fileID: 11400000, guid: 5bcaf452024fc5744b5c0815e3a12838, type: 2}
+    caseType: 0
+    condition: Warna rantai pudar sehingga tidak terlihat jelas di malam hari.
+    defectTags:
+    - pudar
+    correctDecision: 8
+    explanation: Pembatas visual harus mudah terlihat.
+  - caseImage: {fileID: -7306978297409740745, guid: 60c0678ee54fad64e8bbd64b9138a7df, type: 3}
+    equipment: {fileID: 11400000, guid: 5bcaf452024fc5744b5c0815e3a12838, type: 2}
+    caseType: 0
+    condition: Rantai kotor lumpur dan oli.
+    defectTags:
+    - kotor
+    correctDecision: 1
+    explanation: Lap bersih lalu gulung kering.
+  - caseImage: {fileID: 0}
+    equipment: {fileID: 11400000, guid: 5bcaf452024fc5744b5c0815e3a12838, type: 2}
+    caseType: 1
+    condition: Rantai kusut ditumpuk basah di sudut gudang.
+    defectTags:
+    - penyimpanan_salah
+    - basah
+    - ditumpuk
+    correctDecision: 32
+    explanation: Gulung rapi dan simpan di tempat kering, jauh dari matahari langsung.
+  - caseImage: {fileID: -340439622300017121, guid: 8dcb07c7423ea514b92ad2330da69534, type: 3}
+    equipment: {fileID: 11400000, guid: 499e62140cc9d4349b7c74989f9c65ee, type: 2}
+    caseType: 0
+    condition: Gas detector baru dikalibrasi, layar menyala normal, baterai penuh.
+    defectTags:
+    - kondisi_baik
+    correctDecision: 0
+    explanation: Siap dipakai di ruang terbatas atau area gas.
+  - caseImage: {fileID: -2832421377447913339, guid: 8dcb07c7423ea514b92ad2330da69534, type: 3}
+    equipment: {fileID: 11400000, guid: 499e62140cc9d4349b7c74989f9c65ee, type: 2}
+    caseType: 0
+    condition: Jadwal kalibrasi gas detector sudah terlewat dua minggu.
+    defectTags:
+    - kalibrasi_terlewat
+    correctDecision: 10
+    explanation: Alat ukur wajib dikalibrasi sesuai jadwal agar bacaannya dapat dipercaya.
+  - caseImage: {fileID: 1877606912252809522, guid: 8dcb07c7423ea514b92ad2330da69534, type: 3}
+    equipment: {fileID: 11400000, guid: 499e62140cc9d4349b7c74989f9c65ee, type: 2}
+    caseType: 0
+    condition: Pembacaan gas detector tidak stabil dan sering bergeser di udara bersih.
+    defectTags:
+    - sensor_drift
+    correctDecision: 10
+    explanation: Pembacaan bergeser menandakan perlu dikalibrasi.
+  - caseImage: {fileID: 8618691115876683668, guid: 8dcb07c7423ea514b92ad2330da69534, type: 3}
+    equipment: {fileID: 11400000, guid: 499e62140cc9d4349b7c74989f9c65ee, type: 2}
+    caseType: 0
+    condition: Baterai gas detector cepat habis walau baru diisi.
+    defectTags:
+    - sensor_baterai
+    correctDecision: 7
+    explanation: Ganti baterai atau komponen daya.
+  - caseImage: {fileID: 3896212768220464352, guid: 8dcb07c7423ea514b92ad2330da69534, type: 3}
+    equipment: {fileID: 11400000, guid: 499e62140cc9d4349b7c74989f9c65ee, type: 2}
+    caseType: 0
+    condition: Layar gas detector retak tetapi sensor masih berfungsi.
+    defectTags:
+    - retak
+    - layar_rusak
+    correctDecision: 6
+    explanation: Layar bisa diperbaiki sementara sensor masih baik.

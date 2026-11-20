@@ -1,0 +1,428 @@
+
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+
+    <Style src="Style.uss" />
+
+    <ui:VisualElement name="start-root" class="screen-root">
+
+        <!-- BACKGROUND -->
+        <ui:VisualElement name="factory-bg" class="factory-bg" />
+
+        <!-- TOP BAR -->
+        <ui:VisualElement class="top-bar">
+            <ui:VisualElement class="brand-chip">
+                <ui:VisualElement class="brand-dot" />
+                <ui:Label text="10 SAFETY IRON RULES" class="brand-chip-text" />
+            </ui:VisualElement>
+
+            <ui:Button name="btn-settings-top"
+                       text="⚙  SETTINGS"
+                       class="top-settings-button" />
+        </ui:VisualElement>
+
+        <!-- START SCREEN MENU -->
+        <ui:VisualElement class="hero-layout">
+
+            <ui:VisualElement class="hero-illustration-space">
+                <ui:VisualElement class="hero-bottom-badge">
+                    <ui:Label text="SAFETY FIRST" class="hero-badge-title" />
+                    <ui:Label text="Play · Learn · Survive" class="hero-badge-subtitle" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="main-menu">
+
+                <ui:VisualElement class="game-logo-group">
+                    <ui:Label text="THE SAFETY ADVENTURE" class="game-eyebrow" />
+                    <ui:Label text="SIRVIVE" class="game-title" />
+                    <ui:VisualElement class="game-title-line" />
+                    <ui:Label text="10 SAFETY IRON RULES" class="game-subtitle" />
+                    <ui:Label
+                        text="Identify Hazards. Master the Rules. Stay Safe."
+                        class="game-description" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="menu-actions">
+                    <ui:Button name="btn-play"
+                               text="▶   START GAME"
+                               class="btn-start" />
+
+                    <ui:Button name="btn-about"
+                               text="ⓘ   ABOUT THE GAME"
+                               class="btn-about" />
+
+                    <ui:Button name="btn-settings"
+                               text="⚙   SETTINGS"
+                               class="btn-settings" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- FOOTER -->
+        <ui:VisualElement class="bottom-bar">
+            <ui:Label
+                text="SIRVIVE · INDUSTRIAL SAFETY LEARNING GAME"
+                class="bottom-left-text" />
+
+            <ui:Label text="VERSION 1.0" class="bottom-right-text" />
+        </ui:VisualElement>
+
+        <!-- ==========================================
+             MODAL 1: ABOUT THE GAME
+             ========================================== -->
+
+        <ui:VisualElement name="about-overlay" class="modal-overlay">
+
+            <ui:VisualElement class="about-modal">
+
+                <!-- HEADER -->
+                <ui:VisualElement class="modal-header">
+                    <ui:VisualElement class="modal-heading-group">
+                        <ui:Label text="GAME INFORMATION" class="modal-eyebrow" />
+                        <ui:Label text="About SIRVIVE" class="modal-title" />
+                        <ui:Label
+                            text="Discover the world of industrial safety."
+                            class="modal-subtitle" />
+                    </ui:VisualElement>
+
+                    <ui:Button name="btn-close-about"
+                               text="×"
+                               class="btn-modal-close" />
+                </ui:VisualElement>
+
+                <!-- SCROLLABLE CONTENT -->
+                <ui:VisualElement class="about-scroll-area">
+
+                    <ui:ScrollView name="about-scroll"
+                                   mode="Vertical"
+                                   class="about-scroll">
+
+                        <!-- INTRODUCTION -->
+                        <ui:VisualElement class="about-intro">
+                            <ui:Label
+                                text="PLAY · LEARN · SURVIVE"
+                                class="about-eyebrow" />
+
+                            <ui:Label
+                                text="Experience Workplace Safety Through Interactive Gameplay."
+                                class="about-intro-title" />
+
+                            <ui:Label
+                                text="SIRVIVE is a 2D educational game based on the 10 Safety Iron Rules. Through interactive challenges, players learn to identify workplace hazards, understand potential risks, and make the right decisions to stay safe on the job."
+                                class="about-text" />
+                        </ui:VisualElement>
+
+                        <!-- SECTION 1 -->
+                        <ui:VisualElement class="about-section">
+                            <ui:Label text="01" class="about-section-number" />
+                            <ui:Label
+                                text="What Is the Goal of SIRVIVE?"
+                                class="about-section-heading" />
+
+                            <ui:Label
+                                text="SIRVIVE is designed to help players understand and apply essential workplace safety rules. Instead of simply reading safety guidelines, players gain practical knowledge through engaging, interactive challenges."
+                                class="about-text" />
+                        </ui:VisualElement>
+
+                        <!-- SECTION 2 -->
+                        <ui:VisualElement class="about-section">
+                            <ui:Label text="02" class="about-section-number" />
+                            <ui:Label
+                                text="10 Safety Iron Rules"
+                                class="about-section-heading" />
+
+                            <ui:Label
+                                text="SIRVIVE introduces ten essential safety rules that promote safe behavior in industrial environments. The current gameplay focuses on Rule 10: using Personal Protective Equipment (PPE) in accordance with safety standards."
+                                class="about-text" />
+
+                            <ui:VisualElement class="about-rule-highlight">
+                                <ui:Label text="RULE 10 · PPE SAFETY"
+                                          class="about-highlight-tag" />
+
+                                <ui:Label
+                                    text="Always Wear the Required Personal Protective Equipment (PPE)."
+                                    class="about-highlight-heading" />
+
+                                <ui:Label
+                                    text="Understand workplace hazards, select the appropriate PPE, inspect how it is used, and learn the proper actions to maintain PPE in safe working condition."
+                                    class="about-text" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- SECTION 3 -->
+                        <ui:VisualElement class="about-section">
+                            <ui:Label text="03" class="about-section-number" />
+                            <ui:Label
+                                text="Four Gameplay Levels"
+                                class="about-section-heading" />
+
+                            <ui:Label
+                                text="Each plant in Rule 10 features four interconnected levels designed to build your safety knowledge and decision-making skills."
+                                class="about-text" />
+
+                            <!-- LEVEL 1 -->
+                            <ui:VisualElement class="level-card">
+                                <ui:Label text="01" class="level-number" />
+                                <ui:VisualElement class="level-copy">
+                                    <ui:Label text="Hazard Hunter" class="level-title" />
+                                    <ui:Label
+                                        text="Explore the work area, locate potential hazards, and identify their categories."
+                                        class="level-description" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+
+                            <!-- LEVEL 2 -->
+                            <ui:VisualElement class="level-card">
+                                <ui:Label text="02" class="level-number" />
+                                <ui:VisualElement class="level-copy">
+                                    <ui:Label text="Suit Up!" class="level-title" />
+                                    <ui:Label
+                                        text="Choose the correct combination of PPE based on the hazards and risks of each task."
+                                        class="level-description" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+
+                            <!-- LEVEL 3 -->
+                            <ui:VisualElement class="level-card">
+                                <ui:Label text="03" class="level-number" />
+                                <ui:VisualElement class="level-copy">
+                                    <ui:Label text="Safety Inspector" class="level-title" />
+                                    <ui:Label
+                                        text="Inspect the PPE worn by workers and determine whether it meets safety requirements."
+                                        class="level-description" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+
+                            <!-- LEVEL 4 -->
+                            <ui:VisualElement class="level-card">
+                                <ui:Label text="04" class="level-number" />
+                                <ui:VisualElement class="level-copy">
+                                    <ui:Label text="Gear Guardian" class="level-title" />
+                                    <ui:Label
+                                        text="Evaluate PPE conditions and choose the correct action: Keep Using, Clean, Repair, or Replace."
+                                        class="level-description" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- SECTION 4 -->
+                        <ui:VisualElement class="about-section">
+                            <ui:Label text="04" class="about-section-number" />
+                            <ui:Label
+                                text="Scores and Achievements"
+                                class="about-section-heading" />
+
+                            <ui:Label
+                                text="Every decision you make affects your score and achievements. Earn stars, improve your performance, and track your progress as you complete each level."
+                                class="about-text" />
+                        </ui:VisualElement>
+
+                        <!-- SECTION 5 -->
+                        <ui:VisualElement class="about-section">
+                            <ui:Label text="05" class="about-section-number" />
+                            <ui:Label
+                                text="How to Get Started"
+                                class="about-section-heading" />
+
+                            <ui:Label
+                                text="Click Start Game, select an available safety rule, and follow the instructions for each level. Pay close attention to hazard information before making your decisions."
+                                class="about-text" />
+                        </ui:VisualElement>
+
+                        <!-- END BANNER -->
+                        <ui:VisualElement class="about-end-banner">
+                            <ui:Label
+                                text="READY TO SURVIVE?"
+                                class="about-end-title" />
+
+                            <ui:Label
+                                text="Every Safe Decision Starts with Knowledge."
+                                class="about-end-description" />
+                        </ui:VisualElement>
+
+                    </ui:ScrollView>
+
+                    <!-- SCROLL CONTROLS -->
+                    <ui:VisualElement class="about-scroll-controls">
+                        <ui:Button name="btn-scroll-up"
+                                   text="▲"
+                                   class="scroll-control-button" />
+
+                        <ui:Button name="btn-scroll-down"
+                                   text="▼"
+                                   class="scroll-control-button" />
+                    </ui:VisualElement>
+
+                </ui:VisualElement>
+
+                <!-- FIXED FOOTER -->
+                <ui:VisualElement class="modal-footer">
+                    <ui:Label
+                        text="Scroll down to explore more about the game."
+                        class="modal-footer-hint" />
+
+                    <ui:Button name="btn-about-play"
+                               text="▶  START GAME"
+                               class="btn-primary" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ==========================================
+             MODAL 2: GAME SETTINGS
+             ========================================== -->
+
+        <ui:VisualElement name="settings-overlay" class="modal-overlay">
+
+            <ui:VisualElement class="settings-modal">
+
+                <!-- HEADER -->
+                <ui:VisualElement class="modal-header">
+                    <ui:VisualElement class="modal-heading-group">
+                        <ui:Label text="GAME PREFERENCES"
+                                  class="modal-eyebrow" />
+
+                        <ui:Label text="Game Settings"
+                                  class="modal-title" />
+
+                        <ui:Label
+                            text="Customize your audio and display preferences for a better gaming experience."
+                            class="modal-subtitle" />
+                    </ui:VisualElement>
+
+                    <ui:Button name="btn-close-settings"
+                               text="×"
+                               class="btn-modal-close" />
+                </ui:VisualElement>
+
+                <!-- SETTINGS SCROLL AREA -->
+                <ui:ScrollView name="settings-scroll"
+                               mode="Vertical"
+                               class="settings-scroll">
+
+                    <!-- AUDIO SETTINGS -->
+                    <ui:VisualElement class="settings-section">
+                        <ui:Label text="01 / AUDIO SETTINGS"
+                                  class="settings-section-title" />
+
+                        <ui:VisualElement class="setting-card">
+
+                            <!-- SOUND TOGGLE -->
+                            <ui:VisualElement class="setting-row">
+                                <ui:VisualElement class="setting-icon-box">
+                                    <ui:Label text="♫"
+                                              class="setting-icon" />
+                                </ui:VisualElement>
+
+                                <ui:VisualElement class="setting-copy">
+                                    <ui:Label text="Game Sound"
+                                              class="setting-title" />
+
+                                    <ui:Label
+                                        text="Enable or disable all in-game audio."
+                                        class="setting-description" />
+                                </ui:VisualElement>
+
+                                <ui:Toggle name="toggle-sound"
+                                           value="true"
+                                           class="setting-toggle" />
+                            </ui:VisualElement>
+
+                            <ui:VisualElement class="setting-divider" />
+
+                            <!-- MASTER VOLUME -->
+                            <ui:VisualElement class="volume-section">
+
+                                <ui:VisualElement class="setting-volume-heading">
+                                    <ui:Label text="Master Volume"
+                                              class="setting-title" />
+
+                                    <ui:Label name="volume-value"
+                                              text="80%"
+                                              class="volume-value" />
+                                </ui:VisualElement>
+
+                                <ui:Label
+                                    text="Drag the slider to adjust the overall game volume."
+                                    class="setting-description" />
+
+                                <ui:Slider name="slider-volume"
+                                           low-value="0"
+                                           high-value="100"
+                                           value="80"
+                                           class="volume-slider" />
+
+                                <ui:VisualElement class="volume-scale">
+                                    <ui:Label text="0%" class="volume-scale-text" />
+                                    <ui:Label text="100%" class="volume-scale-text" />
+                                </ui:VisualElement>
+
+                            </ui:VisualElement>
+
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- DISPLAY SETTINGS -->
+                    <ui:VisualElement class="settings-section">
+                        <ui:Label text="02 / DISPLAY SETTINGS"
+                                  class="settings-section-title" />
+
+                        <ui:VisualElement class="setting-card">
+
+                            <ui:VisualElement class="setting-row">
+                                <ui:VisualElement class="setting-icon-box">
+                                    <ui:Label text="▣"
+                                              class="setting-icon" />
+                                </ui:VisualElement>
+
+                                <ui:VisualElement class="setting-copy">
+                                    <ui:Label text="Fullscreen Mode"
+                                              class="setting-title" />
+
+                                    <ui:Label
+                                        text="Display the game in fullscreen mode, if supported by your device."
+                                        class="setting-description" />
+                                </ui:VisualElement>
+
+                                <ui:Toggle name="toggle-fullscreen"
+                                           class="setting-toggle" />
+                            </ui:VisualElement>
+
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- INFORMATION -->
+                    <ui:VisualElement class="settings-info">
+                        <ui:Label
+                            text="You can preview audio changes before saving. Select Save Settings to apply your preferences, or Cancel to discard changes. Fullscreen mode is applied when settings are saved, where supported."
+                            class="settings-info-text" />
+                    </ui:VisualElement>
+
+                </ui:ScrollView>
+
+                <!-- FIXED SETTINGS FOOTER -->
+                <ui:VisualElement class="settings-footer">
+
+                    <ui:Button name="btn-reset-settings"
+                               text="RESET"
+                               class="btn-reset" />
+
+                    <ui:VisualElement class="settings-footer-actions">
+                        <ui:Button name="btn-cancel-settings"
+                                   text="CANCEL"
+                                   class="btn-cancel" />
+
+                        <ui:Button name="btn-save-settings"
+                                   text="SAVE SETTINGS"
+                                   class="btn-primary" />
+                    </ui:VisualElement>
+
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

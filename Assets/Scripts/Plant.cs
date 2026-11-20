@@ -28,31 +28,5 @@ namespace Game.APD
         public VectorImage VectorImage => vectorImage;
 
         public Facility[] Facilities => facilities;
-
-        // Jumlah semua kategori bahaya di plant ini (dipakai untuk skor maksimal Level 1).
-        public int TotalHazardEntries
-        {
-            get
-            {
-                int total = 0;
-                foreach (var f in facilities) if (f != null) total += f.Hazards.Length;
-                return total;
-            }
-        }
-
-        // Daftar bahaya unik di plant ini (pilihan kategori di Level 1).
-        public List<Hazard> AllHazards
-        {
-            get
-            {
-                var list = new List<Hazard>();
-                foreach (var f in facilities)
-                {
-                    if (f == null) continue;
-                    foreach (var h in f.Hazards) if (h != null && !list.Contains(h)) list.Add(h);
-                }
-                return list;
-            }
-        }
     }
 }

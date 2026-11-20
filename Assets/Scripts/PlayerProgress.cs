@@ -61,31 +61,31 @@ namespace Game
         }
 
         // Simpan hanya jika lebih baik dari skor sebelumnya.
-        public void Record(Plant plant, Level level, Score score)
-        {
-            var best = GetBest(plant.Id, level.Id);
-            if (best == null)
-            {
-                best = new ProgressItem { plantId = plant.Id, levelId = level.Id };
-                data.items.Add(best);
-            }
-            if (score.Point >= best.point)
-            {
-                best.point = score.Point;
-                best.maxPoint = score.MaxPoint;
-                best.star = score.Star;
-                best.percent = score.Percent;
-            }
-            Save();
-        }
+        //public void Record(Plant plant, Level level, Score score)
+        //{
+        //    var best = GetBest(plant.Id, level.Id);
+        //    if (best == null)
+        //    {
+        //        best = new ProgressItem { plantId = plant.Id, levelId = level.Id };
+        //        data.items.Add(best);
+        //    }
+        //    if (score.Point >= best.point)
+        //    {
+        //        best.point = score.Point;
+        //        best.maxPoint = score.MaxPoint;
+        //        best.star = score.Star;
+        //        best.percent = score.Percent;
+        //    }
+        //    Save();
+        //}
 
         // Level pertama selalu terbuka. Level berikutnya terbuka jika level sebelumnya lulus.
-        public bool IsLevelUnlocked(Plant plant, GameDatabase db, int levelIndex)
-        {
-            if (levelIndex <= 0) return true;
-            var prev = GetBest(plant.Id, db.Levels[levelIndex - 1].Id);
-            return prev != null && db.ScoreRule.IsPassed(prev.percent);
-        }
+        //public bool IsLevelUnlocked(Plant plant, GameDatabase db, int levelIndex)
+        //{
+        //    if (levelIndex <= 0) return true;
+        //    var prev = GetBest(plant.Id, db.Levels[levelIndex - 1].Id);
+        //    return prev != null && db.ScoreRule.IsPassed(prev.percent);
+        //}
 
         public float TotalPoint(string plantId) { return data.items.Where(i => i.plantId == plantId).Sum(i => i.point); }
         public int TotalStar(string plantId) { return data.items.Where(i => i.plantId == plantId).Sum(i => i.star); }

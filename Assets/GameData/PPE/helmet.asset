@@ -15,6 +15,6 @@ MonoBehaviour:
   id: helmet
   displayName: Safety helmet
   description: 
-  image: {fileID: 0}
+  image: {fileID: 3126107728554842056, guid: 5649835e6d4fa074eae5f0dddede137a, type: 3}
   zone: 1
   variantOf: {fileID: 0}

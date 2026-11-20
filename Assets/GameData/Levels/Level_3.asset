@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level_3
   m_EditorClassIdentifier: Assembly-CSharp::Game.Level
   id: level3
-  displayName: Inspeksi
-  description: 
+  displayName: Safety Inspector
+  description: pemain memeriksa APD pekerja lain dan mengeliminasi APD yang tidak
+    sesuai.
   type: 2
+  vectorImage: {fileID: 7388822144124034973, guid: d595983df395876478a2227bc674a370, type: 3}

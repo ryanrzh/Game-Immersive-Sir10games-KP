@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 552fc5ba7c0e6974f9c1bf479b24fe40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2046423384467461325
+    second: Yellow Safety Boot Condition Spritesheet_0
+  - first:
+      213: 8723376881350710494
+    second: Yellow Safety Boot Condition Spritesheet_1
+  - first:
+      213: -2355553557910674324
+    second: Yellow Safety Boot Condition Spritesheet_2
+  - first:
+      213: 1665639110203745612
+    second: Yellow Safety Boot Condition Spritesheet_3
+  - first:
+      213: -8569910282780264985
+    second: Yellow Safety Boot Condition Spritesheet_4
+  - first:
+      213: -3213625335654664321
+    second: Yellow Safety Boot Condition Spritesheet_5
+  - first:
+      213: -3104677365045014585
+    second: Yellow Safety Boot Condition Spritesheet_6
+  - first:
+      213: -6933785744176333257
+    second: Yellow Safety Boot Condition Spritesheet_7
+  - first:
+      213: 3401048160458907865
+    second: Yellow Safety Boot Condition Spritesheet_8
+  - first:
+      213: -1686913632794233085
+    second: Yellow Safety Boot Condition Spritesheet_9
+  - first:
+      213: 4587536722851672126
+    second: Yellow Safety Boot Condition Spritesheet_10
+  - first:
+      213: -8913129795936808812
+    second: Yellow Safety Boot Condition Spritesheet_11
+  - first:
+      213: 8405078372070468332
+    second: Yellow Safety Boot Condition Spritesheet_12
+  - first:
+      213: -7156701755150767125
+    second: Yellow Safety Boot Condition Spritesheet_13
+  - first:
+      213: 979467196419606761
+    second: Yellow Safety Boot Condition Spritesheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 595
+        width: 337
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc45c3bc93b566c10800000000000000
+      internalID: 2046423384467461325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 594
+        width: 344
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4521bf12f98d1710800000000000000
+      internalID: 1665639110203745612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 596
+        width: 336
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e53aedc000911980800000000000000
+      internalID: -8569910282780264985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 596
+        width: 334
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77bb13a8c8e663d0800000000000000
+      internalID: -3213625335654664321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 88
+        width: 356
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0262c4843f23f20800000000000000
+      internalID: 3401048160458907865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 81
+        width: 353
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3032a7f7543aaf30800000000000000
+      internalID: 4587536722851672126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Safety Boot Condition Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 85
+        width: 376
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4909c34aca33e4480800000000000000
+      internalID: -8913129795936808812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b2f3b965250ed3349801951d8ed7ad60
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Yellow Safety Boot Condition Spritesheet_0: 2046423384467461325
+      Yellow Safety Boot Condition Spritesheet_1: 8723376881350710494
+      Yellow Safety Boot Condition Spritesheet_10: 4587536722851672126
+      Yellow Safety Boot Condition Spritesheet_11: -8913129795936808812
+      Yellow Safety Boot Condition Spritesheet_12: 8405078372070468332
+      Yellow Safety Boot Condition Spritesheet_13: -7156701755150767125
+      Yellow Safety Boot Condition Spritesheet_14: 979467196419606761
+      Yellow Safety Boot Condition Spritesheet_2: -2355553557910674324
+      Yellow Safety Boot Condition Spritesheet_3: 1665639110203745612
+      Yellow Safety Boot Condition Spritesheet_4: -8569910282780264985
+      Yellow Safety Boot Condition Spritesheet_5: -3213625335654664321
+      Yellow Safety Boot Condition Spritesheet_6: -3104677365045014585
+      Yellow Safety Boot Condition Spritesheet_7: -6933785744176333257
+      Yellow Safety Boot Condition Spritesheet_8: 3401048160458907865
+      Yellow Safety Boot Condition Spritesheet_9: -1686913632794233085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

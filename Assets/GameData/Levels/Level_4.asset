@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level_4
   m_EditorClassIdentifier: Assembly-CSharp::Game.Level
   id: level4
-  displayName: Perawatan APD
-  description: 
+  displayName: 'APD Control '
+  description: pemain melakukan aktivitas perawatan, pembersihan, penyimpanan, pelaporan,
+    dan penukaran APD rusak.
   type: 3
+  vectorImage: {fileID: 7388822144124034973, guid: 96ffdbf221102ad45be727eaeb0ec0f0, type: 3}

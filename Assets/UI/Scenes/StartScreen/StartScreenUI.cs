@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 namespace Game.APD
@@ -12,17 +13,17 @@ namespace Game.APD
             var root = uiDocument.rootVisualElement;
             var btnStart = root.Q<Button>("btn-start");
             var btnLeaderboard = root.Q<Button>("btn-leaderboard");
-            btnLeaderboard.style.display = new StyleEnum<DisplayStyle>(DisplayStyle.None);
+            //btnLeaderboard.style.display = new StyleEnum<DisplayStyle>(DisplayStyle.None);
 
 
             btnStart.RegisterCallback<ClickEvent>(evt =>
             {
-                GameManager.LoadScene("PilihPlantMenu");
+                GameManager.LoadScene("02_PilihPlantMenu");
             });
 
             btnLeaderboard.RegisterCallback<ClickEvent>(evt =>
             {
-                GameManager.LoadScene("LeaderboardMenu");
+                GameManager.LoadScene("LeaderboardMenu", LoadSceneMode.Additive);
             });
         }
     }

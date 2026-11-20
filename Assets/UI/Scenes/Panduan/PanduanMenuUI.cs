@@ -12,7 +12,7 @@ namespace Game.APD
             var btnBack = root.Q<Button>("btn-back");
             btnBack.RegisterCallback<ClickEvent>(ev =>
             {
-                GameManager.BackToPreviousScene();
+                GameManager.UnloadScene("PanduanMenu");
             });
         }
     }

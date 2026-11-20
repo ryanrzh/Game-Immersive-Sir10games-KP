@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 537cb4e4e2aa2f141ab181bd9c3d5c45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7744386437904413935
+    second: Safety Sneakers_ Six Wear Conditions_0
+  - first:
+      213: -2646143951776320821
+    second: Safety Sneakers_ Six Wear Conditions_1
+  - first:
+      213: 4727371985153148633
+    second: Safety Sneakers_ Six Wear Conditions_2
+  - first:
+      213: -7063938339487550721
+    second: Safety Sneakers_ Six Wear Conditions_3
+  - first:
+      213: -8363292835079353383
+    second: Safety Sneakers_ Six Wear Conditions_4
+  - first:
+      213: -6817167287426351703
+    second: Safety Sneakers_ Six Wear Conditions_5
+  - first:
+      213: 4719367008241126799
+    second: Safety Sneakers_ Six Wear Conditions_6
+  - first:
+      213: -5420093492541930348
+    second: Safety Sneakers_ Six Wear Conditions_7
+  - first:
+      213: -4216360477378234935
+    second: Safety Sneakers_ Six Wear Conditions_8
+  - first:
+      213: 2969291766959722416
+    second: Safety Sneakers_ Six Wear Conditions_9
+  - first:
+      213: -6149071290349953950
+    second: Safety Sneakers_ Six Wear Conditions_10
+  - first:
+      213: -8763962665269601692
+    second: Safety Sneakers_ Six Wear Conditions_11
+  - first:
+      213: 6910837039468653477
+    second: Safety Sneakers_ Six Wear Conditions_12
+  - first:
+      213: -2966763387654649795
+    second: Safety Sneakers_ Six Wear Conditions_13
+  - first:
+      213: -8651866476341672904
+    second: Safety Sneakers_ Six Wear Conditions_14
+  - first:
+      213: 5133262124596356104
+    second: Safety Sneakers_ Six Wear Conditions_15
+  - first:
+      213: -7825145090433507430
+    second: Safety Sneakers_ Six Wear Conditions_16
+  - first:
+      213: -8003594889850866447
+    second: Safety Sneakers_ Six Wear Conditions_17
+  - first:
+      213: -568754951099314977
+    second: Safety Sneakers_ Six Wear Conditions_18
+  - first:
+      213: -8880288439863084516
+    second: Safety Sneakers_ Six Wear Conditions_19
+  - first:
+      213: 6796453773703376360
+    second: Safety Sneakers_ Six Wear Conditions_20
+  - first:
+      213: 8213857137693897068
+    second: Safety Sneakers_ Six Wear Conditions_21
+  - first:
+      213: -5306382168604709781
+    second: Safety Sneakers_ Six Wear Conditions_22
+  - first:
+      213: 6854858560857511246
+    second: Safety Sneakers_ Six Wear Conditions_23
+  - first:
+      213: 389098761349720387
+    second: Safety Sneakers_ Six Wear Conditions_24
+  - first:
+      213: -3309734667642745882
+    second: Safety Sneakers_ Six Wear Conditions_25
+  - first:
+      213: -6791694537858338608
+    second: Safety Sneakers_ Six Wear Conditions_26
+  - first:
+      213: -780106230377458198
+    second: Safety Sneakers_ Six Wear Conditions_27
+  - first:
+      213: -3812716903153645636
+    second: Safety Sneakers_ Six Wear Conditions_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 163
+        width: 364
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bca55f099668490800000000000000
+      internalID: -7744386437904413935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 157
+        width: 349
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2f2d18812074bd0800000000000000
+      internalID: -2646143951776320821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_2
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 163
+        width: 351
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6cf2816cffa9140800000000000000
+      internalID: 4727371985153148633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 165
+        width: 355
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2f49fa189d7fd90800000000000000
+      internalID: -7063938339487550721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_4
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 164
+        width: 352
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db86842a7d9feb80800000000000000
+      internalID: -8363292835079353383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Sneakers_ Six Wear Conditions_5
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 165
+        width: 357
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adf982987e8461a0800000000000000
+      internalID: -6817167287426351703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8dd70c7bf01de3e4c8a540d867506e04
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Safety Sneakers_ Six Wear Conditions_0: -7744386437904413935
+      Safety Sneakers_ Six Wear Conditions_1: -2646143951776320821
+      Safety Sneakers_ Six Wear Conditions_10: -6149071290349953950
+      Safety Sneakers_ Six Wear Conditions_11: -8763962665269601692
+      Safety Sneakers_ Six Wear Conditions_12: 6910837039468653477
+      Safety Sneakers_ Six Wear Conditions_13: -2966763387654649795
+      Safety Sneakers_ Six Wear Conditions_14: -8651866476341672904
+      Safety Sneakers_ Six Wear Conditions_15: 5133262124596356104
+      Safety Sneakers_ Six Wear Conditions_16: -7825145090433507430
+      Safety Sneakers_ Six Wear Conditions_17: -8003594889850866447
+      Safety Sneakers_ Six Wear Conditions_18: -568754951099314977
+      Safety Sneakers_ Six Wear Conditions_19: -8880288439863084516
+      Safety Sneakers_ Six Wear Conditions_2: 4727371985153148633
+      Safety Sneakers_ Six Wear Conditions_20: 6796453773703376360
+      Safety Sneakers_ Six Wear Conditions_21: 8213857137693897068
+      Safety Sneakers_ Six Wear Conditions_22: -5306382168604709781
+      Safety Sneakers_ Six Wear Conditions_23: 6854858560857511246
+      Safety Sneakers_ Six Wear Conditions_24: 389098761349720387
+      Safety Sneakers_ Six Wear Conditions_25: -3309734667642745882
+      Safety Sneakers_ Six Wear Conditions_26: -6791694537858338608
+      Safety Sneakers_ Six Wear Conditions_27: -780106230377458198
+      Safety Sneakers_ Six Wear Conditions_28: -3812716903153645636
+      Safety Sneakers_ Six Wear Conditions_3: -7063938339487550721
+      Safety Sneakers_ Six Wear Conditions_4: -8363292835079353383
+      Safety Sneakers_ Six Wear Conditions_5: -6817167287426351703
+      Safety Sneakers_ Six Wear Conditions_6: 4719367008241126799
+      Safety Sneakers_ Six Wear Conditions_7: -5420093492541930348
+      Safety Sneakers_ Six Wear Conditions_8: -4216360477378234935
+      Safety Sneakers_ Six Wear Conditions_9: 2969291766959722416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 80511c28b2c089c47b303f180e02b786
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9172062604807739666
+    second: Safety Vest Condition Spritesheet_0
+  - first:
+      213: 6165925710363594262
+    second: Safety Vest Condition Spritesheet_1
+  - first:
+      213: 1009156141704848489
+    second: Safety Vest Condition Spritesheet_2
+  - first:
+      213: -6864135228587085832
+    second: Safety Vest Condition Spritesheet_3
+  - first:
+      213: 7842079391540826278
+    second: Safety Vest Condition Spritesheet_4
+  - first:
+      213: 286027363942210617
+    second: Safety Vest Condition Spritesheet_5
+  - first:
+      213: 987258959232868792
+    second: Safety Vest Condition Spritesheet_6
+  - first:
+      213: 1562104358899578057
+    second: Safety Vest Condition Spritesheet_7
+  - first:
+      213: -5007766879252294101
+    second: Safety Vest Condition Spritesheet_8
+  - first:
+      213: 8139308735080145458
+    second: Safety Vest Condition Spritesheet_9
+  - first:
+      213: 3913251170361472749
+    second: Safety Vest Condition Spritesheet_10
+  - first:
+      213: 7522838479383565476
+    second: Safety Vest Condition Spritesheet_11
+  - first:
+      213: 4786787773243304558
+    second: Safety Vest Condition Spritesheet_12
+  - first:
+      213: 2065230174065868369
+    second: Safety Vest Condition Spritesheet_13
+  - first:
+      213: -8269361452765031984
+    second: Safety Vest Condition Spritesheet_14
+  - first:
+      213: -6557906369513766587
+    second: Safety Vest Condition Spritesheet_15
+  - first:
+      213: 6906997538077206233
+    second: Safety Vest Condition Spritesheet_16
+  - first:
+      213: -3595182783399117398
+    second: Safety Vest Condition Spritesheet_17
+  - first:
+      213: 548030128475341005
+    second: Safety Vest Condition Spritesheet_18
+  - first:
+      213: -8667733006093216894
+    second: Safety Vest Condition Spritesheet_19
+  - first:
+      213: 4462251629478891798
+    second: Safety Vest Condition Spritesheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Safety Vest Condition Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 182
+        width: 346
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e8badd3c4c19550800000000000000
+      internalID: 6165925710363594262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Vest Condition Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 178
+        width: 342
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff62d99061bdb0a0800000000000000
+      internalID: -6864135228587085832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Vest Condition Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 180
+        width: 347
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0d33158a9a4dc60800000000000000
+      internalID: 7842079391540826278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Vest Condition Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 181
+        width: 350
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c11df3f5c28f300800000000000000
+      internalID: 286027363942210617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Safety Vest Condition Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 181
+        width: 343
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c47c4653a5bda510800000000000000
+      internalID: 1562104358899578057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 68362afa72ea60d42a23f014aa6d7257
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Safety Vest Condition Spritesheet_0: 9172062604807739666
+      Safety Vest Condition Spritesheet_1: 6165925710363594262
+      Safety Vest Condition Spritesheet_10: 3913251170361472749
+      Safety Vest Condition Spritesheet_11: 7522838479383565476
+      Safety Vest Condition Spritesheet_12: 4786787773243304558
+      Safety Vest Condition Spritesheet_13: 2065230174065868369
+      Safety Vest Condition Spritesheet_14: -8269361452765031984
+      Safety Vest Condition Spritesheet_15: -6557906369513766587
+      Safety Vest Condition Spritesheet_16: 6906997538077206233
+      Safety Vest Condition Spritesheet_17: -3595182783399117398
+      Safety Vest Condition Spritesheet_18: 548030128475341005
+      Safety Vest Condition Spritesheet_19: -8667733006093216894
+      Safety Vest Condition Spritesheet_2: 1009156141704848489
+      Safety Vest Condition Spritesheet_20: 4462251629478891798
+      Safety Vest Condition Spritesheet_3: -6864135228587085832
+      Safety Vest Condition Spritesheet_4: 7842079391540826278
+      Safety Vest Condition Spritesheet_5: 286027363942210617
+      Safety Vest Condition Spritesheet_6: 987258959232868792
+      Safety Vest Condition Spritesheet_7: 1562104358899578057
+      Safety Vest Condition Spritesheet_8: -5007766879252294101
+      Safety Vest Condition Spritesheet_9: 8139308735080145458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

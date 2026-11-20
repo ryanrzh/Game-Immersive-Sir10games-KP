@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180b04111f387ab449f959f0f19179ac, type: 3}
+  m_Name: PPE_ID-SAF-001
+  m_EditorClassIdentifier: Assembly-CSharp::Game.APD.PersonalProtectiveEquipment
+  id: ID-SAF-001
+  displayName: Safety vest
+  description: 
+  image: {fileID: 6165925710363594262, guid: 80511c28b2c089c47b303f180e02b786, type: 3}
+  zone: 16
+  variantOf: {fileID: 0}

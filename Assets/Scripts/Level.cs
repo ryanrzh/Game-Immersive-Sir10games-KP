@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Game
 {
@@ -18,6 +19,7 @@ namespace Game
         [SerializeField] private string displayName;
         [SerializeField, TextArea] private string description;
         [SerializeField] private LevelType type;
+        [SerializeField] private VectorImage vectorImage;
 
         public string Id => id;
         public string Name => displayName;
@@ -26,5 +28,7 @@ namespace Game
 
         // Level 2, 3, 4 berupa rangkaian ronde (satu titik per ronde). Level 1 bebas tanpa ronde.
         public bool IsRoundBased => type != LevelType.IdentifyHazard;
+
+        public VectorImage VectorImage => vectorImage;
     }
 }

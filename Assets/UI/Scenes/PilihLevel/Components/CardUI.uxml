@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <!-- Card Template Container -->
+    <!-- HAPUS class "btn" dan tambahkan tinggi pasti h-[420px] agar kartu seragam -->
+    <ui:VisualElement name="card" class="card bg-white flex-col w-md h-full rounded-2xl border-2 border-slate-200 shadow-md m-4 overflow-hidden" style="opacity: 1; flex-shrink: 0;">
+        
+        <!-- Image Area (Tinggi 180px) -->
+        <ui:VisualElement name="card-image" class="w-full h-64 bg-slate-200 relative flex-shrink-0 bg-cover bg-center">
+            
+            <ui:VisualElement class="absolute top-4 left-4 bg-slate-500 px-3 py-1 rounded-md shadow-sm">
+                <ui:Label name="card-badge" text="LEVEL 1" class="text-white text-xs font-black tracking-widest" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        
+        <!-- Content Area (Sisa tinggi kartu otomatis diisi ini) -->
+        <ui:VisualElement class="p-6 flex-col flex-1 min-h-64 bg-white justify-between" style="align-items: flex-start;">
+            
+            <!-- Area Judul dan Deskripsi -->
+            <ui:VisualElement class="flex-col w-full" style="align-items: flex-start;">
+                <!-- Style inline rata kiri mutlak -->
+                <ui:Label name="card-title" text="Judul Level" class="text-2xl font-extrabold text-slate-900 mb-2" style="-unity-text-align: middle-left;" />
+                
+                <!-- Style inline white-space: normal mutlak agar teks panjang turun ke bawah -->
+                <ui:Label name="card-desc" text="Deskripsi level akan diisi secara otomatis dari data script." class="text-lg text-slate-500 leading-relaxed" style="white-space: normal; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+
+            <!-- Divider & Pencapaian Bintang (Selalu terdorong ke paling bawah karena justify-between) -->
+            <ui:VisualElement class="flex-row items-center justify-between w-full border-t-2 border-slate-100 pt-4 mt-auto">
+                <ui:Label text="Pencapaian:" class="text-xs font-bold text-slate-500" />
+                
+                <ui:VisualElement class="flex-row gap-1">
+                    <ui:Label name="star-1" class="size-6 icon-star tint-slate-200" />
+                    <ui:Label name="star-2" class="size-6 icon-star tint-slate-200" />
+                    <ui:Label name="star-3" class="size-6 icon-star tint-slate-200" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

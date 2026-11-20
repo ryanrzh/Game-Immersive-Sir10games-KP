@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 9612be6d62b307944a5842e452776aac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9112074388986516180
+    second: Five Cartridge Safety Illustrations_0
+  - first:
+      213: -4153445656056798767
+    second: Five Cartridge Safety Illustrations_1
+  - first:
+      213: 992846099365575019
+    second: Five Cartridge Safety Illustrations_2
+  - first:
+      213: 210927286136174434
+    second: Five Cartridge Safety Illustrations_3
+  - first:
+      213: 7402456204689725299
+    second: Five Cartridge Safety Illustrations_4
+  - first:
+      213: 478294186635890971
+    second: Five Cartridge Safety Illustrations_5
+  - first:
+      213: 5228078670474562699
+    second: Five Cartridge Safety Illustrations_6
+  - first:
+      213: -6516621993031544739
+    second: Five Cartridge Safety Illustrations_7
+  - first:
+      213: 7330881318133230297
+    second: Five Cartridge Safety Illustrations_8
+  - first:
+      213: 4174244827228751447
+    second: Five Cartridge Safety Illustrations_9
+  - first:
+      213: 2572415825498888726
+    second: Five Cartridge Safety Illustrations_10
+  - first:
+      213: -5257953050487086149
+    second: Five Cartridge Safety Illustrations_11
+  - first:
+      213: 2731307130955814968
+    second: Five Cartridge Safety Illustrations_12
+  - first:
+      213: -8582856547727324184
+    second: Five Cartridge Safety Illustrations_13
+  - first:
+      213: -2967034642192599415
+    second: Five Cartridge Safety Illustrations_14
+  - first:
+      213: -9133910556339735589
+    second: Five Cartridge Safety Illustrations_15
+  - first:
+      213: -2161823737563417136
+    second: Five Cartridge Safety Illustrations_16
+  - first:
+      213: -4423384836345109930
+    second: Five Cartridge Safety Illustrations_17
+  - first:
+      213: 1502301478051137424
+    second: Five Cartridge Safety Illustrations_18
+  - first:
+      213: -4590993795509316741
+    second: Five Cartridge Safety Illustrations_19
+  - first:
+      213: -4264320111463391933
+    second: Five Cartridge Safety Illustrations_20
+  - first:
+      213: 8739447012505990989
+    second: Five Cartridge Safety Illustrations_21
+  - first:
+      213: -9208416702107938486
+    second: Five Cartridge Safety Illustrations_22
+  - first:
+      213: -5665406364157853806
+    second: Five Cartridge Safety Illustrations_23
+  - first:
+      213: -1912581341467570777
+    second: Five Cartridge Safety Illustrations_24
+  - first:
+      213: 3907811514510263752
+    second: Five Cartridge Safety Illustrations_25
+  - first:
+      213: -7338887467243873969
+    second: Five Cartridge Safety Illustrations_26
+  - first:
+      213: -4453619102899157416
+    second: Five Cartridge Safety Illustrations_27
+  - first:
+      213: -2346216446011711711
+    second: Five Cartridge Safety Illustrations_28
+  - first:
+      213: -862921908422055750
+    second: Five Cartridge Safety Illustrations_29
+  - first:
+      213: -4028011538584730117
+    second: Five Cartridge Safety Illustrations_30
+  - first:
+      213: -4917996472436794876
+    second: Five Cartridge Safety Illustrations_31
+  - first:
+      213: 8812364521472907803
+    second: Five Cartridge Safety Illustrations_32
+  - first:
+      213: -4812792832521298582
+    second: Five Cartridge Safety Illustrations_33
+  - first:
+      213: 3773100967689594177
+    second: Five Cartridge Safety Illustrations_34
+  - first:
+      213: 2549298636352784129
+    second: Five Cartridge Safety Illustrations_35
+  - first:
+      213: 1998415648804012392
+    second: Five Cartridge Safety Illustrations_36
+  - first:
+      213: -8693981552006314656
+    second: Five Cartridge Safety Illustrations_37
+  - first:
+      213: 1294847754400230105
+    second: Five Cartridge Safety Illustrations_38
+  - first:
+      213: -9053472667722509098
+    second: Five Cartridge Safety Illustrations_39
+  - first:
+      213: 6479330521272219941
+    second: Five Cartridge Safety Illustrations_40
+  - first:
+      213: -2725097927946604336
+    second: Five Cartridge Safety Illustrations_41
+  - first:
+      213: -2897234539784372686
+    second: Five Cartridge Safety Illustrations_42
+  - first:
+      213: -1013760483226559055
+    second: Five Cartridge Safety Illustrations_43
+  - first:
+      213: -2701539830713337770
+    second: Five Cartridge Safety Illustrations_44
+  - first:
+      213: 148042766033710941
+    second: Five Cartridge Safety Illustrations_45
+  - first:
+      213: -3650709479286157470
+    second: Five Cartridge Safety Illustrations_46
+  - first:
+      213: -1125403409055710505
+    second: Five Cartridge Safety Illustrations_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Five Cartridge Safety Illustrations_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 363
+        width: 638
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2d9720167947e70800000000000000
+      internalID: 9112074388986516180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Cartridge Safety Illustrations_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 371
+        width: 522
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d168d48e2ffb56c0800000000000000
+      internalID: -4153445656056798767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Cartridge Safety Illustrations_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 6
+        width: 713
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69315d544c47cd00800000000000000
+      internalID: 992846099365575019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Cartridge Safety Illustrations_3
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 369
+        width: 577
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267759bcf3d5de200800000000000000
+      internalID: 210927286136174434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Cartridge Safety Illustrations_20
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 13
+        width: 624
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d9ba3b37712d4c0800000000000000
+      internalID: -4264320111463391933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Five Cartridge Safety Illustrations_0: 9112074388986516180
+      Five Cartridge Safety Illustrations_1: -4153445656056798767
+      Five Cartridge Safety Illustrations_10: 2572415825498888726
+      Five Cartridge Safety Illustrations_11: -5257953050487086149
+      Five Cartridge Safety Illustrations_12: 2731307130955814968
+      Five Cartridge Safety Illustrations_13: -8582856547727324184
+      Five Cartridge Safety Illustrations_14: -2967034642192599415
+      Five Cartridge Safety Illustrations_15: -9133910556339735589
+      Five Cartridge Safety Illustrations_16: -2161823737563417136
+      Five Cartridge Safety Illustrations_17: -4423384836345109930
+      Five Cartridge Safety Illustrations_18: 1502301478051137424
+      Five Cartridge Safety Illustrations_19: -4590993795509316741
+      Five Cartridge Safety Illustrations_2: 992846099365575019
+      Five Cartridge Safety Illustrations_20: -4264320111463391933
+      Five Cartridge Safety Illustrations_21: 8739447012505990989
+      Five Cartridge Safety Illustrations_22: -9208416702107938486
+      Five Cartridge Safety Illustrations_23: -5665406364157853806
+      Five Cartridge Safety Illustrations_24: -1912581341467570777
+      Five Cartridge Safety Illustrations_25: 3907811514510263752
+      Five Cartridge Safety Illustrations_26: -7338887467243873969
+      Five Cartridge Safety Illustrations_27: -4453619102899157416
+      Five Cartridge Safety Illustrations_28: -2346216446011711711
+      Five Cartridge Safety Illustrations_29: -862921908422055750
+      Five Cartridge Safety Illustrations_3: 210927286136174434
+      Five Cartridge Safety Illustrations_30: -4028011538584730117
+      Five Cartridge Safety Illustrations_31: -4917996472436794876
+      Five Cartridge Safety Illustrations_32: 8812364521472907803
+      Five Cartridge Safety Illustrations_33: -4812792832521298582
+      Five Cartridge Safety Illustrations_34: 3773100967689594177
+      Five Cartridge Safety Illustrations_35: 2549298636352784129
+      Five Cartridge Safety Illustrations_36: 1998415648804012392
+      Five Cartridge Safety Illustrations_37: -8693981552006314656
+      Five Cartridge Safety Illustrations_38: 1294847754400230105
+      Five Cartridge Safety Illustrations_39: -9053472667722509098
+      Five Cartridge Safety Illustrations_4: 7402456204689725299
+      Five Cartridge Safety Illustrations_40: 6479330521272219941
+      Five Cartridge Safety Illustrations_41: -2725097927946604336
+      Five Cartridge Safety Illustrations_42: -2897234539784372686
+      Five Cartridge Safety Illustrations_43: -1013760483226559055
+      Five Cartridge Safety Illustrations_44: -2701539830713337770
+      Five Cartridge Safety Illustrations_45: 148042766033710941
+      Five Cartridge Safety Illustrations_46: -3650709479286157470
+      Five Cartridge Safety Illustrations_47: -1125403409055710505
+      Five Cartridge Safety Illustrations_5: 478294186635890971
+      Five Cartridge Safety Illustrations_6: 5228078670474562699
+      Five Cartridge Safety Illustrations_7: -6516621993031544739
+      Five Cartridge Safety Illustrations_8: 7330881318133230297
+      Five Cartridge Safety Illustrations_9: 4174244827228751447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

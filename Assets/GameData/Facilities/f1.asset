@@ -15,21 +15,22 @@ MonoBehaviour:
   id: f1
   displayName: Roller belt conveyor
   description: Tangan bisa terjepit di titik jepit roller dan pulley.
-  image: {fileID: 0}
-  positionPoint: {x: 0.5, y: 0.444}
-  hazards:
-  - {fileID: 11400000, guid: d758e1213a3743c4493fb149078a9329, type: 2}
+  image: {fileID: 7388822144124034973, guid: 96ffdbf221102ad45be727eaeb0ec0f0, type: 3}
+  points:
+  - positionPoint: {x: -7.24, y: 5}
+    hazards: {fileID: 11400000, guid: 442e3b6fde19c014aa9e327e60662804, type: 2}
+  - positionPoint: {x: 1.32, y: 2.68}
+    hazards: {fileID: 11400000, guid: 8a6dc62af79bdde4baebfb2c7fe05e5d, type: 2}
+  inspectionScenario: Pekerja masuk ke ruangan sempit dan berasap
+  correctEquipment:
+  - {fileID: 11400000, guid: 7d7db69a6ad64f14ba36b18fff3eec8d, type: 2}
+  - {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
+  - {fileID: 11400000, guid: 2434980c694534a418a266b73e0f407a, type: 2}
   decoyEquipment:
   - {fileID: 11400000, guid: d184aefb9a23b164bbaa43c72b3583fc, type: 2}
-  - {fileID: 11400000, guid: 394bc9bf33027a04297048a40ed5f939, type: 2}
-  - {fileID: 11400000, guid: 574ff2de3c1e0344eb83cdb12c3e1922, type: 2}
-  - {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
-  inspectionScenario: Pekerja mengganti roller conveyor yang macet.
-  wornEquipment:
-  - {fileID: 11400000, guid: 4265f54d1a4c9b54bb2f9f554a8733c7, type: 2}
-  - {fileID: 11400000, guid: a6471aa42e3ab824bb43c46370039c70, type: 2}
-  careCases:
-  - equipment: {fileID: 11400000, guid: 4265f54d1a4c9b54bb2f9f554a8733c7, type: 2}
-    condition: Sobek 2 cm di telapak tangan kiri.
-    correctDecision: 3
-    explanation: Sarung tangan sobek tidak melindungi dari jepitan.
+  - {fileID: 11400000, guid: c192de7891ead1f4b836e8e532457c19, type: 2}
+  - {fileID: 11400000, guid: 669dd36c45e304244a1b170343d97c9b, type: 2}
+  hazardCategories:
+  - {fileID: 11400000, guid: 5bb60abfd8fd083428fc9b2201c3dad5, type: 2}
+  - {fileID: 11400000, guid: ca3998672cb727547a1e47dc783aa261, type: 2}
+  careCaseDatabase: {fileID: 11400000, guid: 3fa6962ee9e13c94a9bc56d9638957f6, type: 2}

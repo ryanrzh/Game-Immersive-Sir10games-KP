@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: a454cd8046f18314bb1fa0ffd870119b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2588025580634275987
+    second: Six Red Work Gloves_ Wear and Care_0
+  - first:
+      213: -2995883091395722257
+    second: Six Red Work Gloves_ Wear and Care_1
+  - first:
+      213: -2174658404107653768
+    second: Six Red Work Gloves_ Wear and Care_2
+  - first:
+      213: -7623950850799785648
+    second: Six Red Work Gloves_ Wear and Care_3
+  - first:
+      213: -4885454797452371867
+    second: Six Red Work Gloves_ Wear and Care_4
+  - first:
+      213: -5926521250829565417
+    second: Six Red Work Gloves_ Wear and Care_5
+  - first:
+      213: -4954383902853480777
+    second: Six Red Work Gloves_ Wear and Care_6
+  - first:
+      213: -7614744969844622422
+    second: Six Red Work Gloves_ Wear and Care_7
+  - first:
+      213: -643895404412233851
+    second: Six Red Work Gloves_ Wear and Care_8
+  - first:
+      213: 5824890897273394688
+    second: Six Red Work Gloves_ Wear and Care_9
+  - first:
+      213: -4114687070954234027
+    second: Six Red Work Gloves_ Wear and Care_10
+  - first:
+      213: 6734047388566772309
+    second: Six Red Work Gloves_ Wear and Care_11
+  - first:
+      213: -4545970800087776143
+    second: Six Red Work Gloves_ Wear and Care_12
+  - first:
+      213: -4263193940524870786
+    second: Six Red Work Gloves_ Wear and Care_13
+  - first:
+      213: 4889145390300987565
+    second: Six Red Work Gloves_ Wear and Care_14
+  - first:
+      213: 1845403026379038891
+    second: Six Red Work Gloves_ Wear and Care_15
+  - first:
+      213: 8003508491474621544
+    second: Six Red Work Gloves_ Wear and Care_16
+  - first:
+      213: 4768857191287314561
+    second: Six Red Work Gloves_ Wear and Care_17
+  - first:
+      213: -312216128630218427
+    second: Six Red Work Gloves_ Wear and Care_18
+  - first:
+      213: 8138161891374448594
+    second: Six Red Work Gloves_ Wear and Care_19
+  - first:
+      213: -3478783948557417463
+    second: Six Red Work Gloves_ Wear and Care_20
+  - first:
+      213: 1147652193897788962
+    second: Six Red Work Gloves_ Wear and Care_21
+  - first:
+      213: 5968496318444657910
+    second: Six Red Work Gloves_ Wear and Care_22
+  - first:
+      213: 2878729600866930574
+    second: Six Red Work Gloves_ Wear and Care_23
+  - first:
+      213: -854710557294667350
+    second: Six Red Work Gloves_ Wear and Care_24
+  - first:
+      213: 9079307334419845759
+    second: Six Red Work Gloves_ Wear and Care_25
+  - first:
+      213: 4983771954018812439
+    second: Six Red Work Gloves_ Wear and Care_26
+  - first:
+      213: -1802540699770983164
+    second: Six Red Work Gloves_ Wear and Care_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 86
+        width: 336
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390845bbd838ae320800000000000000
+      internalID: 2588025580634275987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 86
+        width: 329
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5689f97feb0633cb0800000000000000
+      internalID: -4885454797452371867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_10
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 86
+        width: 333
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f51e5d8e1b5e6c0800000000000000
+      internalID: -4114687070954234027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 79
+        width: 366
+        height: 613
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73da6ec2b716d4c0800000000000000
+      internalID: -4263193940524870786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_14
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 82
+        width: 344
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0012424dbb9d340800000000000000
+      internalID: 4889145390300987565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six Red Work Gloves_ Wear and Care_17
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 82
+        width: 323
+        height: 601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1885f3759526e2240800000000000000
+      internalID: 4768857191287314561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62146b953a419774c9f1836b306ff0cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Six Red Work Gloves_ Wear and Care_0: 2588025580634275987
+      Six Red Work Gloves_ Wear and Care_1: -2995883091395722257
+      Six Red Work Gloves_ Wear and Care_10: -4114687070954234027
+      Six Red Work Gloves_ Wear and Care_11: 6734047388566772309
+      Six Red Work Gloves_ Wear and Care_12: -4545970800087776143
+      Six Red Work Gloves_ Wear and Care_13: -4263193940524870786
+      Six Red Work Gloves_ Wear and Care_14: 4889145390300987565
+      Six Red Work Gloves_ Wear and Care_15: 1845403026379038891
+      Six Red Work Gloves_ Wear and Care_16: 8003508491474621544
+      Six Red Work Gloves_ Wear and Care_17: 4768857191287314561
+      Six Red Work Gloves_ Wear and Care_18: -312216128630218427
+      Six Red Work Gloves_ Wear and Care_19: 8138161891374448594
+      Six Red Work Gloves_ Wear and Care_2: -2174658404107653768
+      Six Red Work Gloves_ Wear and Care_20: -3478783948557417463
+      Six Red Work Gloves_ Wear and Care_21: 1147652193897788962
+      Six Red Work Gloves_ Wear and Care_22: 5968496318444657910
+      Six Red Work Gloves_ Wear and Care_23: 2878729600866930574
+      Six Red Work Gloves_ Wear and Care_24: -854710557294667350
+      Six Red Work Gloves_ Wear and Care_25: 9079307334419845759
+      Six Red Work Gloves_ Wear and Care_26: 4983771954018812439
+      Six Red Work Gloves_ Wear and Care_27: -1802540699770983164
+      Six Red Work Gloves_ Wear and Care_3: -7623950850799785648
+      Six Red Work Gloves_ Wear and Care_4: -4885454797452371867
+      Six Red Work Gloves_ Wear and Care_5: -5926521250829565417
+      Six Red Work Gloves_ Wear and Care_6: -4954383902853480777
+      Six Red Work Gloves_ Wear and Care_7: -7614744969844622422
+      Six Red Work Gloves_ Wear and Care_8: -643895404412233851
+      Six Red Work Gloves_ Wear and Care_9: 5824890897273394688
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

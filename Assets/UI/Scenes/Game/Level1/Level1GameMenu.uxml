@@ -1,0 +1,145 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <ui:VisualElement class="flex-row h-full w-full bg-slate-50 relative">
+
+        <!-- MAIN AREA (Kiri) -->
+        <ui:VisualElement class="flex-col flex-1 h-full relative">
+            <!-- Navbar -->
+            <ui:VisualElement class="navbar bg-primary border-0 flex-row justify-between items-center w-full px-8 py-5 min-h-20 z-10 shadow-md">
+                <ui:VisualElement>
+                    <ui:Label name="title" text="SAFETY SCAN" class="text-slate-900 text-4xl font-extrabold font-plus-jakarta-sans-bold" />
+                </ui:VisualElement>
+                
+                <ui:VisualElement class="flex-row gap-x-5">
+                    <!-- Container Timer & Info -->
+                    <ui:Button name="btn-info" class="flex-row justify-around items-center w-64 bg-slate-800 rounded-2xl">
+                        <ui:VisualElement class="icon-help size-12 rounded-full" />
+                        <ui:Label text="Info" class="text-white text-xl font-extrabold font-plus-jakarta-sans" />
+                    </ui:Button>
+                    <!-- Container Timer & Info -->
+                    <ui:VisualElement class="flex-row justify-around items-center bg-slate-800 w-64 rounded-2xl">
+                        <ui:VisualElement class="icon-timer size-12 rounded-full" />
+                        <ui:Label name="timer-label" text="05:30" class="text-white text-xl font-extrabold font-plus-jakarta-sans" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                
+            </ui:VisualElement>
+
+            <ui:VisualElement name="wallpaper" class="flex-1 w-full bg-cover relative overflow-hidden" />
+        </ui:VisualElement>
+
+        <!-- SIDE PANEL (Kanan) -->
+        <ui:VisualElement name="side-panel" class="w-96 h-full bg-white border-l-2 border-slate-200 p-6 flex-col justify-between" style="display: none;">
+            <ui:VisualElement class="flex-col gap-4">
+                <ui:Label text="Pilih Kategori Bahaya" class="text-2xl font-extrabold text-slate-800" />
+                <ui:Label text="Amati titik yang dipilih dan tentukan potensi bahayanya." class="text-sm text-slate-500 whitespace-normal leading-tight mb-2" />
+
+                <ui:Button name="btn-opt-0" class="bg-slate-100 text-slate-800 font-bold p-4 rounded-xl border-2 border-transparent hover:bg-slate-200 text-left whitespace-normal transition-colors" />
+                <ui:Button name="btn-opt-1" class="bg-slate-100 text-slate-800 font-bold p-4 rounded-xl border-2 border-transparent hover:bg-slate-200 text-left whitespace-normal transition-colors" />
+                <ui:Button name="btn-opt-2" class="bg-slate-100 text-slate-800 font-bold p-4 rounded-xl border-2 border-transparent hover:bg-slate-200 text-left whitespace-normal transition-colors" />
+                <ui:Button name="btn-opt-3" class="bg-slate-100 text-slate-800 font-bold p-4 rounded-xl border-2 border-transparent hover:bg-slate-200 text-left whitespace-normal transition-colors" />
+
+                <ui:Button name="btn-hint" text="💡 Gunakan Bantuan (-5 Poin)" class="bg-amber-100 text-amber-600 font-bold p-3 rounded-lg border border-amber-200 hover:bg-amber-200 mt-2 transition-colors" />
+            </ui:VisualElement>
+            <ui:Button name="btn-submit" text="Konfirmasi Semua Jawaban" class="bg-blue-600 text-white font-extrabold p-5 rounded-2xl hover:bg-blue-700 transition-colors" style="display: none;" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+    <!-- RESULT MODAL (Diperbarui dengan BG Hitam Transparan dan Kotak Besar) -->
+    <ui:VisualElement name="result-modal" class="absolute inset-0 bg-slate-900/95 items-center justify-center flex" style="display: none;">
+        
+        <!-- Modal Box Lebih Besar -->
+        <ui:VisualElement class="bg-white rounded-3xl flex-col items-center w-[850px] h-[90%] border-4 border-slate-700 shadow-2xl overflow-hidden">
+            
+            <!-- Modal Header (Bintang & Skor) -->
+            <ui:VisualElement class="w-full bg-slate-100 items-center py-6 border-b-2 border-slate-200">
+                <ui:Label name="result-title" text="EVALUASI LEVEL 1" class="text-2xl font-extrabold text-slate-800 mb-2 tracking-wide" />
+                
+                <!-- Bintang -->
+                <ui:Label name="stars-label" text="★ ★ ★" class="text-6xl font-black text-orange-400 mb-2 tracking-widest drop-shadow-md" />
+                
+                <ui:VisualElement class="flex-row items-baseline gap-3">
+                    <ui:Label name="score-pct" text="100%" class="text-5xl font-black text-blue-600" />
+                    <ui:Label name="status-label" text="(LULUS)" class="text-2xl font-extrabold text-green-600" />
+                </ui:VisualElement>
+                <ui:Label text="*Syarat Lulus (KKM): Minimal 70%" class="text-sm font-bold text-slate-500 mt-1" />
+            </ui:VisualElement>
+
+            <!-- Table Header -->
+            <ui:VisualElement class="w-full flex-row bg-slate-700 py-3 px-4 mt-4">
+                <ui:Label text="Titik &amp; Jawaban Pemain" style="width: 40%; -unity-text-align: middle-left;" class="text-sm font-bold text-white" />
+                <ui:Label text="Bantuan?" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="+ Poin Benar" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="- Poin (Salah/Hint)" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Status" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+            </ui:VisualElement>
+
+            <!-- Scrollable Detail List -->
+            <ui:ScrollView name="detail-list" class="w-full flex-1 bg-white" />
+
+            <!-- Summary & Buttons -->
+            <ui:VisualElement class="w-full bg-slate-100 p-5 border-t-2 border-slate-200 flex-col gap-4">
+                
+                <!-- Rincian Poin Total -->
+                <ui:VisualElement class="flex-row justify-between items-center bg-white p-4 rounded-xl border border-slate-300">
+                    <ui:VisualElement class="flex-col">
+                        <ui:Label name="summary-base" text="Total Poin Jawaban: 0" class="text-sm font-bold text-slate-600" />
+                        <ui:Label name="summary-bonus" text="Bonus Waktu (Sisa Detik): +0" class="text-sm font-bold text-green-600" />
+                    </ui:VisualElement>
+                    <ui:Label name="score-final" text="SKOR AKHIR: 0" class="text-2xl font-black text-blue-700" />
+                </ui:VisualElement>
+
+                <!-- Tombol Navigasi -->
+                <ui:VisualElement class="flex-row gap-4">
+                    <ui:Button name="btn-retry" text="Ulangi Level" class="flex-1 bg-slate-300 text-slate-800 font-extrabold text-lg py-4 rounded-2xl hover:bg-slate-400 transition-colors" />
+                    <ui:Button name="btn-next" text="Lanjut Level Berikutnya" class="flex-1 bg-green-600 text-white font-extrabold text-lg py-4 rounded-2xl hover:bg-green-700 transition-colors" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- HINT CONFIRMATION MODAL (Tambahkan sebelum </ui:UXML>) -->
+    <ui:VisualElement name="hint-modal" class="absolute inset-0 bg-slate-900/80 items-center justify-center flex" style="display: none; z-index: 50;">
+        <ui:VisualElement class="bg-white p-6 rounded-2xl flex-col items-center w-[400px] border-4 border-amber-400 shadow-2xl">
+            <ui:Label text="Konfirmasi Bantuan" class="text-2xl font-extrabold text-slate-800 mb-2" />
+            <ui:Label name="hint-msg" text="Menggunakan bantuan ini akan mengurangi skor. Lanjutkan?" class="text-sm text-center text-slate-600 mb-6 whitespace-normal" />
+            <ui:VisualElement class="flex-row gap-4 w-full">
+                <ui:Button name="btn-hint-cancel" text="Batal" class="flex-1 bg-slate-300 text-slate-800 font-bold py-3 rounded-xl hover:bg-slate-400 transition-colors" />
+                <ui:Button name="btn-hint-confirm" text="Gunakan" class="flex-1 bg-amber-500 text-white font-bold py-3 rounded-xl hover:bg-amber-600 transition-colors" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- INFO / PANDUAN MODAL -->
+    <ui:VisualElement name="info-modal" class="absolute inset-0 bg-slate-900/80 items-center justify-center flex" style="display: none; z-index: 60;">
+        <ui:VisualElement class="bg-white p-8 rounded-2xl flex-col w-[600px] border-4 border-blue-400 shadow-2xl">
+            <ui:VisualElement class="flex-row justify-between items-center mb-4 border-b-2 border-slate-200 pb-4">
+                <ui:Label text="Panduan Level 1" class="text-2xl font-extrabold text-slate-800" />
+                <ui:Button name="btn-info-close" text="✕" class="bg-red-500 text-white font-bold text-lg w-10 h-10 rounded-full hover:bg-red-600 border-none cursor-pointer p-0 m-0" />
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="flex-col gap-4">
+                <ui:VisualElement>
+                    <ui:Label text="🎯 Tujuan:" class="font-extrabold text-slate-800 text-lg mb-1" />
+                    <ui:Label text="Temukan semua titik bahaya pada peta dan tentukan kategori bahaya yang tepat untuk setiap titik." class="text-sm text-slate-600 whitespace-normal leading-tight" />
+                </ui:VisualElement>
+                
+                <ui:VisualElement>
+                    <ui:Label text="⚖️ Penilaian:" class="font-extrabold text-slate-800 text-lg mb-1" />
+                    <ui:Label text="• Jawaban Benar: +10 Poin&#10;• Jawaban Salah: -5 Poin&#10;• Bantuan (Hint): Mengurangi poin secara berkelipatan (-5, -10, dst)." class="text-sm text-slate-600 whitespace-normal leading-tight" />
+                </ui:VisualElement>
+                
+                <ui:VisualElement>
+                    <ui:Label text="🎓 Syarat Kelulusan (KKM):" class="font-extrabold text-slate-800 text-lg mb-1" />
+                    <ui:Label text="Capai minimal skor 70% untuk lulus. Jika lulus, sisa waktu Anda akan dikonversi menjadi Bonus Poin." class="text-sm text-slate-600 whitespace-normal leading-tight" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+            <ui:Button name="btn-info-ok" text="Mengerti" class="w-full bg-blue-600 text-white font-extrabold text-lg py-4 mt-8 rounded-xl hover:bg-blue-700 transition-colors" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

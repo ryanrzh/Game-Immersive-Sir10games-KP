@@ -1,0 +1,67 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <ui:VisualElement class="flex-col h-full w-full bg-slate-200 relative items-center justify-center">
+
+        <!-- Background Gelap Transparan -->
+        <!-- <ui:VisualElement name="StartScreenMenuBackground" class="absolute h-full w-full inset-0 bg-cover" style="background-image: url(../../../../Images/Picture1.png)"/> -->
+        <ui:VisualElement class="absolute h-full w-full inset-0 bg-slate-900" style="opacity: 0.85;"/>
+
+        <!-- Corporate Modal Container -->
+        <ui:VisualElement class="bg-white flex-row h-3xl w-7xl rounded-xl shadow-2xl overflow-hidden relative z-10">
+
+            <!-- LEFT PANEL: Branding & Module Info -->
+            <ui:VisualElement class="w-[40%] bg-slate-800 p-12 flex-col justify-between">
+                <ui:VisualElement>
+                    <ui:Label text="MODUL EVALUASI 1" class="text-blue-400 font-bold text-sm tracking-widest mb-3" />
+                    <ui:Label text="Safety Scan" class="text-white text-5xl font-plus-jakarta-sans-bold font-extrabold mb-5 leading-tight" />
+                    <ui:VisualElement class="badge badge-primary w-64 my-5" /> <!-- Aksen Garis -->
+                    <ui:Label text="Identifikasi Potensi Bahaya dan Klasifikasi Risiko K3 di Area Fasilitas." class="text-slate-300 text-lg leading-relaxed whitespace-normal" />
+                </ui:VisualElement>
+
+                <!-- Footer Kiri (Nama Departemen/Perusahaan) -->
+                <ui:VisualElement>
+                    <ui:Label text="Health, Safety, and Environment (HSE)" class="text-slate-500 text-xs font-bold uppercase tracking-widest" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- RIGHT PANEL: Instruksi & Parameter -->
+            <ui:VisualElement class="w-[60%] p-12 flex-col justify-between bg-white">
+                
+                <ui:VisualElement class="flex-col gap-6">
+                    <!-- Judul Section -->
+                    <ui:Label text="Instruksi Pelaksanaan" class="text-slate-900 text-2xl font-extrabold border-b-2 border-slate-100 pb-4" />
+
+                    <!-- Deskripsi Formal -->
+                    <ui:Label text="Peserta diwajibkan untuk melakukan inspeksi visual secara menyeluruh pada area fasilitas kerja. Tugas utama meliputi penemuan titik-titik potensi bahaya dan penetapan kategori bahaya yang relevan sesuai dengan standar keselamatan yang berlaku." class="text-slate-600 text-base leading-relaxed whitespace-normal text-justify" />
+
+                    <!-- Parameter Assessment (Informasi Durasi & KKM) -->
+                    <ui:VisualElement class="flex-row gap-6 mt-6">
+                        
+                        <!-- Box Durasi -->
+                        <ui:VisualElement class="flex-1 bg-slate-50 p-5 rounded-lg border border-slate-200 border-l-4 border-l-slate-500">
+                            <ui:Label text="DURASI MAKSIMAL" class="text-xs text-slate-500 font-bold mb-1 tracking-wide" />
+                            <ui:Label text="05 Menit 30 Detik" class="text-lg text-slate-800 font-extrabold" />
+                        </ui:VisualElement>
+
+                        <!-- Box KKM -->
+                        <ui:VisualElement class="flex-1 bg-slate-50 p-5 rounded-lg border border-slate-200 border-l-4 border-l-blue-600">
+                            <ui:Label text="STANDAR KELULUSAN" class="text-xs text-slate-500 font-bold mb-1 tracking-wide" />
+                            <ui:Label text="Skor Minimal 70%" class="text-lg text-slate-800 font-extrabold" />
+                        </ui:VisualElement>
+                        
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Action Buttons -->
+                <ui:VisualElement class="flex-row gap-4 mt-8 justify-end">
+                    <ui:Button name="btn-home" text="Kembali" class="bg-slate-200 text-slate-700 font-bold rounded-lg py-4 px-8 text-lg hover:bg-slate-300 border-none transition-colors cursor-pointer" />
+                    <ui:Button name="btn-start" text="Mulai Simulasi" class="bg-blue-600 text-white font-bold rounded-lg py-4 px-10 text-lg hover:bg-blue-700 border-none transition-colors shadow-md cursor-pointer" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

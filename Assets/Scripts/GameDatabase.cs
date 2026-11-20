@@ -11,11 +11,9 @@ namespace Game
         [SerializeField] private Plant[] plants = new Plant[0];
         [Tooltip("Urutkan: Level 1, 2, 3, 4. Level berikutnya terbuka jika level sebelumnya lulus.")]
         [SerializeField] private Level[] levels = new Level[0];
-        [SerializeField] private ScoreRule scoreRule;
 
         public Plant[] Plants => plants;
         public Level[] Levels => levels;
-        public ScoreRule ScoreRule => scoreRule;
 
         public Plant GetPlant(string id)
         {

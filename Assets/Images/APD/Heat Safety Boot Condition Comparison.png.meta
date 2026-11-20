@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 019fad5494427e14cb953311cfa6ae90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5708888079977533914
+    second: Heat Safety Boot Condition Comparison_0
+  - first:
+      213: 8738485515141457791
+    second: Heat Safety Boot Condition Comparison_1
+  - first:
+      213: -5418615078850747770
+    second: Heat Safety Boot Condition Comparison_2
+  - first:
+      213: 8359227689346721897
+    second: Heat Safety Boot Condition Comparison_3
+  - first:
+      213: 6751987906892073384
+    second: Heat Safety Boot Condition Comparison_4
+  - first:
+      213: 3579527921794384168
+    second: Heat Safety Boot Condition Comparison_5
+  - first:
+      213: 471932310631434809
+    second: Heat Safety Boot Condition Comparison_6
+  - first:
+      213: -4415137167168135815
+    second: Heat Safety Boot Condition Comparison_7
+  - first:
+      213: -3983632644646511880
+    second: Heat Safety Boot Condition Comparison_8
+  - first:
+      213: -7935584313502523145
+    second: Heat Safety Boot Condition Comparison_9
+  - first:
+      213: 7529865810263171947
+    second: Heat Safety Boot Condition Comparison_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heat Safety Boot Condition Comparison_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 487
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1d585367b0a3f40800000000000000
+      internalID: 5708888079977533914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heat Safety Boot Condition Comparison_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 107
+        width: 490
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a68a7b463dc4b0800000000000000
+      internalID: -5418615078850747770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heat Safety Boot Condition Comparison_3
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 107
+        width: 493
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968ee1c5b41f10470800000000000000
+      internalID: 8359227689346721897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heat Safety Boot Condition Comparison_6
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 106
+        width: 497
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4735afe3ac8600800000000000000
+      internalID: 471932310631434809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ffad4e295e802c141ab6d70186874c71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Heat Safety Boot Condition Comparison_0: 5708888079977533914
+      Heat Safety Boot Condition Comparison_1: 8738485515141457791
+      Heat Safety Boot Condition Comparison_10: 7529865810263171947
+      Heat Safety Boot Condition Comparison_2: -5418615078850747770
+      Heat Safety Boot Condition Comparison_3: 8359227689346721897
+      Heat Safety Boot Condition Comparison_4: 6751987906892073384
+      Heat Safety Boot Condition Comparison_5: 3579527921794384168
+      Heat Safety Boot Condition Comparison_6: 471932310631434809
+      Heat Safety Boot Condition Comparison_7: -4415137167168135815
+      Heat Safety Boot Condition Comparison_8: -3983632644646511880
+      Heat Safety Boot Condition Comparison_9: -7935584313502523145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

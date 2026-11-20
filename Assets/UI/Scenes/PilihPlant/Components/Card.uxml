@@ -9,14 +9,24 @@
     <Style src="../../../style.uss" />
 
     <!-- Card Terkunci (Opasitas diturunkan) -->
-    <ui:VisualElement name="card" class="btn p-0 card flex-col w-52 rounded-xl m-2 border-4 border-gray-400" style="opacity: 1;">  
+    <ui:VisualElement name="card" class="card flex-col w-md min-h-96 justify-between rounded-xl m-2 border-gray-400" style="opacity: 1;">  
         <!-- Gambar Card -->
-        <ui:VisualElement name="image" class="w-full h-40 bg-gray-300 flex-shrink-0" /> 
+
+        <!-- Gambar Card (Diberi relative agar badge absolut bisa menempel di dalamnya) -->
+        <ui:VisualElement name="image" class="w-full h-64 bg-gray-300 flex-shrink-0" style="position: relative;"> 
+            
+            <!-- BADGE ANGKA LINGKARAN -->
+            <!-- Memakai inline style agar bentuk bulat dan posisinya mutlak terjamin di Unity -->
+            <ui:VisualElement name="badge-container" class="bg-slate-500 shadow-md absolute rounded-full justify-center items-center" style="top: 16px; left: 16px; width: 48px; height: 48px;">
+                <ui:Label name="item-number" text="1" class="font-bold" style="color: white; font-size: 24px; -unity-font-style: bold; margin: 0; padding: 0;" />
+            </ui:VisualElement>
+
+        </ui:VisualElement>
         
         <!-- Konten Teks -->
-        <ui:VisualElement class="p-4 flex-col">
-            <ui:Label name="item-name" text="Nama Item" class="text-xl font-bold mb-2 text-black" />
-            <ui:Label name="description" text="Deskripsi detail mengenai item ini. Selesaikan tahap sebelumnya untuk membuka." class="text-sm text-gray-600 mb-4 whitespace-normal" />
+        <ui:VisualElement class="p-4 flex justify-center items-center h-auto">
+            <ui:Label name="item-name" text="Nama Item" class="text-2xl font-bold mb-2 text-black" />
+            <ui:Label name="description" text="Deskripsi detail mengenai item ini. Selesaikan tahap sebelumnya untuk membuka." class="text-lg text-gray-600 mb-4 whitespace-normal" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 60c0678ee54fad64e8bbd64b9138a7df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2517917484823425606
+    second: Four Yellow Chain Spools, Varied Conditions_0
+  - first:
+      213: 456828371818930689
+    second: Four Yellow Chain Spools, Varied Conditions_1
+  - first:
+      213: -4081088930291559047
+    second: Four Yellow Chain Spools, Varied Conditions_2
+  - first:
+      213: 8003671877946601655
+    second: Four Yellow Chain Spools, Varied Conditions_3
+  - first:
+      213: 4638954476555074633
+    second: Four Yellow Chain Spools, Varied Conditions_4
+  - first:
+      213: -4965138632499223464
+    second: Four Yellow Chain Spools, Varied Conditions_5
+  - first:
+      213: 389644047477809592
+    second: Four Yellow Chain Spools, Varied Conditions_6
+  - first:
+      213: 7326265041214936486
+    second: Four Yellow Chain Spools, Varied Conditions_7
+  - first:
+      213: 8603777714926528302
+    second: Four Yellow Chain Spools, Varied Conditions_8
+  - first:
+      213: 1436119397808531729
+    second: Four Yellow Chain Spools, Varied Conditions_9
+  - first:
+      213: 6841801887873055491
+    second: Four Yellow Chain Spools, Varied Conditions_10
+  - first:
+      213: -6043342513801568603
+    second: Four Yellow Chain Spools, Varied Conditions_11
+  - first:
+      213: -8119706371212783214
+    second: Four Yellow Chain Spools, Varied Conditions_12
+  - first:
+      213: 5142783684034994369
+    second: Four Yellow Chain Spools, Varied Conditions_13
+  - first:
+      213: 2909116484882728775
+    second: Four Yellow Chain Spools, Varied Conditions_14
+  - first:
+      213: -4134251943293919350
+    second: Four Yellow Chain Spools, Varied Conditions_15
+  - first:
+      213: 2797954873050026782
+    second: Four Yellow Chain Spools, Varied Conditions_16
+  - first:
+      213: 5397126308482280063
+    second: Four Yellow Chain Spools, Varied Conditions_17
+  - first:
+      213: -6386127379832123580
+    second: Four Yellow Chain Spools, Varied Conditions_18
+  - first:
+      213: 7964352860936023097
+    second: Four Yellow Chain Spools, Varied Conditions_19
+  - first:
+      213: -13551731976753294
+    second: Four Yellow Chain Spools, Varied Conditions_20
+  - first:
+      213: 821576624998330915
+    second: Four Yellow Chain Spools, Varied Conditions_21
+  - first:
+      213: -1290996066982690801
+    second: Four Yellow Chain Spools, Varied Conditions_22
+  - first:
+      213: 7512074695974080348
+    second: Four Yellow Chain Spools, Varied Conditions_23
+  - first:
+      213: -6591137577488740626
+    second: Four Yellow Chain Spools, Varied Conditions_24
+  - first:
+      213: 363922803167626121
+    second: Four Yellow Chain Spools, Varied Conditions_25
+  - first:
+      213: -7129963774644397774
+    second: Four Yellow Chain Spools, Varied Conditions_26
+  - first:
+      213: -5630592540076093626
+    second: Four Yellow Chain Spools, Varied Conditions_27
+  - first:
+      213: -4148161361289491036
+    second: Four Yellow Chain Spools, Varied Conditions_28
+  - first:
+      213: -777581825245724988
+    second: Four Yellow Chain Spools, Varied Conditions_29
+  - first:
+      213: -4941139596728943761
+    second: Four Yellow Chain Spools, Varied Conditions_30
+  - first:
+      213: -569998988669874261
+    second: Four Yellow Chain Spools, Varied Conditions_31
+  - first:
+      213: 1651461683167772551
+    second: Four Yellow Chain Spools, Varied Conditions_32
+  - first:
+      213: -7306978297409740745
+    second: Four Yellow Chain Spools, Varied Conditions_33
+  - first:
+      213: -3041683233879688031
+    second: Four Yellow Chain Spools, Varied Conditions_34
+  - first:
+      213: -3625936081049637021
+    second: Four Yellow Chain Spools, Varied Conditions_35
+  - first:
+      213: -8340414753076810906
+    second: Four Yellow Chain Spools, Varied Conditions_36
+  - first:
+      213: -5454413979359462046
+    second: Four Yellow Chain Spools, Varied Conditions_37
+  - first:
+      213: 5508819499723033014
+    second: Four Yellow Chain Spools, Varied Conditions_38
+  - first:
+      213: 2980558199746087415
+    second: Four Yellow Chain Spools, Varied Conditions_39
+  - first:
+      213: 802989627750710972
+    second: Four Yellow Chain Spools, Varied Conditions_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Four Yellow Chain Spools, Varied Conditions_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 625
+        width: 577
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdca57536f8e0dd0800000000000000
+      internalID: -2517917484823425606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Yellow Chain Spools, Varied Conditions_5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 626
+        width: 570
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854a05d58b8481bb0800000000000000
+      internalID: -4965138632499223464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Yellow Chain Spools, Varied Conditions_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 573
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cebd6223797535f0800000000000000
+      internalID: -777581825245724988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four Yellow Chain Spools, Varied Conditions_33
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 58
+        width: 572
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7306769d3f5689a90800000000000000
+      internalID: -7306978297409740745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 892db407fdbc81a4d862bbee318322a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Four Yellow Chain Spools, Varied Conditions_0: -2517917484823425606
+      Four Yellow Chain Spools, Varied Conditions_1: 456828371818930689
+      Four Yellow Chain Spools, Varied Conditions_10: 6841801887873055491
+      Four Yellow Chain Spools, Varied Conditions_11: -6043342513801568603
+      Four Yellow Chain Spools, Varied Conditions_12: -8119706371212783214
+      Four Yellow Chain Spools, Varied Conditions_13: 5142783684034994369
+      Four Yellow Chain Spools, Varied Conditions_14: 2909116484882728775
+      Four Yellow Chain Spools, Varied Conditions_15: -4134251943293919350
+      Four Yellow Chain Spools, Varied Conditions_16: 2797954873050026782
+      Four Yellow Chain Spools, Varied Conditions_17: 5397126308482280063
+      Four Yellow Chain Spools, Varied Conditions_18: -6386127379832123580
+      Four Yellow Chain Spools, Varied Conditions_19: 7964352860936023097
+      Four Yellow Chain Spools, Varied Conditions_2: -4081088930291559047
+      Four Yellow Chain Spools, Varied Conditions_20: -13551731976753294
+      Four Yellow Chain Spools, Varied Conditions_21: 821576624998330915
+      Four Yellow Chain Spools, Varied Conditions_22: -1290996066982690801
+      Four Yellow Chain Spools, Varied Conditions_23: 7512074695974080348
+      Four Yellow Chain Spools, Varied Conditions_24: -6591137577488740626
+      Four Yellow Chain Spools, Varied Conditions_25: 363922803167626121
+      Four Yellow Chain Spools, Varied Conditions_26: -7129963774644397774
+      Four Yellow Chain Spools, Varied Conditions_27: -5630592540076093626
+      Four Yellow Chain Spools, Varied Conditions_28: -4148161361289491036
+      Four Yellow Chain Spools, Varied Conditions_29: -777581825245724988
+      Four Yellow Chain Spools, Varied Conditions_3: 8003671877946601655
+      Four Yellow Chain Spools, Varied Conditions_30: -4941139596728943761
+      Four Yellow Chain Spools, Varied Conditions_31: -569998988669874261
+      Four Yellow Chain Spools, Varied Conditions_32: 1651461683167772551
+      Four Yellow Chain Spools, Varied Conditions_33: -7306978297409740745
+      Four Yellow Chain Spools, Varied Conditions_34: -3041683233879688031
+      Four Yellow Chain Spools, Varied Conditions_35: -3625936081049637021
+      Four Yellow Chain Spools, Varied Conditions_36: -8340414753076810906
+      Four Yellow Chain Spools, Varied Conditions_37: -5454413979359462046
+      Four Yellow Chain Spools, Varied Conditions_38: 5508819499723033014
+      Four Yellow Chain Spools, Varied Conditions_39: 2980558199746087415
+      Four Yellow Chain Spools, Varied Conditions_4: 4638954476555074633
+      Four Yellow Chain Spools, Varied Conditions_40: 802989627750710972
+      Four Yellow Chain Spools, Varied Conditions_5: -4965138632499223464
+      Four Yellow Chain Spools, Varied Conditions_6: 389644047477809592
+      Four Yellow Chain Spools, Varied Conditions_7: 7326265041214936486
+      Four Yellow Chain Spools, Varied Conditions_8: 8603777714926528302
+      Four Yellow Chain Spools, Varied Conditions_9: 1436119397808531729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 9edd1a7d508726a4f9c590cc57ebc858
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7816426049686278235
+    second: Electrical Glove Condition Guide_0
+  - first:
+      213: 8730034089468615027
+    second: Electrical Glove Condition Guide_1
+  - first:
+      213: -5612718159060370282
+    second: Electrical Glove Condition Guide_2
+  - first:
+      213: 3458892966102492570
+    second: Electrical Glove Condition Guide_3
+  - first:
+      213: -1206524830016672888
+    second: Electrical Glove Condition Guide_4
+  - first:
+      213: 1791116572178462031
+    second: Electrical Glove Condition Guide_5
+  - first:
+      213: -1668002956460081540
+    second: Electrical Glove Condition Guide_6
+  - first:
+      213: -9096377754953228660
+    second: Electrical Glove Condition Guide_7
+  - first:
+      213: -2311028735200492054
+    second: Electrical Glove Condition Guide_8
+  - first:
+      213: 408837965593840731
+    second: Electrical Glove Condition Guide_9
+  - first:
+      213: 7188121447862746177
+    second: Electrical Glove Condition Guide_10
+  - first:
+      213: -5281596537152724512
+    second: Electrical Glove Condition Guide_11
+  - first:
+      213: -1653856325066254961
+    second: Electrical Glove Condition Guide_12
+  - first:
+      213: 5223879771865194823
+    second: Electrical Glove Condition Guide_13
+  - first:
+      213: -415347155371959915
+    second: Electrical Glove Condition Guide_14
+  - first:
+      213: 4903159118018106809
+    second: Electrical Glove Condition Guide_15
+  - first:
+      213: -363013328425587270
+    second: Electrical Glove Condition Guide_16
+  - first:
+      213: 1573017665008454132
+    second: Electrical Glove Condition Guide_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 651
+        width: 417
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5019a83416897c60800000000000000
+      internalID: 7816426049686278235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 650
+        width: 411
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379d3db20cf472970800000000000000
+      internalID: 8730034089468615027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 652
+        width: 405
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c72d0629e9b12b0800000000000000
+      internalID: -5612718159060370282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 90
+        width: 409
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95e2a0a3d4700030800000000000000
+      internalID: 3458892966102492570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 88
+        width: 404
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bea2e3f00914fe0800000000000000
+      internalID: -1206524830016672888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical Glove Condition Guide_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 90
+        width: 409
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45330c58035bd810800000000000000
+      internalID: 1791116572178462031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1fa742c932180d4479d94bca5a170e6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Electrical Glove Condition Guide_0: 7816426049686278235
+      Electrical Glove Condition Guide_1: 8730034089468615027
+      Electrical Glove Condition Guide_10: 7188121447862746177
+      Electrical Glove Condition Guide_11: -5281596537152724512
+      Electrical Glove Condition Guide_12: -1653856325066254961
+      Electrical Glove Condition Guide_13: 5223879771865194823
+      Electrical Glove Condition Guide_14: -415347155371959915
+      Electrical Glove Condition Guide_15: 4903159118018106809
+      Electrical Glove Condition Guide_16: -363013328425587270
+      Electrical Glove Condition Guide_17: 1573017665008454132
+      Electrical Glove Condition Guide_2: -5612718159060370282
+      Electrical Glove Condition Guide_3: 3458892966102492570
+      Electrical Glove Condition Guide_4: -1206524830016672888
+      Electrical Glove Condition Guide_5: 1791116572178462031
+      Electrical Glove Condition Guide_6: -1668002956460081540
+      Electrical Glove Condition Guide_7: -9096377754953228660
+      Electrical Glove Condition Guide_8: -2311028735200492054
+      Electrical Glove Condition Guide_9: 408837965593840731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

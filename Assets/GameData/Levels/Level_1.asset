@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Level_1
   m_EditorClassIdentifier: Assembly-CSharp::Game.Level
   id: level1
-  displayName: Identifikasi Bahaya
-  description: 
+  displayName: 'Safety Scan '
+  description: pemain mengidentifikasi area berbahaya pada gambar fasilitas industri.
   type: 0
+  vectorImage: {fileID: 7388822144124034973, guid: efa2bca3094ab7049ab42fce6153e60c, type: 3}

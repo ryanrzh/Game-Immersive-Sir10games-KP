@@ -1,0 +1,191 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../../../UniverseUI/index.uss" />
+    <Style src="../../../style.uss" />
+
+    <!-- MAIN CONTAINER: Background Biru Dongker / Navy menyatu seluruh layar -->
+    <ui:VisualElement class="flex-col w-full h-full bg-slate-900">
+        
+        <!-- TOP NAVBAR: Menyatu dengan background -->
+        <ui:VisualElement class="flex-row justify-between items-center w-full px-8 py-6">
+            <!-- Kiri: Tombol Kembali Kuning -->
+            <ui:Button name="btn-back" text="&lt;  Kembali" class="bg-amber-400 text-slate-900 font-black text-lg px-6 py-4 rounded-xl border-none hover:bg-amber-500 cursor-pointer shadow-md" />
+            
+            <!-- Tengah: Judul Putih -->
+            <ui:Label name="title" text="PERAWATAN APD" class="text-white text-4xl font-black font-plus-jakarta-sans-bold tracking-widest absolute left-1_2 -translate-x-1_2" style="left: 50%; translate: -50% 0;" />
+            
+            <!-- Kanan: Status Panel (Skor, Kasus, Timer, dan Tombol Info) -->
+            <ui:VisualElement class="flex-row items-center gap-x-4">
+                <ui:VisualElement class="flex-col items-end mr-4">
+                    <ui:Label text="Lakukan inspeksi dan pilih" class="text-slate-400 text-xs font-bold" />
+                    <ui:Label text="tindakan yang tepat." class="text-slate-400 text-xs font-bold" />
+                </ui:VisualElement>
+
+                <ui:Label text="Skor: " class="text-slate-400 text-sm font-bold" />
+                <ui:Label name="lbl-score" text="0" class="text-white text-2xl font-black" />
+                
+                <ui:Label text="Kasus: " class="text-slate-400 text-sm font-bold ml-4" />
+                <ui:Label name="lbl-round" text="1/3" class="text-white text-2xl font-black" />
+                
+                <!-- Timer -->
+                <ui:VisualElement class="flex-row items-center bg-slate-800 px-4 py-2 rounded-xl ml-4 border-2 border-slate-700">
+                    <ui:VisualElement class="icon-timer w-6 h-6 tint-amber-400 mr-2" />
+                    <ui:Label name="timer-label" text="05:00" class="text-amber-400 text-xl font-black" />
+                </ui:VisualElement>
+
+                <!-- INI TOMBOL INFO (btn-info) YANG SEBELUMNYA HILANG & MEMBUAT C# ERROR -->
+                <ui:Button name="btn-info" text="i" class="bg-blue-600 text-white font-black text-xl w-12 h-12 rounded-full border-none p-0 hover:bg-blue-700 cursor-pointer shadow-sm ml-2" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- MAIN CONTENT AREA -->
+        <ui:VisualElement class="flex-1 flex-row px-8 pb-8 pt-2 gap-6">
+            
+            <!-- LEFT PANEL (Visual APD) -->
+            <ui:VisualElement class="w-[35%] bg-blue-50 rounded-3xl border-8 border-white relative flex-col items-center justify-center shadow-2xl overflow-hidden">
+                <ui:VisualElement class="absolute top-0 w-full bg-white py-4 px-6 rounded-t-2xl shadow-sm z-20">
+                    <ui:Label text="INSPEKSI FISIK APD" class="text-slate-400 font-black text-sm tracking-widest text-center" />
+                </ui:VisualElement>
+                
+                <!-- Meja/Pedestal Visual -->
+                <ui:VisualElement class="absolute bottom-[10%] w-[70%] flex-col items-center">
+                    <ui:VisualElement class="w-full h-8 bg-slate-300 rounded-t-3xl" />
+                    <ui:VisualElement class="w-[85%] h-32 bg-slate-200" />
+                </ui:VisualElement>
+                
+                <!-- Gambar APD -->
+                <ui:VisualElement name="apd-image" class="w-[280px] h-[280px] bg-contain bg-center relative z-10 mb-[15%]" />
+                
+                <!-- Info Tooltip Bawah -->
+                <ui:VisualElement class="absolute bottom-6 left-6 flex-row items-center bg-white px-4 py-3 rounded-2xl shadow-md border-2 border-slate-100">
+                    <ui:Label text="i" class="bg-blue-600 text-white font-black rounded-full w-6 h-6 text-center mr-3" style="line-height: 24px;" />
+                    <ui:Label text="Periksa kondisi fisik APD." class="text-slate-600 text-sm font-bold" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- RIGHT PANEL (Decision Area) -->
+            <ui:VisualElement class="flex-1 bg-white rounded-3xl border-8 border-white p-6 flex-col justify-between shadow-2xl">
+                
+                <ui:VisualElement class="flex-col">
+                    
+                    <!-- AREA HEADER & TOMBOL BANTUAN -->
+                    <ui:VisualElement class="flex-row justify-between items-start mb-6">
+                        <!-- Judul Card dengan Ikon Kuning -->
+                        <ui:VisualElement class="flex-row items-center">
+                            <ui:VisualElement class="w-16 h-16 bg-amber-400 rounded-2xl mr-5 items-center justify-center shadow-md">
+                                <ui:Label text="🔍" class="text-3xl" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="flex-col">
+                                <ui:Label name="lbl-card-title" text="Safety Helmet" class="text-slate-900 font-black text-4xl uppercase tracking-wide" />
+                                <ui:Label text="Tentukan perawatan yang tepat berdasarkan kondisi di bawah." class="text-slate-500 text-sm mt-1" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- Tombol Bantuan (btn-hint) -->
+                        <ui:Button name="btn-hint" class="flex-row items-center bg-white border-2 border-slate-200 px-4 py-3 rounded-2xl hover:bg-slate-50 cursor-pointer shadow-sm m-0">
+                            <ui:Label text="🔑" class="text-xl mr-3" />
+                            <ui:Label text="Gunakan Bantuan&#10;(-5 poin)" class="text-slate-600 font-bold text-xs" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    
+                    <!-- KONDISI TEKS -->
+                    <ui:VisualElement class="bg-blue-50 border-2 border-blue-100 rounded-2xl p-5 mb-4">
+                        <ui:Label text="Kondisi Saat Ini:" class="text-blue-600 font-extrabold text-sm uppercase tracking-wider mb-2" />
+                        <ui:Label name="lbl-condition" text="Deskripsi kondisi APD akan muncul di sini." class="text-slate-800 text-xl whitespace-normal font-bold leading-relaxed" />
+                    </ui:VisualElement>
+                    
+                    <!-- WADAH TAG CACAT -->
+                    <ui:VisualElement name="tag-container" class="flex-row flex-wrap gap-3 mb-6" />
+                    
+                    <ui:Label text="Pilih Tindakan Perawatan:" class="text-slate-800 font-black text-xl mb-4" />
+                    
+                    <!-- DECISION GRID (2 Kolom x 2 Baris) -->
+                    <ui:VisualElement name="decision-container" class="flex-row flex-wrap justify-between gap-y-4">
+                        <ui:VisualElement class="w-[48%]">
+                            <ui:Button name="btn-dec-0" text="Layak" class="w-full bg-white border-4 border-slate-200 text-slate-700 font-black text-xl py-6 rounded-2xl hover:border-blue-500 hover:text-blue-600 transition-colors shadow-sm m-0 cursor-pointer" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="w-[48%]">
+                            <ui:Button name="btn-dec-1" text="Bersihkan" class="w-full bg-white border-4 border-slate-200 text-slate-700 font-black text-xl py-6 rounded-2xl hover:border-blue-500 hover:text-blue-600 transition-colors shadow-sm m-0 cursor-pointer" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="w-[48%]">
+                            <ui:Button name="btn-dec-2" text="Perbaiki" class="w-full bg-white border-4 border-slate-200 text-slate-700 font-black text-xl py-6 rounded-2xl hover:border-blue-500 hover:text-blue-600 transition-colors shadow-sm m-0 cursor-pointer" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="w-[48%]">
+                            <ui:Button name="btn-dec-3" text="Karantina" class="w-full bg-white border-4 border-slate-200 text-slate-700 font-black text-xl py-6 rounded-2xl hover:border-blue-500 hover:text-blue-600 transition-colors shadow-sm m-0 cursor-pointer" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- AREA FOOTER / TOMBOL KONFIRMASI -->
+                <ui:VisualElement class="bg-blue-50 border-2 border-blue-100 p-4 rounded-3xl flex-row justify-between items-center mt-6">
+                    <ui:VisualElement class="flex-row items-center gap-4 pl-2">
+                        <ui:Label text="📋" class="text-3xl" />
+                        <ui:Label text="Pastikan pilihan Anda tepat" class="text-blue-900 font-black text-xl" />
+                    </ui:VisualElement>
+                    
+                    <!-- Tombol Aksi Kuning Emas -->
+                    <ui:Button name="btn-confirm" text="Konfirmasi Tindakan  &gt;" class="bg-amber-400 text-slate-900 font-black text-xl px-10 py-5 rounded-2xl border-none hover:bg-amber-500 shadow-md cursor-pointer m-0" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    
+    <!-- MODAL BANTUAN -->
+    <ui:VisualElement name="hint-modal" class="absolute inset-0 items-center justify-center flex bg-slate-900/90" style="display: none; z-index: 50;">
+        <ui:VisualElement class="bg-white p-8 rounded-3xl flex-col items-center w-[450px] border-8 border-amber-400 shadow-2xl">
+            <ui:Label text="Konfirmasi Bantuan" class="text-3xl font-black text-slate-800 mb-4" />
+            <ui:Label name="hint-msg" text="Menggunakan bantuan akan memotong skor Anda." class="text-lg text-center text-slate-600 mb-8 whitespace-normal" />
+            <ui:VisualElement class="flex-row gap-4 w-full">
+                <ui:Button name="btn-hint-cancel" text="Batal" class="flex-1 bg-slate-200 text-slate-800 font-black text-lg py-5 rounded-2xl border-none cursor-pointer hover:bg-slate-300" />
+                <ui:Button name="btn-hint-confirm" text="Gunakan" class="flex-1 bg-amber-400 text-slate-900 font-black text-lg py-5 rounded-2xl border-none cursor-pointer hover:bg-amber-500" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- MODAL INFO (SUDAH TERMASUK info-modal DAN btn-info-ok) -->
+    <ui:VisualElement name="info-modal" class="absolute inset-0 items-center justify-center flex bg-slate-900/90" style="display: none; z-index: 60;">
+        <ui:VisualElement class="bg-white p-10 rounded-3xl flex-col w-[600px] border-8 border-blue-500 shadow-2xl">
+            <ui:Label text="Panduan Level 4 (Perawatan APD)" class="text-3xl font-black text-slate-800 border-b-4 border-slate-100 pb-4 mb-6" />
+            <ui:Label text="1. Baca seksama kondisi fisik APD.&#10;2. Pilih tindakan perawatan yang paling tepat.&#10;3. Jawaban benar menambah poin. Hint mengurangi poin." class="text-lg text-slate-600 whitespace-normal leading-relaxed mb-8 font-bold" />
+            <ui:Button name="btn-info-ok" text="Mengerti" class="w-full bg-blue-600 text-white font-black text-xl py-6 rounded-2xl border-none cursor-pointer hover:bg-blue-700" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- RESULT MODAL -->
+    <ui:VisualElement name="result-modal" class="absolute inset-0 items-center justify-center flex bg-slate-900/95" style="display: none; z-index: 70;">
+        <ui:VisualElement class="bg-white rounded-3xl flex-col items-center w-[900px] h-[90%] border-4 border-slate-700 shadow-2xl overflow-hidden">
+            <ui:VisualElement class="w-full bg-slate-50 items-center py-6 border-b-2 border-slate-200">
+                <ui:Label name="result-title" text="EVALUASI LEVEL 4" class="text-2xl font-extrabold text-slate-800 mb-2 tracking-wide" />
+                <ui:Label name="stars-label" text="★ ★ ★" class="text-6xl font-black text-amber-400 mb-2 tracking-widest drop-shadow-md" />
+                <ui:VisualElement class="flex-row items-baseline gap-3">
+                    <ui:Label name="score-pct" text="100%" class="text-5xl font-black text-blue-600" />
+                    <ui:Label name="status-label" text="(LULUS)" class="text-2xl font-extrabold text-green-600" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="w-full flex-row bg-slate-800 py-3 px-4 mt-4">
+                <ui:Label text="Kasus &amp; Evaluasi" style="width: 40%; -unity-text-align: middle-left;" class="text-sm font-bold text-white" />
+                <ui:Label text="Jawaban Anda" style="width: 25%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Poin" style="width: 20%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+                <ui:Label text="Status" style="width: 15%; -unity-text-align: middle-center;" class="text-sm font-bold text-white" />
+            </ui:VisualElement>
+
+            <ui:ScrollView name="detail-list" class="w-full flex-1 bg-white" />
+
+            <ui:VisualElement class="w-full bg-slate-50 p-6 border-t-2 border-slate-200 flex-col gap-4">
+                <ui:VisualElement class="flex-row justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+                    <ui:VisualElement class="flex-col">
+                        <ui:Label name="summary-base" text="Total Poin Jawaban: 0" class="text-sm font-bold text-slate-600" />
+                        <ui:Label name="summary-bonus" text="Bonus Waktu: +0" class="text-sm font-bold text-green-600" />
+                    </ui:VisualElement>
+                    <ui:Label name="score-final" text="SKOR AKHIR: 0" class="text-3xl font-black text-blue-700" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="flex-row gap-4">
+                    <ui:Button name="btn-retry" text="Ulangi Level" class="flex-1 bg-slate-200 text-slate-800 font-extrabold text-lg py-5 rounded-2xl hover:bg-slate-300 border-none cursor-pointer" />
+                    <ui:Button name="btn-next" text="Lanjut Level Berikutnya  &gt;" class="flex-1 bg-amber-400 text-slate-900 font-extrabold text-lg py-5 rounded-2xl hover:bg-amber-500 border-none cursor-pointer" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

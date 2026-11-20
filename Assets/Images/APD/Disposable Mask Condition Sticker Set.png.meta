@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: d17d624dffe995d49b6fc028685d544c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6808049675056555350
+    second: Disposable Mask Condition Sticker Set_0
+  - first:
+      213: -629100920925604036
+    second: Disposable Mask Condition Sticker Set_1
+  - first:
+      213: -1714739856752227823
+    second: Disposable Mask Condition Sticker Set_2
+  - first:
+      213: -4904465024849523892
+    second: Disposable Mask Condition Sticker Set_3
+  - first:
+      213: -1442358148999260635
+    second: Disposable Mask Condition Sticker Set_4
+  - first:
+      213: -4626736491444435414
+    second: Disposable Mask Condition Sticker Set_5
+  - first:
+      213: 6604562171031692126
+    second: Disposable Mask Condition Sticker Set_6
+  - first:
+      213: -5485076756875614765
+    second: Disposable Mask Condition Sticker Set_7
+  - first:
+      213: 7933217762538518941
+    second: Disposable Mask Condition Sticker Set_8
+  - first:
+      213: 8802765626678864707
+    second: Disposable Mask Condition Sticker Set_9
+  - first:
+      213: -8659990757298775745
+    second: Disposable Mask Condition Sticker Set_10
+  - first:
+      213: -1710065396247587291
+    second: Disposable Mask Condition Sticker Set_11
+  - first:
+      213: -2439440833195255744
+    second: Disposable Mask Condition Sticker Set_12
+  - first:
+      213: 261810920653064449
+    second: Disposable Mask Condition Sticker Set_13
+  - first:
+      213: -1781605905833480642
+    second: Disposable Mask Condition Sticker Set_14
+  - first:
+      213: 5015112717138851131
+    second: Disposable Mask Condition Sticker Set_15
+  - first:
+      213: -3249646117260520056
+    second: Disposable Mask Condition Sticker Set_16
+  - first:
+      213: -5681105947041101666
+    second: Disposable Mask Condition Sticker Set_17
+  - first:
+      213: -9184451986437493532
+    second: Disposable Mask Condition Sticker Set_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Disposable Mask Condition Sticker Set_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 367
+        width: 552
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a5fedb1d0b7e50800000000000000
+      internalID: 6808049675056555350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disposable Mask Condition Sticker Set_1
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 366
+        width: 549
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37bb58ab0cf447f0800000000000000
+      internalID: -629100920925604036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disposable Mask Condition Sticker Set_2
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 364
+        width: 558
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a44147f250438e0800000000000000
+      internalID: -1714739856752227823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disposable Mask Condition Sticker Set_3
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 13
+        width: 429
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b448c7b07dfebb0800000000000000
+      internalID: -4904465024849523892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disposable Mask Condition Sticker Set_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 16
+        width: 648
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526520ac7e6bbfbe0800000000000000
+      internalID: -1442358148999260635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1b6d8907652c8974faf8b78a2237af71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Disposable Mask Condition Sticker Set_0: 6808049675056555350
+      Disposable Mask Condition Sticker Set_1: -629100920925604036
+      Disposable Mask Condition Sticker Set_10: -8659990757298775745
+      Disposable Mask Condition Sticker Set_11: -1710065396247587291
+      Disposable Mask Condition Sticker Set_12: -2439440833195255744
+      Disposable Mask Condition Sticker Set_13: 261810920653064449
+      Disposable Mask Condition Sticker Set_14: -1781605905833480642
+      Disposable Mask Condition Sticker Set_15: 5015112717138851131
+      Disposable Mask Condition Sticker Set_16: -3249646117260520056
+      Disposable Mask Condition Sticker Set_17: -5681105947041101666
+      Disposable Mask Condition Sticker Set_18: -9184451986437493532
+      Disposable Mask Condition Sticker Set_2: -1714739856752227823
+      Disposable Mask Condition Sticker Set_3: -4904465024849523892
+      Disposable Mask Condition Sticker Set_4: -1442358148999260635
+      Disposable Mask Condition Sticker Set_5: -4626736491444435414
+      Disposable Mask Condition Sticker Set_6: 6604562171031692126
+      Disposable Mask Condition Sticker Set_7: -5485076756875614765
+      Disposable Mask Condition Sticker Set_8: 7933217762538518941
+      Disposable Mask Condition Sticker Set_9: 8802765626678864707
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

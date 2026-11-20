@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: c373211274a60fd47a36699898ca9ed3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2905104635674538796
+    second: Victos Safety Shoes_ Five Conditions_0
+  - first:
+      213: -2968931163470146341
+    second: Victos Safety Shoes_ Five Conditions_1
+  - first:
+      213: -7354908934674177371
+    second: Victos Safety Shoes_ Five Conditions_2
+  - first:
+      213: -4115472923754567151
+    second: Victos Safety Shoes_ Five Conditions_3
+  - first:
+      213: -6172450542655822517
+    second: Victos Safety Shoes_ Five Conditions_4
+  - first:
+      213: 5447302415817277916
+    second: Victos Safety Shoes_ Five Conditions_5
+  - first:
+      213: 6287465703216439768
+    second: Victos Safety Shoes_ Five Conditions_6
+  - first:
+      213: 3203366384725501134
+    second: Victos Safety Shoes_ Five Conditions_7
+  - first:
+      213: -1050506877137259824
+    second: Victos Safety Shoes_ Five Conditions_8
+  - first:
+      213: 7864108445100685729
+    second: Victos Safety Shoes_ Five Conditions_9
+  - first:
+      213: 1943196500536906633
+    second: Victos Safety Shoes_ Five Conditions_10
+  - first:
+      213: 9180554271103135251
+    second: Victos Safety Shoes_ Five Conditions_11
+  - first:
+      213: -3054031838040650911
+    second: Victos Safety Shoes_ Five Conditions_12
+  - first:
+      213: 972658530253862310
+    second: Victos Safety Shoes_ Five Conditions_13
+  - first:
+      213: 114997042860332821
+    second: Victos Safety Shoes_ Five Conditions_14
+  - first:
+      213: -8520335675627023366
+    second: Victos Safety Shoes_ Five Conditions_15
+  - first:
+      213: -7858078909351843828
+    second: Victos Safety Shoes_ Five Conditions_16
+  - first:
+      213: 5710037870261965581
+    second: Victos Safety Shoes_ Five Conditions_17
+  - first:
+      213: -4057743901186637272
+    second: Victos Safety Shoes_ Five Conditions_18
+  - first:
+      213: 7446025834313233951
+    second: Victos Safety Shoes_ Five Conditions_19
+  - first:
+      213: -472580093033721664
+    second: Victos Safety Shoes_ Five Conditions_20
+  - first:
+      213: 1087521158955240037
+    second: Victos Safety Shoes_ Five Conditions_21
+  - first:
+      213: 9168509725436805510
+    second: Victos Safety Shoes_ Five Conditions_22
+  - first:
+      213: 1024393580640267718
+    second: Victos Safety Shoes_ Five Conditions_23
+  - first:
+      213: -2597641048968829963
+    second: Victos Safety Shoes_ Five Conditions_24
+  - first:
+      213: 7035023341115592033
+    second: Victos Safety Shoes_ Five Conditions_25
+  - first:
+      213: -1284181134606192522
+    second: Victos Safety Shoes_ Five Conditions_26
+  - first:
+      213: 9167076612262441463
+    second: Victos Safety Shoes_ Five Conditions_27
+  - first:
+      213: 3490536936832121597
+    second: Victos Safety Shoes_ Five Conditions_28
+  - first:
+      213: -1370416004091198865
+    second: Victos Safety Shoes_ Five Conditions_29
+  - first:
+      213: -1338566033766955312
+    second: Victos Safety Shoes_ Five Conditions_30
+  - first:
+      213: -1245253288669608876
+    second: Victos Safety Shoes_ Five Conditions_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Victos Safety Shoes_ Five Conditions_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 125
+        width: 431
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc474bc9befea7d0800000000000000
+      internalID: -2905104635674538796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victos Safety Shoes_ Five Conditions_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 126
+        width: 409
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd456ce36dc3cc6d0800000000000000
+      internalID: -2968931163470146341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victos Safety Shoes_ Five Conditions_2
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 127
+        width: 415
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a22669ba4d1ee990800000000000000
+      internalID: -7354908934674177371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victos Safety Shoes_ Five Conditions_3
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 126
+        width: 422
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11aeed83e27e2e6c0800000000000000
+      internalID: -4115472923754567151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victos Safety Shoes_ Five Conditions_4
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 128
+        width: 403
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45255b3fec075aa0800000000000000
+      internalID: -6172450542655822517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 119a9ba5a3aed8549b958e06a8834206
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Victos Safety Shoes_ Five Conditions_0: -2905104635674538796
+      Victos Safety Shoes_ Five Conditions_1: -2968931163470146341
+      Victos Safety Shoes_ Five Conditions_10: 1943196500536906633
+      Victos Safety Shoes_ Five Conditions_11: 9180554271103135251
+      Victos Safety Shoes_ Five Conditions_12: -3054031838040650911
+      Victos Safety Shoes_ Five Conditions_13: 972658530253862310
+      Victos Safety Shoes_ Five Conditions_14: 114997042860332821
+      Victos Safety Shoes_ Five Conditions_15: -8520335675627023366
+      Victos Safety Shoes_ Five Conditions_16: -7858078909351843828
+      Victos Safety Shoes_ Five Conditions_17: 5710037870261965581
+      Victos Safety Shoes_ Five Conditions_18: -4057743901186637272
+      Victos Safety Shoes_ Five Conditions_19: 7446025834313233951
+      Victos Safety Shoes_ Five Conditions_2: -7354908934674177371
+      Victos Safety Shoes_ Five Conditions_20: -472580093033721664
+      Victos Safety Shoes_ Five Conditions_21: 1087521158955240037
+      Victos Safety Shoes_ Five Conditions_22: 9168509725436805510
+      Victos Safety Shoes_ Five Conditions_23: 1024393580640267718
+      Victos Safety Shoes_ Five Conditions_24: -2597641048968829963
+      Victos Safety Shoes_ Five Conditions_25: 7035023341115592033
+      Victos Safety Shoes_ Five Conditions_26: -1284181134606192522
+      Victos Safety Shoes_ Five Conditions_27: 9167076612262441463
+      Victos Safety Shoes_ Five Conditions_28: 3490536936832121597
+      Victos Safety Shoes_ Five Conditions_29: -1370416004091198865
+      Victos Safety Shoes_ Five Conditions_3: -4115472923754567151
+      Victos Safety Shoes_ Five Conditions_30: -1338566033766955312
+      Victos Safety Shoes_ Five Conditions_31: -1245253288669608876
+      Victos Safety Shoes_ Five Conditions_4: -6172450542655822517
+      Victos Safety Shoes_ Five Conditions_5: 5447302415817277916
+      Victos Safety Shoes_ Five Conditions_6: 6287465703216439768
+      Victos Safety Shoes_ Five Conditions_7: 3203366384725501134
+      Victos Safety Shoes_ Five Conditions_8: -1050506877137259824
+      Victos Safety Shoes_ Five Conditions_9: 7864108445100685729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

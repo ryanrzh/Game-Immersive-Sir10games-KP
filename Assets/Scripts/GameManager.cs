@@ -1,28 +1,39 @@
+
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+namespace Game
 {
-    public static string prevSceneName { get; private set; }
-    public static void LoadScene(string nameScene, bool isSave = true)
+    public class GameManager : MonoBehaviour
     {
-        if (isSave) prevSceneName = SceneManager.GetActiveScene().name;
-        SceneManager.LoadSceneAsync(nameScene);
-    }
+        public List<User> UserList { private set; get; }
 
-    public static void ReloadScene()
-    {
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
-    }
-
-    public static void BackToPreviousScene()
-    {
-        if (!string.IsNullOrEmpty(prevSceneName))
+        public User GetUser(string id)
         {
-            SceneManager.LoadSceneAsync(prevSceneName);
-            return;
+            return UserList.Find(u => u.Id == id);
         }
 
-        SceneManager.LoadSceneAsync("StartScreen");
+        public void AddUser(User user)
+        {
+            UserList.Add(user);
+        }
+
+        public Leaderboard Leaderboard { private set; get; }
+
+        public static void LoadScene(string nameScene, LoadSceneMode mode = LoadSceneMode.Single)
+        {
+            SceneManager.LoadSceneAsync(nameScene, mode);
+        }
+
+        public static void ReloadScene()
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+        }
+
+        public static void UnloadScene(string nameScene)
+        {
+            SceneManager.UnloadSceneAsync(nameScene);
+        }
     }
 }

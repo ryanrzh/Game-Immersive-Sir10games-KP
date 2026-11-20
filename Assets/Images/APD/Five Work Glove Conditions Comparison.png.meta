@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 7035099893c6daf47af4402da3e55e15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3610576278885418769
+    second: Five Work Glove Conditions Comparison_0
+  - first:
+      213: -7511887527321110075
+    second: Five Work Glove Conditions Comparison_1
+  - first:
+      213: -4741533077829001938
+    second: Five Work Glove Conditions Comparison_2
+  - first:
+      213: -4210182302346788927
+    second: Five Work Glove Conditions Comparison_3
+  - first:
+      213: -8816801779289604044
+    second: Five Work Glove Conditions Comparison_4
+  - first:
+      213: 5431902910510933846
+    second: Five Work Glove Conditions Comparison_5
+  - first:
+      213: 5342253999693309718
+    second: Five Work Glove Conditions Comparison_6
+  - first:
+      213: 6970555117287135206
+    second: Five Work Glove Conditions Comparison_7
+  - first:
+      213: 7866317786395249025
+    second: Five Work Glove Conditions Comparison_8
+  - first:
+      213: 2927497123648348168
+    second: Five Work Glove Conditions Comparison_9
+  - first:
+      213: -3057614876100503403
+    second: Five Work Glove Conditions Comparison_10
+  - first:
+      213: 4730731302220914893
+    second: Five Work Glove Conditions Comparison_11
+  - first:
+      213: -7990504607674084778
+    second: Five Work Glove Conditions Comparison_12
+  - first:
+      213: 2249331210663093741
+    second: Five Work Glove Conditions Comparison_13
+  - first:
+      213: 210329305866730179
+    second: Five Work Glove Conditions Comparison_14
+  - first:
+      213: -4046996589702069318
+    second: Five Work Glove Conditions Comparison_15
+  - first:
+      213: -5923811449673702531
+    second: Five Work Glove Conditions Comparison_16
+  - first:
+      213: -3192269454885821279
+    second: Five Work Glove Conditions Comparison_17
+  - first:
+      213: 958227986580020444
+    second: Five Work Glove Conditions Comparison_18
+  - first:
+      213: -535414063035601804
+    second: Five Work Glove Conditions Comparison_19
+  - first:
+      213: 2771818506911817725
+    second: Five Work Glove Conditions Comparison_20
+  - first:
+      213: -9001038423802310290
+    second: Five Work Glove Conditions Comparison_21
+  - first:
+      213: -3879266882910032106
+    second: Five Work Glove Conditions Comparison_22
+  - first:
+      213: -8513029391923625786
+    second: Five Work Glove Conditions Comparison_23
+  - first:
+      213: -4332402375650942144
+    second: Five Work Glove Conditions Comparison_24
+  - first:
+      213: -1543506666949934468
+    second: Five Work Glove Conditions Comparison_25
+  - first:
+      213: -8330375066764889994
+    second: Five Work Glove Conditions Comparison_26
+  - first:
+      213: -901092839498089384
+    second: Five Work Glove Conditions Comparison_27
+  - first:
+      213: -1043224724152881963
+    second: Five Work Glove Conditions Comparison_28
+  - first:
+      213: 6168105794255364829
+    second: Five Work Glove Conditions Comparison_29
+  - first:
+      213: 7496751975185412206
+    second: Five Work Glove Conditions Comparison_30
+  - first:
+      213: -4597635597701135646
+    second: Five Work Glove Conditions Comparison_31
+  - first:
+      213: -2291383352887629845
+    second: Five Work Glove Conditions Comparison_32
+  - first:
+      213: 2017760810799367286
+    second: Five Work Glove Conditions Comparison_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Five Work Glove Conditions Comparison_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 431
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe835960108a4edc0800000000000000
+      internalID: -3610576278885418769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Work Glove Conditions Comparison_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 128
+        width: 430
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c97655f71a60c790800000000000000
+      internalID: -7511887527321110075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Work Glove Conditions Comparison_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 127
+        width: 429
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ddc3599c0b23eb0800000000000000
+      internalID: -4741533077829001938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Work Glove Conditions Comparison_3
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 128
+        width: 414
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfbbf4a08d6295c0800000000000000
+      internalID: -4210182302346788927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five Work Glove Conditions Comparison_4
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 128
+        width: 435
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4304962ce7d64a580800000000000000
+      internalID: -8816801779289604044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4e26cc00d0c335540adbf463248a1a6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Five Work Glove Conditions Comparison_0: -3610576278885418769
+      Five Work Glove Conditions Comparison_1: -7511887527321110075
+      Five Work Glove Conditions Comparison_10: -3057614876100503403
+      Five Work Glove Conditions Comparison_11: 4730731302220914893
+      Five Work Glove Conditions Comparison_12: -7990504607674084778
+      Five Work Glove Conditions Comparison_13: 2249331210663093741
+      Five Work Glove Conditions Comparison_14: 210329305866730179
+      Five Work Glove Conditions Comparison_15: -4046996589702069318
+      Five Work Glove Conditions Comparison_16: -5923811449673702531
+      Five Work Glove Conditions Comparison_17: -3192269454885821279
+      Five Work Glove Conditions Comparison_18: 958227986580020444
+      Five Work Glove Conditions Comparison_19: -535414063035601804
+      Five Work Glove Conditions Comparison_2: -4741533077829001938
+      Five Work Glove Conditions Comparison_20: 2771818506911817725
+      Five Work Glove Conditions Comparison_21: -9001038423802310290
+      Five Work Glove Conditions Comparison_22: -3879266882910032106
+      Five Work Glove Conditions Comparison_23: -8513029391923625786
+      Five Work Glove Conditions Comparison_24: -4332402375650942144
+      Five Work Glove Conditions Comparison_25: -1543506666949934468
+      Five Work Glove Conditions Comparison_26: -8330375066764889994
+      Five Work Glove Conditions Comparison_27: -901092839498089384
+      Five Work Glove Conditions Comparison_28: -1043224724152881963
+      Five Work Glove Conditions Comparison_29: 6168105794255364829
+      Five Work Glove Conditions Comparison_3: -4210182302346788927
+      Five Work Glove Conditions Comparison_30: 7496751975185412206
+      Five Work Glove Conditions Comparison_31: -4597635597701135646
+      Five Work Glove Conditions Comparison_32: -2291383352887629845
+      Five Work Glove Conditions Comparison_33: 2017760810799367286
+      Five Work Glove Conditions Comparison_4: -8816801779289604044
+      Five Work Glove Conditions Comparison_5: 5431902910510933846
+      Five Work Glove Conditions Comparison_6: 5342253999693309718
+      Five Work Glove Conditions Comparison_7: 6970555117287135206
+      Five Work Glove Conditions Comparison_8: 7866317786395249025
+      Five Work Glove Conditions Comparison_9: 2927497123648348168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
